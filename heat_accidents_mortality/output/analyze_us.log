@@ -1,0 +1,42 @@
+/home/ubuntu/repos/wip/heat_accidents_mortality/scripts/dlnm.py:68: RuntimeWarning: Mean of empty slice
+  return np.nanmean(lagged[:, lo:hi + 1], axis=1)
+/home/ubuntu/repos/wip/heat_accidents_mortality/scripts/dlnm.py:68: RuntimeWarning: Mean of empty slice
+  return np.nanmean(lagged[:, lo:hi + 1], axis=1)
+/home/ubuntu/repos/wip/heat_accidents_mortality/scripts/dlnm.py:68: RuntimeWarning: Mean of empty slice
+  return np.nanmean(lagged[:, lo:hi + 1], axis=1)
+panel: 127,850 state-days (0 dropped for missing temp), 50 states, 271,332 deaths
+    dropped 10 rank-deficient design column(s)
+    dropped 10 rank-deficient design column(s)
+    dropped 10 rank-deficient design column(s)
+US temperature-anomaly distributed-lag model, bins=[(0, 0), (1, 3), (4, 10)], var_df=4
+observations: 127,350  deaths: 270,497  states: 50
+quasi-Poisson dispersion phi = 1.230
+
+Lag-window RR for a +9C anomaly vs seasonal norm:
+  lag0-0   : 1.165 (1.134-1.196)
+  lag1-3   : 0.934 (0.902-0.967)
+  lag4-10  : 0.988 (0.941-1.037)
+
+total_deaths: 270497
+years: 7
+mmt_abs_degC: -13.22
+dispersion_phi: 1.23
+cumRR_anom+9C: 1.074
+cumRR_anom+9C_lo: 1.015
+cumRR_anom+9C_hi: 1.137
+sameday_RR_anom+9C: 1.165
+sameday_RR_anom+9C_lo: 1.134
+sameday_RR_anom+9C_hi: 1.196
+net_heat_attributable_deaths: 3589.2
+net_heat_attributable_lo: 2870.2
+net_heat_attributable_hi: 4306.5
+net_heat_attributable_per_year: 512.7
+net_heat_attributable_fraction_pct: 1.327
+net_cumRR_anom+3C: 1.015 (1.006-1.024)
+net_cumRR_anom+6C: 1.040 (1.015-1.066)
+net_cumRR_anom+9C: 1.074 (1.015-1.137)
+net_cumRR_anom+12C: 1.116 (1.008-1.236)
+sameday_RR_+9C_ctrl: 1.164
+sameday_RR_+9C_ctrl_lo: 1.134
+sameday_RR_+9C_ctrl_hi: 1.195
+

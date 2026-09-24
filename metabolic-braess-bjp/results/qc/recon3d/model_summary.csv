@@ -1,0 +1,2 @@
+model,version,reactions,metabolites,genes,compartments,boundary_reactions,sha256,blocked_reactions,dead_end_metabolites
+Recon3DModel,301,10600,5835,2248,9,1806,6f96538177cc65248413c012876fc6e7608dda2647c2445c64f0b5ab727ad440,0,1010

@@ -1,0 +1,13 @@
+species,guild,primary_prey,foraging_mode,migration_strategy,trophic_level,body_size_class,mobility_class,sensory_ecology,confidence,source
+California Sea Lion,otariid mesopredator,sardine/anchovy/squid,surface-epipelagic pursuit diver,breeding-anchored coastal,3.8,medium,high,vision+vibrissae,high,Costa et al. TOPP program
+Northern Elephant Seal,deep-diving pinniped,micro nekton/squid,mesopelagic drift diver,long-range pelagic migration,4.0,large,very_high,vision/vibrissae low-light,high,Robinson et al. 2012
+Blue Whale,rorqual filter feeder,euphausiids,lunge filter feeder,long-range seasonal migration,3.5,very_large,high,acoustic,high,Block et al. 2011
+Humpback Whale,rorqual filter feeder,krill+forage fish,lunge filter/bubble-net,long-range seasonal migration,4.1,very_large,high,acoustic,high,Block et al. 2011
+Salmon Shark,lamnid shark,salmon/pelagic fish,epipelagic pursuit,regional seasonal migration,4.3,medium,high,olfactory+electroreception,medium,Weng et al. TOPP
+Shortfin Mako Shark,lamnid shark,pelagic fish/squid,epipelagic pursuit,wide pelagic roaming,4.4,medium,very_high,olfactory+electroreception,medium,Vetter et al. 2008
+Blue Shark,requiem shark,squid/small fish,epi-mesopelagic opportunist,wide pelagic roaming,4.2,medium,very_high,olfactory+electroreception,high,Block et al. 2011
+Sooty Shearwater,procellariiform seabird,squid/forage fish,plunge/surface pursuit,trans-equatorial migration,4.0,small,very_high,olfactory+vision,medium,Shaffer et al. 2006
+Leatherback Sea Turtle,scyphozoan specialist,gelatinous zooplankton,surface/midwater gleaner,trans-Pacific migration,3.2,large,high,vision,high,Benson et al. 2011
+Northern Fur Seal,otariid mesopredator,squid/small fish,epipelagic diver,pelagic wintering,4.0,medium,high,vision+vibrissae,medium,Sterling & Ream 2004
+Common Thresher Shark,alopiid shark,schooling fish (tail-stun),epipelagic pursuit,regional shelf,4.3,medium,high,vision+olfactory,medium,Cartamil et al.
+Juvenile White Shark,lamnid shark apex,fish elasmobranchs,coastal/epipelagic ambush,ontogenetic coastal,4.4,large,medium,olfactory+electroreception,medium,Weng et al. 2007

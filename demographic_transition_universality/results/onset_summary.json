@@ -1,0 +1,13 @@
+{
+  "n_countries": 186,
+  "n_with_fertility_onset": 185,
+  "t_fert_min": 1828,
+  "t_fert_p05": 1867.2,
+  "t_fert_q1": 1925.0,
+  "t_fert_median": 1965.0,
+  "t_fert_q3": 1983.0,
+  "t_fert_p95": 2002.8,
+  "t_fert_max": 2013,
+  "t_fert_iqr": 58.0,
+  "t_fert_range": 185
+}

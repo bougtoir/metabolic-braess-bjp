@@ -1,0 +1,5 @@
+interval,n_herbivore_collections,n_predator_collections,beta_H,beta_P,delta_beta,note
+Kimmeridgian,171,96,0.6317691014027444,0.10718201754385964,-0.5245870838588849,
+Other/undated,1,1,,,,insufficient collections
+Oxfordian,1,3,,,,insufficient collections
+Tithonian,33,14,0.6772727272727274,0.009157509157509158,-0.6681152181152182,

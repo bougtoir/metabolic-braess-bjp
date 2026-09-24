@@ -1,0 +1,45 @@
+{
+ "body_words": 6762,
+ "n_figures": 7,
+ "n_tables": 4,
+ "n_supp_figures": 2,
+ "n_supp_tables": 7,
+ "n_references": 37,
+ "highlights": [
+  "Per-pixel Poisson tail test as self-calibrating unsupervised anomaly detection",
+  "False-alarm budget met without labels on 43 EBSSA recordings, two sensors",
+  "Window as expected count transfers across sensors; ms window loses up to 0.08 AUC",
+  "Label-free hand-over gives YNoise 99.7% of its label-tuned accuracy",
+  "DND21 (80 exact-label mixtures) bounds the method to sparse-transient scenes"
+ ],
+ "result_checksums_sha256": {
+  "sp_evaluation_summary.json": "4f839ff6d1c2016c71069c1610360adabe5899257a5f6cd2f98b5cc97911859c",
+  "sp_per_recording.json": "5cbe231317af7b6058315706b8b999bc573a838fa65047eb4b54011ec51fdcbe",
+  "sparsity_cost.json": "cfded7c002ca6fd23877a385351a934c7a202beb120390525862ed6abb695484",
+  "partial_auc.json": "e8bf4f53ac1cc9ebb558d3a12d5552303246db9742f90e3f16a9a8caaf100222",
+  "self_calibration.json": "e0459477ed5dfa5fd1b2fb5b689ec8060b9b1fd4c3442fea8baadc96e225192b",
+  "zero_knowledge.json": "74003aa3b210a9a4c85e49f6948938c4242dc51b609c0ddb9c3534fc340c3a46",
+  "hybrid_screening.json": "e3125ef51a03cbebf033cb636f411646729ec342525462a5906f5d660a924545",
+  "qualitative_example.json": "d883ead11e317ca5b64890965443f49a580a134ce13d62c0713f1a98d0514b54",
+  "dnd21_evaluation_summary.json": "8048d536185a64ce4229a216fb65ce7208870f40ea01e15c7b86e6034649250f",
+  "dnd21_per_recording.json": "020dcc4b2e23759aef717f0a3d93365a2b86b6ab77dc7998b77bb5541bdcea15",
+  "comparator_feasibility.json": "f6a2c1fd5b2fc45d452b1cb9ecb56335f9ff95d690b33dfc8bc94a016ad1b620",
+  "pr_effect_sizes.json": "f9273986f6045861f9d8652a66d993db60e8509b887617486dff6653086949bb",
+  "aednet_transfer.json": "c3bff81addbd34cbbc308a29668d31beff8695e5a2cd7ceeb73c4d7337bcec60"
+ },
+ "environment": {
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-1061-aws-x86_64-with-glibc2.35",
+  "numpy": "1.26.4",
+  "scipy": "1.14.1",
+  "numba": "0.67.0",
+  "torch": "2.13.0+cpu",
+  "scikit-learn": "1.6.0",
+  "matplotlib": "3.10.0",
+  "python-docx": "1.2.0",
+  "python-pptx": "1.0.2",
+  "tonic": "1.6.0",
+  "gdown": "6.2.0",
+  "pillow": "11.0.0"
+ }
+}

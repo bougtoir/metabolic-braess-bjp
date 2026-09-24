@@ -1,0 +1,15 @@
+split,held_out,model,error
+cruise,4,A_env,"predict requires that you use a DataFrame when predicting from a model
+that was created using the formula api. 
+
+The original error message returned by patsy is:
+ Error converting data to categorical: observation with value 2 does not match any of the expected levels (expected: [4, 5, ..., 9, 10])
+    P ~ E + sst_anom + C(month)
+                       ^^^^^^^^"
+cruise,4,B_env_prey,"predict requires that you use a DataFrame when predicting from a model
+that was created using the formula api. 
+
+The original error message returned by patsy is:
+ Error converting data to categorical: observation with value 2 does not match any of the expected levels (expected: [4, 5, ..., 9, 10])
+    P ~ E + sst_anom + K + C(month)
+                           ^^^^^^^^"

@@ -1,0 +1,5 @@
+species,best_supported_mode,second_best_mode,evidence_strength,main_supporting_metric,predictability_futureprey_from_env,cue_advantage,main_limitation
+Blue Whale,INCONCLUSIVE,INCONCLUSIVE,none,n/a,,,no usable event-held-out folds
+California Sea Lion,INCONCLUSIVE,INCONCLUSIVE,none,n/a,-0.022345087060494,-0.16211083206360483,no usable event-held-out folds
+Northern Elephant Seal,MIXED-WEAK,INCONCLUSIVE,weak (negative transfer across events),eventCV corr E=-0.78 EK=-0.72 K=-0.81 PRED=-0.78,0.1320774325202078,-0.2776501661960289,models do not generalize to held-out events
+Salmon Shark,INCONCLUSIVE,INCONCLUSIVE,none,n/a,,,no usable event-held-out folds

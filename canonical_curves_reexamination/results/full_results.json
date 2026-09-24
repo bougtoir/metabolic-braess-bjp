@@ -1,0 +1,3103 @@
+[
+  {
+    "name": "Phillips Curve",
+    "category": "Economics",
+    "n": 32,
+    "x_label": "Unemployment rate (%)",
+    "y_label": "Inflation rate (CPI, %)",
+    "f_test": {
+      "f_stat": 0.014377713404098227,
+      "p_value": 0.9053835950182431
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 114.10334304638026,
+        "bic": 117.03481485197972,
+        "r2": 0.10870033252620137,
+        "r2_adj": 0.07899034361040802
+      },
+      "quadratic": {
+        "aic": 116.0874819148303,
+        "bic": 120.48468962322949,
+        "r2": 0.10914200497227922,
+        "r2_adj": 0.047703522556574396
+      },
+      "log": {
+        "aic": 113.94680571765952,
+        "bic": 116.87827752325897,
+        "r2": 0.11304973781831029,
+        "r2_adj": 0.08348472907892057
+      }
+    },
+    "loocv": {
+      "rmse_linear": 1.4641035764126393,
+      "rmse_quadratic": 1.5732375756909995
+    },
+    "cooks_distance": {
+      "max": 0.6310893740831818,
+      "mean": 0.042652040823082854,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 0.014377713404098227,
+      "p_full": 0.9053835950182431,
+      "f_clean": 1.340639595066714,
+      "p_clean": 0.2574472406703364,
+      "removed_indices": [
+        20,
+        18,
+        31
+      ],
+      "removed_labels": null,
+      "n_full": 32,
+      "n_clean": 29
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.905)",
+      "best_aic": "log",
+      "best_bic": "log"
+    },
+    "data_source": "World Bank WDI (API)"
+  },
+  {
+    "name": "Laffer Curve",
+    "category": "Economics",
+    "n": 29,
+    "x_label": "Top Marginal Personal Income Tax Rate (%)",
+    "y_label": "Total Tax Revenue (% of GDP)",
+    "f_test": {
+      "f_stat": 3.8247881712109413,
+      "p_value": 0.06132582437145562
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 201.54333008159188,
+        "bic": 204.27792174156482,
+        "r2": 0.059550666893679716,
+        "r2_adj": 0.024719210111964207
+      },
+      "quadratic": {
+        "aic": 199.563273582728,
+        "bic": 203.6651610726874,
+        "r2": 0.1801556973213686,
+        "r2_adj": 0.11709075096147392
+      },
+      "log": {
+        "aic": 202.59280322026447,
+        "bic": 205.32739488023742,
+        "r2": 0.02489368711064588,
+        "r2_adj": -0.01122136151488573
+      }
+    },
+    "loocv": {
+      "rmse_linear": 7.72412810151464,
+      "rmse_quadratic": 7.554285545863376
+    },
+    "cooks_distance": {
+      "max": 0.11187171739650063,
+      "mean": 0.029697384892372496,
+      "n_influential": 0
+    },
+    "sensitivity": {
+      "f_full": 3.8247881712109413,
+      "p_full": 0.06132582437145562,
+      "f_clean": 4.073002977092262,
+      "p_clean": 0.05538442809751998,
+      "removed_indices": [
+        0,
+        6,
+        23
+      ],
+      "removed_labels": [
+        "EST",
+        "MEX",
+        "IRL"
+      ],
+      "n_full": 29,
+      "n_clean": 26
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.061)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "OECD Table I.7 (top PIT rate) + OECD Revenue Statistics (tax %GDP), 2022 cross-section"
+  },
+  {
+    "name": "Kuznets Curve",
+    "category": "Economics",
+    "n": 130,
+    "x_label": "log\u2081\u2080(GDP per capita PPP, $)",
+    "y_label": "Gini coefficient",
+    "f_test": {
+      "f_stat": 2.6232756628093914,
+      "p_value": 0.10778743639020028
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 863.4553390495837,
+        "bic": 869.1904079504949,
+        "r2": 0.07778690261613319,
+        "r2_adj": 0.07058211279282178
+      },
+      "quadratic": {
+        "aic": 862.797452974873,
+        "bic": 871.4000563262397,
+        "r2": 0.0964503653462705,
+        "r2_adj": 0.08222123724148733
+      }
+    },
+    "loocv": {
+      "rmse_linear": 6.683919872323378,
+      "rmse_quadratic": 6.665543696694024
+    },
+    "cooks_distance": {
+      "max": 0.05431416801584129,
+      "mean": 0.0065615632520534374,
+      "n_influential": 4
+    },
+    "sensitivity": {
+      "f_full": 2.6232756628093914,
+      "p_full": 0.10778743639020028,
+      "f_clean": 3.8313138777110343,
+      "p_clean": 0.05255004560968379,
+      "removed_indices": [
+        67,
+        1,
+        46
+      ],
+      "removed_labels": [
+        "Kiribati",
+        "Zambia",
+        "Mozambique"
+      ],
+      "n_full": 130,
+      "n_clean": 127
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.108)",
+      "best_aic": "quadratic",
+      "best_bic": "linear"
+    },
+    "data_source": "World Bank WDI (API)"
+  },
+  {
+    "name": "Environmental Kuznets Curve (CO2)",
+    "category": "Economics",
+    "n": 189,
+    "x_label": "GDP per capita (PPP, $)",
+    "y_label": "CO2 per capita (tonnes)",
+    "f_test": {
+      "f_stat": 1.9183597373737176,
+      "p_value": 0.16769653424305664
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 1265.8211886612614,
+        "bic": 1272.3046826913808,
+        "r2": 0.20929171136976066,
+        "r2_adj": 0.20506332479954548
+      },
+      "quadratic": {
+        "aic": 1265.881871363405,
+        "bic": 1275.607112408584,
+        "r2": 0.21736363657725943,
+        "r2_adj": 0.20894819180927293
+      },
+      "log": {
+        "aic": 1265.7002931492038,
+        "bic": 1272.1837871793232,
+        "r2": 0.20979733315008686,
+        "r2_adj": 0.20557165043965953
+      }
+    },
+    "loocv": {
+      "rmse_linear": 6.936066797000549,
+      "rmse_quadratic": 6.987921832595859
+    },
+    "cooks_distance": {
+      "max": 0.7765767518965108,
+      "mean": 0.009038531385976354,
+      "n_influential": 12
+    },
+    "sensitivity": {
+      "f_full": 1.9183597373737176,
+      "p_full": 0.16769653424305664,
+      "f_clean": 19.696469332386584,
+      "p_clean": 1.5652994480808147e-05,
+      "removed_indices": [
+        38,
+        57,
+        48
+      ],
+      "removed_labels": [
+        "Singapore",
+        "Palau",
+        "Qatar"
+      ],
+      "n_full": 189,
+      "n_clean": 186
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.168)",
+      "best_aic": "log",
+      "best_bic": "log"
+    },
+    "data_source": "World Bank WDI (API)"
+  },
+  {
+    "name": "Beveridge Curve",
+    "category": "Economics",
+    "n": 24,
+    "x_label": "Unemployment Rate (%)",
+    "y_label": "Vacancy Rate (%)",
+    "f_test": {
+      "f_stat": 3.025902558386993,
+      "p_value": 0.09658300140687837
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 71.71896653526204,
+        "bic": 74.07507419595794,
+        "r2": 0.379094907248398,
+        "r2_adj": 0.35087194848696157
+      },
+      "quadratic": {
+        "aic": 70.48832452180666,
+        "bic": 74.0224860128505,
+        "r2": 0.45729377216540956,
+        "r2_adj": 0.40560746475259135
+      },
+      "log": {
+        "aic": 69.69797661870746,
+        "bic": 72.05408427940336,
+        "r2": 0.42923913170550987,
+        "r2_adj": 0.4032954558739421
+      }
+    },
+    "loocv": {
+      "rmse_linear": 1.0676711741121503,
+      "rmse_quadratic": 1.0511107849459165
+    },
+    "cooks_distance": {
+      "max": 0.3016846730737567,
+      "mean": 0.037968254561843995,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 3.025902558386993,
+      "p_full": 0.09658300140687837,
+      "f_clean": 12.626392597718878,
+      "p_clean": 0.002270898864791815,
+      "removed_indices": [
+        20,
+        19,
+        21
+      ],
+      "removed_labels": null,
+      "n_full": 24,
+      "n_clean": 21
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.097)",
+      "best_aic": "log",
+      "best_bic": "log"
+    },
+    "data_source": "US BLS (CPS unemployment + JOLTS job openings)"
+  },
+  {
+    "name": "Okun's Law",
+    "category": "Economics",
+    "n": 31,
+    "x_label": "Real GDP growth (%)",
+    "y_label": "Change in unemployment rate (pp)",
+    "f_test": {
+      "f_stat": 7.705892420392644,
+      "p_value": 0.009700299552627856
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 75.60874224778775,
+        "bic": 78.47671665675804,
+        "r2": 0.6479740398511594,
+        "r2_adj": 0.6358352136391304
+      },
+      "quadratic": {
+        "aic": 70.07229446551406,
+        "bic": 74.3742560789695,
+        "r2": 0.7239467713587218,
+        "r2_adj": 0.7042286835986304
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.8523006906696848,
+      "rmse_quadratic": 0.8966176048856762
+    },
+    "cooks_distance": {
+      "max": 1.1051083551331817,
+      "mean": 0.06024006305765647,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 7.705892420392644,
+      "p_full": 0.009700299552627856,
+      "f_clean": 0.08968444397078462,
+      "p_clean": 0.7670543668001272,
+      "removed_indices": [
+        7,
+        17,
+        28
+      ],
+      "removed_labels": null,
+      "n_full": 31,
+      "n_clean": 28
+    },
+    "verdict": {
+      "verdict": "OUTLIER_DEPENDENT",
+      "explanation": "Nonlinearity significant with full data (p=0.010) but NOT after removing top influential points (p=0.767)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "World Bank WDI (API)"
+  },
+  {
+    "name": "Engel Curve",
+    "category": "Economics",
+    "n": 102,
+    "x_label": "GDP per capita (PPP, $)",
+    "y_label": "Food Expenditure Share (%)",
+    "f_test": {
+      "f_stat": 33.840749880028945,
+      "p_value": 7.365818865956442e-08
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 717.2321051590304,
+        "bic": 722.482050785599,
+        "r2": 0.5674529886539985,
+        "r2_adj": 0.5631275185405384
+      },
+      "quadratic": {
+        "aic": 689.240923641872,
+        "bic": 697.1158420817247,
+        "r2": 0.6776429359068836,
+        "r2_adj": 0.6711306719858106
+      },
+      "log": {
+        "aic": 695.5922065567261,
+        "bic": 700.8421521832946,
+        "r2": 0.6501392743523586,
+        "r2_adj": 0.6466406670958822
+      }
+    },
+    "loocv": {
+      "rmse_linear": 8.232428892912807,
+      "rmse_quadratic": 7.091119115072552
+    },
+    "cooks_distance": {
+      "max": 0.367762972778942,
+      "mean": 0.01617138807849313,
+      "n_influential": 9
+    },
+    "sensitivity": {
+      "f_full": 33.840749880028945,
+      "p_full": 7.365818865956442e-08,
+      "f_clean": 11.839815925896888,
+      "p_clean": 0.0008599108056359661,
+      "removed_indices": [
+        45,
+        80,
+        84
+      ],
+      "removed_labels": [
+        "Ireland",
+        "Qatar",
+        "Singapore"
+      ],
+      "n_full": 102,
+      "n_clean": 99
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.001), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "OWID food expenditure share (USDA) + World Bank WDI GDP pc PPP"
+  },
+  {
+    "name": "J-Curve (Trade)",
+    "category": "Economics",
+    "n": 25,
+    "x_label": "Quarters after depreciation",
+    "y_label": "Trade Balance (normalized)",
+    "f_test": {
+      "f_stat": 10.092256463730553,
+      "p_value": 0.004363686555786339
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 74.61663125958079,
+        "bic": 77.05438290931718,
+        "r2": 0.6192611585944919,
+        "r2_adj": 0.6027072959246873
+      },
+      "quadratic": {
+        "aic": 67.17732335915247,
+        "bic": 70.83395083375707,
+        "r2": 0.738994529088732,
+        "r2_adj": 0.7152667590058894
+      }
+    },
+    "loocv": {
+      "rmse_linear": 1.0884497711972063,
+      "rmse_quadratic": 1.0285820588929184
+    },
+    "cooks_distance": {
+      "max": 0.19326447452402287,
+      "mean": 0.04870940899020137,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 10.092256463730553,
+      "p_full": 0.004363686555786339,
+      "f_clean": 27.76894179104847,
+      "p_clean": 4.36896793595265e-05,
+      "removed_indices": [
+        3,
+        24,
+        0
+      ],
+      "removed_labels": null,
+      "n_full": 25,
+      "n_clean": 22
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.004), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Rahn Curve",
+    "category": "Economics",
+    "n": 151,
+    "x_label": "Government Spending (% of GDP)",
+    "y_label": "Real GDP Growth (%, 2010-2019 avg)",
+    "f_test": {
+      "f_stat": 3.846603429496603,
+      "p_value": 0.0517236380470143
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 680.675850611018,
+        "bic": 686.7104102846478,
+        "r2": 0.09667887701843969,
+        "r2_adj": 0.09061631914608015
+      },
+      "quadratic": {
+        "aic": 678.8014096296799,
+        "bic": 687.8532491401247,
+        "r2": 0.11956195804310632,
+        "r2_adj": 0.10766414666531043
+      },
+      "log": {
+        "aic": 679.6583260948742,
+        "bic": 685.692885768504,
+        "r2": 0.10274550912924063,
+        "r2_adj": 0.09672366690863143
+      }
+    },
+    "loocv": {
+      "rmse_linear": 2.314919883377483,
+      "rmse_quadratic": 2.357651336701818
+    },
+    "cooks_distance": {
+      "max": 0.6245428869945581,
+      "mean": 0.009248632922113706,
+      "n_influential": 8
+    },
+    "sensitivity": {
+      "f_full": 3.846603429496603,
+      "p_full": 0.0517236380470143,
+      "f_clean": 0.7800544713862833,
+      "p_clean": 0.37858644524947493,
+      "removed_indices": [
+        149,
+        146,
+        80
+      ],
+      "removed_labels": [
+        "Yemen",
+        "Venezuela",
+        "Kiribati"
+      ],
+      "n_full": 151,
+      "n_clean": 148
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.052)",
+      "best_aic": "quadratic",
+      "best_bic": "log"
+    },
+    "data_source": "OWID govt expenditure (IMF) + World Bank WDI GDP growth"
+  },
+  {
+    "name": "Gravity Model of Trade",
+    "category": "Economics",
+    "n": 14263,
+    "x_label": "log\u2081\u2080(GDP_i \u00d7 GDP_j / Distance\u00b2)",
+    "y_label": "log\u2081\u2080(Bilateral Trade)",
+    "f_test": {
+      "f_stat": 15.687758038759888,
+      "p_value": 7.50693196711616e-05
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 45563.444217421384,
+        "bic": 45578.57506552243,
+        "r2": 0.6130048967217006,
+        "r2_adj": 0.6129777601181469
+      },
+      "quadratic": {
+        "aic": 45549.76178373721,
+        "bic": 45572.45805588878,
+        "r2": 0.6134301711915064,
+        "r2_adj": 0.6133759538242122
+      }
+    },
+    "loocv": {
+      "rmse_linear": 1.1952052579886014,
+      "rmse_quadratic": 1.1946542911016644
+    },
+    "cooks_distance": {
+      "max": 0.009902442873359856,
+      "mean": 6.825723471609688e-05,
+      "n_influential": 666
+    },
+    "sensitivity": {
+      "f_full": 15.687758038759888,
+      "p_full": 7.50693196711616e-05,
+      "f_clean": 13.496520751827537,
+      "p_clean": 0.0002398812203179279,
+      "removed_indices": [
+        11948,
+        13508,
+        11970
+      ],
+      "removed_labels": null,
+      "n_full": 14263,
+      "n_clean": 14260
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "CEPII Gravity V202211 (GDP, distance, BACI trade; 2019)"
+  },
+  {
+    "name": "Great Gatsby Curve",
+    "category": "Economics",
+    "n": 83,
+    "x_label": "Gini Coefficient",
+    "y_label": "Intergenerational Income Elasticity",
+    "f_test": {
+      "f_stat": 0.238230555069633,
+      "p_value": 0.6268221480252825
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -55.69417836715925,
+        "bic": -50.85649715156606,
+        "r2": 0.1778661817913061,
+        "r2_adj": 0.16771638156650737
+      },
+      "quadratic": {
+        "aic": -53.94097528411058,
+        "bic": -46.68445346072078,
+        "r2": 0.18030713038275037,
+        "r2_adj": 0.15981480864231923
+      },
+      "log": {
+        "aic": -54.85140600079765,
+        "bic": -50.01372478520446,
+        "r2": 0.1694758050569809,
+        "r2_adj": 0.15922241993422748
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.17283911564648066,
+      "rmse_quadratic": 0.1743001429273527
+    },
+    "cooks_distance": {
+      "max": 0.1414528500753129,
+      "mean": 0.011744410302323562,
+      "n_influential": 5
+    },
+    "sensitivity": {
+      "f_full": 0.238230555069633,
+      "p_full": 0.6268221480252825,
+      "f_clean": 0.2624778432860414,
+      "p_clean": 0.6098893923940936,
+      "removed_indices": [
+        78,
+        10,
+        2
+      ],
+      "removed_labels": [
+        "GTM",
+        "EGY",
+        "IND"
+      ],
+      "n_full": 83,
+      "n_clean": 80
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.627)",
+      "best_aic": "linear",
+      "best_bic": "linear"
+    },
+    "data_source": "GDIM income mobility IGE (Munoz & van der Weide 2025) + OWID/World Bank Gini; reconstruction"
+  },
+  {
+    "name": "Balassa-Samuelson Effect",
+    "category": "Economics",
+    "n": 177,
+    "x_label": "Relative Labor Productivity (US=100)",
+    "y_label": "Relative Price Level (US=1.0)",
+    "f_test": {
+      "f_stat": 0.6005547705726346,
+      "p_value": 0.4394182883065294
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 610.6798554998999,
+        "bic": 617.0321549650475,
+        "r2": 0.001076754823034709,
+        "r2_adj": -0.004631378006548115
+      },
+      "quadratic": {
+        "aic": 612.0699981827063,
+        "bic": 621.5984473804277,
+        "r2": 0.004512643793234239,
+        "r2_adj": -0.006929739611441388
+      },
+      "log": {
+        "aic": 606.2001731992061,
+        "bic": 612.5524726643538,
+        "r2": 0.02604119850301878,
+        "r2_adj": 0.020475719637321643
+      }
+    },
+    "loocv": {
+      "rmse_linear": 1.3614788336858747,
+      "rmse_quadratic": 1.3777848242771922
+    },
+    "cooks_distance": {
+      "max": 1.1830682931945935,
+      "mean": 0.006926759171789969,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 0.6005547705726346,
+      "p_full": 0.4394182883065294,
+      "f_clean": 6.000980476339961,
+      "p_clean": 0.015305888710381188,
+      "removed_indices": [
+        41,
+        20,
+        170
+      ],
+      "removed_labels": [
+        "Cayman Islands",
+        "Bermuda",
+        "Venezuela (Bolivarian Republic of)"
+      ],
+      "n_full": 177,
+      "n_clean": 174
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.439)",
+      "best_aic": "log",
+      "best_bic": "log"
+    },
+    "data_source": "Penn World Table 10.01"
+  },
+  {
+    "name": "Preston Curve",
+    "category": "Public Health",
+    "n": 199,
+    "x_label": "log\u2081\u2080(GDP per capita PPP, $)",
+    "y_label": "Life expectancy (years)",
+    "f_test": {
+      "f_stat": 0.0012709373019326126,
+      "p_value": 0.9715975551495434
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 1109.7073276682713,
+        "bic": 1116.2939373177203,
+        "r2": 0.7399461802116716,
+        "r2_adj": 0.7386261100604619
+      },
+      "quadratic": {
+        "aic": 1111.706037282031,
+        "bic": 1121.5859517562046,
+        "r2": 0.739947866486962,
+        "r2_adj": 0.7372942732878494
+      }
+    },
+    "loocv": {
+      "rmse_linear": 3.929758979822502,
+      "rmse_quadratic": 3.9494577647948046
+    },
+    "cooks_distance": {
+      "max": 0.057517686995993335,
+      "mean": 0.004704675127531353,
+      "n_influential": 10
+    },
+    "sensitivity": {
+      "f_full": 0.0012709373019326126,
+      "p_full": 0.9715975551495434,
+      "f_clean": 0.004721077676738981,
+      "p_clean": 0.9452915139141721,
+      "removed_indices": [
+        128,
+        162,
+        67
+      ],
+      "removed_labels": [
+        "Greenland",
+        "Chad",
+        "Nigeria"
+      ],
+      "n_full": 199,
+      "n_clean": 196
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.972)",
+      "best_aic": "linear",
+      "best_bic": "linear"
+    },
+    "data_source": "World Bank WDI (API)"
+  },
+  {
+    "name": "Easterlin Paradox",
+    "category": "Public Health",
+    "n": 159,
+    "x_label": "GDP per capita (PPP, $)",
+    "y_label": "Happiness Score (0-10)",
+    "f_test": {
+      "f_stat": 61.336261156564426,
+      "p_value": 6.918909889463976e-13
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 399.11947927662175,
+        "bic": 405.2572876810622,
+        "r2": 0.49669320057640176,
+        "r2_adj": 0.49348742478389473
+      },
+      "quadratic": {
+        "aic": 348.3967110145114,
+        "bic": 357.6034236211721,
+        "r2": 0.638735569056651,
+        "r2_adj": 0.6341039737881464
+      },
+      "log": {
+        "aic": 340.2253064724349,
+        "bic": 346.3631148768754,
+        "r2": 0.652488999425848,
+        "r2_adj": 0.6502755535623184
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.856349703374259,
+      "rmse_quadratic": 0.7219389526261399
+    },
+    "cooks_distance": {
+      "max": 0.4480235299152219,
+      "mean": 0.01110933913277344,
+      "n_influential": 7
+    },
+    "sensitivity": {
+      "f_full": 61.336261156564426,
+      "p_full": 6.918909889463976e-13,
+      "f_clean": 33.72282799320204,
+      "p_clean": 3.5555724475777595e-08,
+      "removed_indices": [
+        123,
+        87,
+        130
+      ],
+      "removed_labels": [
+        "Qatar",
+        "Luxembourg",
+        "Singapore"
+      ],
+      "n_full": 159,
+      "n_clean": 156
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "log",
+      "best_bic": "log"
+    },
+    "data_source": "OWID Cantril ladder (WHR) + World Bank WDI GDP pc PPP"
+  },
+  {
+    "name": "McKeown Thesis (TB Mortality)",
+    "category": "Public Health",
+    "n": 15,
+    "x_label": "Year",
+    "y_label": "TB Deaths per Million",
+    "f_test": {
+      "f_stat": 50.9722950142716,
+      "p_value": 1.1812799879606928e-05
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 198.64487373359046,
+        "bic": 200.06097413579488,
+        "r2": 0.9814853591326839,
+        "r2_adj": 0.9800611559890442
+      },
+      "quadratic": {
+        "aic": 175.7780504605638,
+        "bic": 177.90220106387042,
+        "r2": 0.9964718501944793,
+        "r2_adj": 0.9958838252268924
+      },
+      "log": {
+        "aic": 196.97910615700496,
+        "bic": 198.39520655920938,
+        "r2": 0.9834313783327634,
+        "r2_adj": 0.9821568689737452
+      }
+    },
+    "loocv": {
+      "rmse_linear": 195.24381291520763,
+      "rmse_quadratic": 104.69317495779057
+    },
+    "cooks_distance": {
+      "max": 1.4007723582228948,
+      "mean": 0.12397321778967595,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 50.9722950142716,
+      "p_full": 1.1812799879606928e-05,
+      "f_clean": 30.623754584486765,
+      "p_clean": 0.00036391107973854364,
+      "removed_indices": [
+        4,
+        14,
+        0
+      ],
+      "removed_labels": null,
+      "n_full": 15,
+      "n_clean": 12
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Linear No-Threshold (LNT)",
+    "category": "Public Health",
+    "n": 13,
+    "x_label": "Radiation Dose (Gy)",
+    "y_label": "Excess Relative Risk",
+    "f_test": {
+      "f_stat": 1273.5971053232279,
+      "p_value": 7.0855543654602116e-12
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -21.406597817789276,
+        "bic": -20.276699102866203,
+        "r2": 0.9557912108104615,
+        "r2_adj": 0.9517722299750488
+      },
+      "quadratic": {
+        "aic": -82.51947311228975,
+        "bic": -80.82462503990513,
+        "r2": 0.9996555867179335,
+        "r2_adj": 0.9995867040615203
+      },
+      "log": {
+        "aic": -0.39430194683650654,
+        "bic": 0.7355967680865669,
+        "r2": 0.7774272373327784,
+        "r2_adj": 0.7571933498175765
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.12259337475447725,
+      "rmse_quadratic": 0.010622790539473386
+    },
+    "cooks_distance": {
+      "max": 2.1680027522706045,
+      "mean": 0.20982331816152183,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 1273.5971053232279,
+      "p_full": 7.0855543654602116e-12,
+      "f_clean": 1901.169595217084,
+      "p_clean": 8.714376997787099e-10,
+      "removed_indices": [
+        9,
+        10,
+        12
+      ],
+      "removed_labels": null,
+      "n_full": 13,
+      "n_clean": 10
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Fries Compression of Morbidity",
+    "category": "Public Health",
+    "n": 11,
+    "x_label": "Year",
+    "y_label": "Years of Morbidity Before Death",
+    "f_test": {
+      "f_stat": 21.6690544412386,
+      "p_value": 0.0016340202835821716
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -24.499974106202956,
+        "bic": -23.704183560606214,
+        "r2": 0.9950586264656613,
+        "r2_adj": 0.9945095849618459
+      },
+      "quadratic": {
+        "aic": -36.9172673584179,
+        "bic": -35.72358154002279,
+        "r2": 0.9986676020176847,
+        "r2_adj": 0.9983345025221059
+      },
+      "log": {
+        "aic": -23.578570917657203,
+        "bic": -22.78278037206046,
+        "r2": 0.9946268879694928,
+        "r2_adj": 0.9940298755216587
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.08418310142476497,
+      "rmse_quadratic": 0.04564217399647324
+    },
+    "cooks_distance": {
+      "max": 0.6973634651589833,
+      "mean": 0.14520253766985203,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 21.6690544412386,
+      "p_full": 0.0016340202835821716,
+      "f_clean": 1.8604651162820607,
+      "p_clean": 0.2307629491558867,
+      "removed_indices": [
+        1,
+        0,
+        10
+      ],
+      "removed_labels": null,
+      "n_full": 11,
+      "n_clean": 8
+    },
+    "verdict": {
+      "verdict": "OUTLIER_DEPENDENT",
+      "explanation": "Nonlinearity significant with full data (p=0.002) but NOT after removing top influential points (p=0.231)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Barker Hypothesis (U-shape)",
+    "category": "Public Health",
+    "n": 13,
+    "x_label": "Birth Weight (kg)",
+    "y_label": "Relative Risk of CVD",
+    "f_test": {
+      "f_stat": 345.3417089230318,
+      "p_value": 4.395673602886063e-09
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -8.934437188887962,
+        "bic": -7.804538473964889,
+        "r2": 0.03386953175693019,
+        "r2_adj": -0.05396051081062159
+      },
+      "quadratic": {
+        "aic": -53.350869509117246,
+        "bic": -51.65602143673264,
+        "r2": 0.9728112280663248,
+        "r2_adj": 0.9673734736795898
+      },
+      "log": {
+        "aic": -9.759823327418928,
+        "bic": -8.629924612495856,
+        "r2": 0.09330361835297973,
+        "r2_adj": 0.010876674566887012
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.18522456793734798,
+      "rmse_quadratic": 0.03579922978538395
+    },
+    "cooks_distance": {
+      "max": 0.8383469995821435,
+      "mean": 0.14081931533564102,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 345.3417089230318,
+      "p_full": 4.395673602886063e-09,
+      "f_clean": 161.51530642930166,
+      "p_clean": 4.321935972662061e-06,
+      "removed_indices": [
+        1,
+        12,
+        0
+      ],
+      "removed_labels": null,
+      "n_full": 13,
+      "n_clean": 10
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Omran Epidemiological Transition",
+    "category": "Public Health",
+    "n": 183,
+    "x_label": "Human Development Index",
+    "y_label": "NCD deaths (% of total)",
+    "f_test": {
+      "f_stat": 0.10317912446081506,
+      "p_value": 0.7484200710837557
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 1361.6409131143064,
+        "bic": 1368.0598854199893,
+        "r2": 0.6951073590176076,
+        "r2_adj": 0.693422869288423
+      },
+      "quadratic": {
+        "aic": 1363.5360443911868,
+        "bic": 1373.164502849711,
+        "r2": 0.6952820286481163,
+        "r2_adj": 0.6918962734108731
+      },
+      "log": {
+        "aic": 1365.6931472401411,
+        "bic": 1372.112119545824,
+        "r2": 0.6882807092349859,
+        "r2_adj": 0.6865585032086599
+      }
+    },
+    "loocv": {
+      "rmse_linear": 9.96173775698376,
+      "rmse_quadratic": 9.998964437542432
+    },
+    "cooks_distance": {
+      "max": 0.04840648106200763,
+      "mean": 0.004154107877186131,
+      "n_influential": 4
+    },
+    "sensitivity": {
+      "f_full": 0.10317912446081506,
+      "p_full": 0.7484200710837557,
+      "f_clean": 0.22876020369095132,
+      "p_clean": 0.6330348682691719,
+      "removed_indices": [
+        21,
+        149,
+        159
+      ],
+      "removed_labels": [
+        "Botswana",
+        "Solomon Islands",
+        "Syrian Arab Republic"
+      ],
+      "n_full": 183,
+      "n_clean": 180
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.748)",
+      "best_aic": "linear",
+      "best_bic": "linear"
+    },
+    "data_source": "UNDP HDI + World Bank WDI (NCD mortality)"
+  },
+  {
+    "name": "Wilkinson Curve",
+    "category": "Public Health",
+    "n": 25,
+    "x_label": "Gini Coefficient",
+    "y_label": "Health Index (0-100)",
+    "f_test": {
+      "f_stat": 0.10761404987893498,
+      "p_value": 0.7459786721327633
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 113.57928591350594,
+        "bic": 116.01703756324234,
+        "r2": 0.4676998014690076,
+        "r2_adj": 0.4445563145763558
+      },
+      "quadratic": {
+        "aic": 115.4572953391713,
+        "bic": 119.1139228137759,
+        "r2": 0.4702908988161044,
+        "r2_adj": 0.42213552598120485
+      },
+      "log": {
+        "aic": 114.00845374936446,
+        "bic": 116.44620539910086,
+        "r2": 0.45848307236951724,
+        "r2_adj": 0.43493885812471367
+      }
+    },
+    "loocv": {
+      "rmse_linear": 2.3648157174519953,
+      "rmse_quadratic": 2.4305735535085273
+    },
+    "cooks_distance": {
+      "max": 0.3576925711169844,
+      "mean": 0.04723263035451653,
+      "n_influential": 3
+    },
+    "sensitivity": {
+      "f_full": 0.10761404987893498,
+      "p_full": 0.7459786721327633,
+      "f_clean": 0.0005196395233897278,
+      "p_clean": 0.9820510194392811,
+      "removed_indices": [
+        0,
+        22,
+        21
+      ],
+      "removed_labels": [
+        "Japan",
+        "Singapore",
+        "USA"
+      ],
+      "n_full": 25,
+      "n_clean": 22
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.746)",
+      "best_aic": "linear",
+      "best_bic": "linear"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "BMI-Mortality J-Curve",
+    "category": "Public Health",
+    "n": 9,
+    "x_label": "BMI (kg/m\u00b2)",
+    "y_label": "Relative Risk (all-cause mortality)",
+    "f_test": {
+      "f_stat": 12.202282010929505,
+      "p_value": 0.012933252123455197
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 6.862440558286739,
+        "bic": 7.256889712959178,
+        "r2": 0.729155996909985,
+        "r2_adj": 0.6904639964685544
+      },
+      "quadratic": {
+        "aic": -1.1256469616080516,
+        "bic": -0.5339732295993933,
+        "r2": 0.9107219623581084,
+        "r2_adj": 0.8809626164774779
+      },
+      "log": {
+        "aic": 10.83131533843406,
+        "bic": 11.2257644931065,
+        "r2": 0.579043666471753,
+        "r2_adj": 0.5189070473962891
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.43683787742948077,
+      "rmse_quadratic": 0.7161616309940924
+    },
+    "cooks_distance": {
+      "max": 2.065111867673563,
+      "mean": 0.3566526696903496,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 12.202282010929505,
+      "p_full": 0.012933252123455197,
+      "f_clean": 62.10036768271713,
+      "p_clean": 0.004258034625529539,
+      "removed_indices": [
+        4,
+        0,
+        8
+      ],
+      "removed_labels": null,
+      "n_full": 9,
+      "n_clean": 6
+    },
+    "verdict": {
+      "verdict": "OVERFITTING",
+      "explanation": "Nonlinearity significant but LOOCV shows quadratic overfits (RMSE_lin=0.437, RMSE_quad=0.716)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Global BMI Mortality Collaboration 2016 Lancet (HRs, transcribed)"
+  },
+  {
+    "name": "Alcohol-Mortality J-Curve",
+    "category": "Public Health",
+    "n": 13,
+    "x_label": "Alcohol (drinks/day)",
+    "y_label": "Relative Risk (All-cause Mortality)",
+    "f_test": {
+      "f_stat": 46.99438223570646,
+      "p_value": 4.4299466973707347e-05
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -15.421982911937334,
+        "bic": -14.292084197014262,
+        "r2": 0.9078485305568932,
+        "r2_adj": 0.8994711242438835
+      },
+      "quadratic": {
+        "aic": -36.046761877233756,
+        "bic": -34.35191380484915,
+        "r2": 0.9838314820113315,
+        "r2_adj": 0.9805977784135979
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.14658304527003552,
+      "rmse_quadratic": 0.07873330661863748
+    },
+    "cooks_distance": {
+      "max": 1.0512492463406822,
+      "mean": 0.1541027578299923,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 46.99438223570646,
+      "p_full": 4.4299466973707347e-05,
+      "f_clean": 70.06217031857524,
+      "p_clean": 6.820080102121207e-05,
+      "removed_indices": [
+        11,
+        12,
+        0
+      ],
+      "removed_labels": null,
+      "n_full": 13,
+      "n_clean": 10
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Demographic Transition (TFR)",
+    "category": "Demography",
+    "n": 199,
+    "x_label": "log\u2081\u2080(GDP per capita PPP, $)",
+    "y_label": "Total fertility rate",
+    "f_test": {
+      "f_stat": 38.21664201727299,
+      "p_value": 3.6048726226312056e-09
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 462.8678278429119,
+        "bic": 469.45443749236085,
+        "r2": 0.6589341721359743,
+        "r2_adj": 0.6572028735173752
+      },
+      "quadratic": {
+        "aic": 429.4195900100625,
+        "bic": 439.29950448423597,
+        "r2": 0.714585173429226,
+        "r2_adj": 0.7116727772397283
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.7748665241193561,
+      "rmse_quadratic": 0.7121352505061583
+    },
+    "cooks_distance": {
+      "max": 0.08752758077453443,
+      "mean": 0.005515903682337315,
+      "n_influential": 11
+    },
+    "sensitivity": {
+      "f_full": 38.21664201727299,
+      "p_full": 3.6048726226312056e-09,
+      "f_clean": 28.417884464133444,
+      "p_clean": 2.714324852659544e-07,
+      "removed_indices": [
+        162,
+        36,
+        68
+      ],
+      "removed_labels": [
+        "Chad",
+        "Somalia, Fed. Rep.",
+        "Niger"
+      ],
+      "n_full": 199,
+      "n_clean": 196
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "World Bank WDI (API)"
+  },
+  {
+    "name": "Bongaarts-Feeney Tempo Effect",
+    "category": "Demography",
+    "n": 26,
+    "x_label": "MAC Increase (years/decade)",
+    "y_label": "TFR Depression (observed - adjusted)",
+    "f_test": {
+      "f_stat": 0.16550540467729888,
+      "p_value": 0.6878986433925869
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -171.63336341748658,
+        "bic": -169.11717034144363,
+        "r2": 0.9880010549913886,
+        "r2_adj": 0.9875010989493631
+      },
+      "quadratic": {
+        "aic": -169.81978654529462,
+        "bic": -166.04549693123016,
+        "r2": 0.9880867811698016,
+        "r2_adj": 0.9870508490976104
+      },
+      "log": {
+        "aic": -121.11816147048052,
+        "bic": -118.60196839443755,
+        "r2": 0.9162604729655106,
+        "r2_adj": 0.9127713260057402
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.008934217983091686,
+      "rmse_quadratic": 0.009308747996653483
+    },
+    "cooks_distance": {
+      "max": 0.3475271297194952,
+      "mean": 0.04146305999684479,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 0.16550540467729888,
+      "p_full": 0.6878986433925869,
+      "f_clean": 0.33381921256369623,
+      "p_clean": 0.5698672297980641,
+      "removed_indices": [
+        3,
+        2,
+        5
+      ],
+      "removed_labels": [
+        "Japan 2005-15",
+        "Japan 1995-05",
+        "S.Korea 2000-10"
+      ],
+      "n_full": 26,
+      "n_clean": 23
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.688)",
+      "best_aic": "linear",
+      "best_bic": "linear"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Lee-Carter Mortality Model",
+    "category": "Demography",
+    "n": 92,
+    "x_label": "Year",
+    "y_label": "Mortality Index (\u03ba_t)",
+    "f_test": {
+      "f_stat": 104.63741984360529,
+      "p_value": 1.1102230246251565e-16
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 653.9982633549444,
+        "bic": 659.0418405090425,
+        "r2": 0.9476854980662601,
+        "r2_adj": 0.9471042258225519
+      },
+      "quadratic": {
+        "aic": 584.4819648459928,
+        "bic": 592.04733057714,
+        "r2": 0.9759551089047596,
+        "r2_adj": 0.9754147742734058
+      },
+      "log": {
+        "aic": 650.5325607469456,
+        "bic": 655.5761379010437,
+        "r2": 0.9496195634646485,
+        "r2_adj": 0.9490597808364779
+      }
+    },
+    "loocv": {
+      "rmse_linear": 8.557284454769023,
+      "rmse_quadratic": 5.828875475431002
+    },
+    "cooks_distance": {
+      "max": 0.1785402452560082,
+      "mean": 0.017054703201930796,
+      "n_influential": 11
+    },
+    "sensitivity": {
+      "f_full": 104.63741984360529,
+      "p_full": 1.1102230246251565e-16,
+      "f_clean": 81.67139465410544,
+      "p_clean": 4.1300296516055823e-14,
+      "removed_indices": [
+        3,
+        89,
+        88
+      ],
+      "removed_labels": null,
+      "n_full": 92,
+      "n_clean": 89
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "HMD USA death rates (Lee-Carter SVD kappa_t)"
+  },
+  {
+    "name": "Coale-Trussell Fertility Schedule",
+    "category": "Demography",
+    "n": 13,
+    "x_label": "Age",
+    "y_label": "Marital Fertility Rate",
+    "f_test": {
+      "f_stat": 34.66258196726247,
+      "p_value": 0.00015362489558012893
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -46.695460915911276,
+        "bic": -45.565562200988204,
+        "r2": 0.9667310798510489,
+        "r2_adj": 0.9637066325647806
+      },
+      "quadratic": {
+        "aic": -64.15062346887981,
+        "bic": -62.455775396495206,
+        "r2": 0.9925510531000341,
+        "r2_adj": 0.9910612637200409
+      },
+      "log": {
+        "aic": -34.25815261314751,
+        "bic": -33.128253898224436,
+        "r2": 0.9133965497851396,
+        "r2_adj": 0.905523508856516
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.04138215830692266,
+      "rmse_quadratic": 0.024868549448023358
+    },
+    "cooks_distance": {
+      "max": 0.49061022729719256,
+      "mean": 0.10484880945613667,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 34.66258196726247,
+      "p_full": 0.00015362489558012893,
+      "f_clean": 6.9280603011636686,
+      "p_clean": 0.03380825575418145,
+      "removed_indices": [
+        11,
+        1,
+        0
+      ],
+      "removed_labels": null,
+      "n_full": 13,
+      "n_clean": 10
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.034), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Replacement Migration Curve",
+    "category": "Demography",
+    "n": 8,
+    "x_label": "TFR Gap Below Replacement (2.1 - TFR)",
+    "y_label": "Required Net Migration, Scenario IV (per million/yr)",
+    "f_test": {
+      "f_stat": 4.597310734236007,
+      "p_value": 0.08487230090380304
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 125.63013191656825,
+        "bic": 125.78901499992791,
+        "r2": 0.9357342700364133,
+        "r2_adj": 0.9250233150424821
+      },
+      "quadratic": {
+        "aic": 122.41377179700811,
+        "bic": 122.65209642204762,
+        "r2": 0.9665188865176915,
+        "r2_adj": 0.9531264411247681
+      },
+      "log": {
+        "aic": 137.0738190530649,
+        "bic": 137.2327021364246,
+        "r2": 0.7313290463543141,
+        "r2_adj": 0.6865505540800331
+      }
+    },
+    "loocv": {
+      "rmse_linear": 765.9871575725277,
+      "rmse_quadratic": 1072.863941798927
+    },
+    "cooks_distance": {
+      "max": 2.3432177871052384,
+      "mean": 0.36554569069700776,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 4.597310734236007,
+      "p_full": 0.08487230090380304,
+      "f_clean": 0.19121234791567074,
+      "p_clean": 0.7045964338671669,
+      "removed_indices": [
+        1,
+        0,
+        7
+      ],
+      "removed_labels": [
+        "DEU",
+        "FRA",
+        "USA"
+      ],
+      "n_full": 8,
+      "n_clean": 5
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.085)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "UN (2000) Replacement Migration report, Tables IV.1 & IV.6 (model outputs, Scenario IV)"
+  },
+  {
+    "name": "Second Demographic Transition",
+    "category": "Demography",
+    "n": 109,
+    "x_label": "log\u2081\u2080(GDP per capita PPP, $)",
+    "y_label": "Total fertility rate",
+    "f_test": {
+      "f_stat": 0.2285015868306288,
+      "p_value": 0.633621460988626
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 173.7568938607879,
+        "bic": 179.13958962524617,
+        "r2": 0.11912019072338254,
+        "r2_adj": 0.11088766914135817
+      },
+      "quadratic": {
+        "aic": 175.52217814256403,
+        "bic": 183.59622178925147,
+        "r2": 0.12101499702508145,
+        "r2_adj": 0.10443037432744151
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.5370505346234469,
+      "rmse_quadratic": 0.5403805190960148
+    },
+    "cooks_distance": {
+      "max": 0.21928906569758233,
+      "mean": 0.009388237584363131,
+      "n_influential": 5
+    },
+    "sensitivity": {
+      "f_full": 0.2285015868306288,
+      "p_full": 0.633621460988626,
+      "f_clean": 0.010470461631847174,
+      "p_clean": 0.9186974425037419,
+      "removed_indices": [
+        107,
+        69,
+        74
+      ],
+      "removed_labels": [
+        "Algeria",
+        "Gabon",
+        "Equatorial Guinea"
+      ],
+      "n_full": 109,
+      "n_clean": 106
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.634)",
+      "best_aic": "linear",
+      "best_bic": "linear"
+    },
+    "data_source": "World Bank WDI (API)"
+  },
+  {
+    "name": "Species-Area Curve",
+    "category": "Environmental Science",
+    "n": 30,
+    "x_label": "log\u2081\u2080(Area, km\u00b2)",
+    "y_label": "log\u2081\u2080(Species Count)",
+    "f_test": {
+      "f_stat": 0.11914175129813265,
+      "p_value": 0.7326418236773651
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 22.437508449520912,
+        "bic": 25.239903212845224,
+        "r2": 0.7571006989444142,
+        "r2_adj": 0.7484257239067147
+      },
+      "quadratic": {
+        "aic": 24.305419942664535,
+        "bic": 28.509012087651,
+        "r2": 0.7581678215098054,
+        "r2_adj": 0.740254326806828
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.3520462819196302,
+      "rmse_quadratic": 0.35786782706589126
+    },
+    "cooks_distance": {
+      "max": 0.14012683098124518,
+      "mean": 0.03511660762778225,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 0.11914175129813265,
+      "p_full": 0.7326418236773651,
+      "f_clean": 0.5926407620739979,
+      "p_clean": 0.448911171230034,
+      "removed_indices": [
+        3,
+        6,
+        9
+      ],
+      "removed_labels": [
+        "Champion",
+        "Daphne.Minor",
+        "Enderby"
+      ],
+      "n_full": 30,
+      "n_clean": 27
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.733)",
+      "best_aic": "linear",
+      "best_bic": "linear"
+    },
+    "data_source": "Johnson & Raven (1973) Galapagos plant species (gala, N=30)"
+  },
+  {
+    "name": "Hubbert Peak Oil (US)",
+    "category": "Environmental Science",
+    "n": 77,
+    "x_label": "Year",
+    "y_label": "US crude oil production (thousand bbl/day)",
+    "f_test": {
+      "f_stat": 5.8412347870974894,
+      "p_value": 0.01811976919456859
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 1384.6905627383662,
+        "bic": 1389.3781735820735,
+        "r2": 0.09488321096918462,
+        "r2_adj": 0.08281498711544033
+      },
+      "quadratic": {
+        "aic": 1380.8404873957393,
+        "bic": 1387.8719036613004,
+        "r2": 0.1611021226452246,
+        "r2_adj": 0.13842920704104156
+      },
+      "log": {
+        "aic": 1384.756649962732,
+        "bic": 1389.4442608064392,
+        "r2": 0.09410603781011195,
+        "r2_adj": 0.08202745164758007
+      }
+    },
+    "loocv": {
+      "rmse_linear": 1954.9979644679904,
+      "rmse_quadratic": 1913.9013017066968
+    },
+    "cooks_distance": {
+      "max": 0.16847544956287624,
+      "mean": 0.016160760653841345,
+      "n_influential": 5
+    },
+    "sensitivity": {
+      "f_full": 5.8412347870974894,
+      "p_full": 0.01811976919456859,
+      "f_clean": 0.4205473418685708,
+      "p_clean": 0.5187560305933081,
+      "removed_indices": [
+        74,
+        75,
+        76
+      ],
+      "removed_labels": null,
+      "n_full": 77,
+      "n_clean": 74
+    },
+    "verdict": {
+      "verdict": "OUTLIER_DEPENDENT",
+      "explanation": "Nonlinearity significant with full data (p=0.018) but NOT after removing top influential points (p=0.519)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "US EIA Total Energy (crude oil production)"
+  },
+  {
+    "name": "Keeling Curve (CO2)",
+    "category": "Environmental Science",
+    "n": 67,
+    "x_label": "Year",
+    "y_label": "CO\u2082 Concentration (ppm)",
+    "f_test": {
+      "f_stat": 2343.127720055344,
+      "p_value": 1.1102230246251565e-16
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 397.26179784753117,
+        "bic": 401.6711830863131,
+        "r2": 0.9805554802502505,
+        "r2_adj": 0.980256333792562
+      },
+      "quadratic": {
+        "aic": 156.23226804645452,
+        "bic": 162.8463459046274,
+        "r2": 0.999483014858906,
+        "r2_adj": 0.9994668590732468
+      },
+      "log": {
+        "aic": 401.2751050675429,
+        "bic": 405.6844903063248,
+        "r2": 0.979355160661916,
+        "r2_adj": 0.9790375477490224
+      }
+    },
+    "loocv": {
+      "rmse_linear": 4.745051360133832,
+      "rmse_quadratic": 0.7758029454821798
+    },
+    "cooks_distance": {
+      "max": 0.18385600491299628,
+      "mean": 0.02136977304315763,
+      "n_influential": 8
+    },
+    "sensitivity": {
+      "f_full": 2343.127720055344,
+      "p_full": 1.1102230246251565e-16,
+      "f_clean": 1899.3340016542584,
+      "p_clean": 1.1102230246251565e-16,
+      "removed_indices": [
+        65,
+        0,
+        66
+      ],
+      "removed_labels": null,
+      "n_full": 67,
+      "n_clean": 64
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "NOAA GML Mauna Loa"
+  },
+  {
+    "name": "HANPP vs Development",
+    "category": "Environmental Science",
+    "n": 156,
+    "x_label": "GDP per capita (PPP, $)",
+    "y_label": "HANPP (% of NPP0)",
+    "f_test": {
+      "f_stat": 3.33726123802466,
+      "p_value": 0.06967612246290311
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 1449.0779370931045,
+        "bic": 1455.1776491076037,
+        "r2": 0.012572233423626789,
+        "r2_adj": 0.006160364809494445
+      },
+      "quadratic": {
+        "aic": 1447.7118185045406,
+        "bic": 1456.8613865262892,
+        "r2": 0.03365041008253267,
+        "r2_adj": 0.02101838929929789
+      },
+      "log": {
+        "aic": 1450.7353039990644,
+        "bic": 1456.8350160135635,
+        "r2": 0.0020257312512843573,
+        "r2_adj": -0.0044546211431879534
+      }
+    },
+    "loocv": {
+      "rmse_linear": 25.41113553081409,
+      "rmse_quadratic": 26.119437529319676
+    },
+    "cooks_distance": {
+      "max": 0.6490389262505059,
+      "mean": 0.011706998494899833,
+      "n_influential": 6
+    },
+    "sensitivity": {
+      "f_full": 3.33726123802466,
+      "p_full": 0.06967612246290311,
+      "f_clean": 0.08778317054399004,
+      "p_clean": 0.7674243537494507,
+      "removed_indices": [
+        79,
+        152,
+        153
+      ],
+      "removed_labels": [
+        "EGY",
+        "QAT",
+        "ARE"
+      ],
+      "n_full": 156,
+      "n_clean": 153
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.070)",
+      "best_aic": "quadratic",
+      "best_bic": "linear"
+    },
+    "data_source": "Haberl et al. 2007 PNAS gridded HANPP/NPP0 (country zonal aggregation) + OWID/World Bank GDP pc, year 2000"
+  },
+  {
+    "name": "Jevons Paradox (Energy)",
+    "category": "Environmental Science",
+    "n": 66,
+    "x_label": "Energy intensity (Btu per real $ GDP)",
+    "y_label": "Total primary energy consumption (Trillion Btu)",
+    "f_test": {
+      "f_stat": 13.449668231013627,
+      "p_value": 0.0005054195979077303
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 1362.4053495255966,
+        "bic": 1366.7846590096494,
+        "r2": 0.7881265541042444,
+        "r2_adj": 0.7848160315121232
+      },
+      "quadratic": {
+        "aic": 1351.6344903505735,
+        "bic": 1358.2034545766528,
+        "r2": 0.8254011116032854,
+        "r2_adj": 0.8198582897494214
+      },
+      "log": {
+        "aic": 1380.5314750956616,
+        "bic": 1384.9107845797143,
+        "r2": 0.7211629923003504,
+        "r2_adj": 0.7168061640550434
+      }
+    },
+    "loocv": {
+      "rmse_linear": 7405.6228842873115,
+      "rmse_quadratic": 6814.3735695511195
+    },
+    "cooks_distance": {
+      "max": 0.14265204286976083,
+      "mean": 0.019529873142343925,
+      "n_influential": 5
+    },
+    "sensitivity": {
+      "f_full": 13.449668231013627,
+      "p_full": 0.0005054195979077303,
+      "f_clean": 7.518348338095587,
+      "p_clean": 0.008037540384078223,
+      "removed_indices": [
+        2,
+        1,
+        0
+      ],
+      "removed_labels": null,
+      "n_full": 66,
+      "n_clean": 63
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.001), survives outlier removal (p=0.008), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "US EIA Total Energy + World Bank WDI (US GDP)"
+  },
+  {
+    "name": "Forest Transition Curve",
+    "category": "Environmental Science",
+    "n": 194,
+    "x_label": "log\u2081\u2080(GDP per capita PPP, $)",
+    "y_label": "Forest area (% of land area)",
+    "f_test": {
+      "f_stat": 2.1651730806133824,
+      "p_value": 0.1428143961493551
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 1790.3883498642672,
+        "bic": 1796.9240661823937,
+        "r2": 0.00014636127630685003,
+        "r2_adj": -0.005061209758712382
+      },
+      "quadratic": {
+        "aic": 1790.2015403629225,
+        "bic": 1800.0051148401126,
+        "r2": 0.011353641287462968,
+        "r2_adj": 0.0010013233951852163
+      }
+    },
+    "loocv": {
+      "rmse_linear": 24.416679624061786,
+      "rmse_quadratic": 24.390635106561312
+    },
+    "cooks_distance": {
+      "max": 0.04955484035527764,
+      "mean": 0.005087259524173785,
+      "n_influential": 7
+    },
+    "sensitivity": {
+      "f_full": 2.1651730806133824,
+      "p_full": 0.1428143961493551,
+      "f_clean": 4.157004069372529,
+      "p_clean": 0.04286266472137257,
+      "removed_indices": [
+        79,
+        37,
+        93
+      ],
+      "removed_labels": [
+        "Micronesia, Fed. Sts.",
+        "Solomon Islands",
+        "Liberia"
+      ],
+      "n_full": 194,
+      "n_clean": 191
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.143)",
+      "best_aic": "quadratic",
+      "best_bic": "linear"
+    },
+    "data_source": "World Bank WDI (API)"
+  },
+  {
+    "name": "Ebbinghaus Forgetting Curve",
+    "category": "Psychology",
+    "n": 7,
+    "x_label": "log(Time in hours)",
+    "y_label": "Retention (%)",
+    "f_test": {
+      "f_stat": 4.995127434445885,
+      "p_value": 0.08911705039126994
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 39.26128965369277,
+        "bic": 39.153109951803394,
+        "r2": 0.9343801475531943,
+        "r2_adj": 0.9212561770638332
+      },
+      "quadratic": {
+        "aic": 35.58856893964201,
+        "bic": 35.42629938680795,
+        "r2": 0.9708198230986606,
+        "r2_adj": 0.9562297346479909
+      }
+    },
+    "loocv": {
+      "rmse_linear": 5.205614779102308,
+      "rmse_quadratic": 4.4192444229590375
+    },
+    "cooks_distance": {
+      "max": 2.127477450377338,
+      "mean": 0.46398330606240723,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 4.995127434445885,
+      "p_full": 0.08911705039126994,
+      "f_clean": 0.0018124788080834096,
+      "p_clean": 0.9729134049914038,
+      "removed_indices": [
+        1,
+        6,
+        0
+      ],
+      "removed_labels": null,
+      "n_full": 7,
+      "n_clean": 4
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.089)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Ebbinghaus (1885) Ch.7 Table (7 intervals, public domain)"
+  },
+  {
+    "name": "Weber-Fechner Law",
+    "category": "Psychology",
+    "n": 17,
+    "x_label": "log(Stimulus Intensity)",
+    "y_label": "Perceived Intensity",
+    "f_test": {
+      "f_stat": 3.912289722594563,
+      "p_value": 0.0679608772095932
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -63.849968528262295,
+        "bic": -62.183541840149864,
+        "r2": 0.9994742839568221,
+        "r2_adj": 0.9994392362206103
+      },
+      "quadratic": {
+        "aic": -66.03927384181733,
+        "bic": -63.539633809648684,
+        "r2": 0.9995891075502644,
+        "r2_adj": 0.9995304086288737
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.03927204843120313,
+      "rmse_quadratic": 0.03835351638641146
+    },
+    "cooks_distance": {
+      "max": 1.0922473392847796,
+      "mean": 0.10470210837979306,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 3.912289722594563,
+      "p_full": 0.0679608772095932,
+      "f_clean": 0.003811770323310528,
+      "p_clean": 0.951877776505378,
+      "removed_indices": [
+        15,
+        4,
+        0
+      ],
+      "removed_labels": null,
+      "n_full": 17,
+      "n_clean": 14
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.068)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Dunning-Kruger Effect",
+    "category": "Psychology",
+    "n": 18,
+    "x_label": "Actual Performance (percentile)",
+    "y_label": "Self-Assessed Ability (percentile)",
+    "f_test": {
+      "f_stat": 875.5111917725343,
+      "p_value": 1.021405182655144e-14
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 98.65264800129842,
+        "bic": 100.43339151709074,
+        "r2": 0.6204208656804459,
+        "r2_adj": 0.5966971697854737
+      },
+      "quadratic": {
+        "aic": 27.145229550060915,
+        "bic": 29.816344823749407,
+        "r2": 0.9936062712435313,
+        "r2_adj": 0.9927537740760022
+      },
+      "log": {
+        "aic": 108.19488466298637,
+        "bic": 109.97562817877869,
+        "r2": 0.355040608008116,
+        "r2_adj": 0.3147306460086232
+      }
+    },
+    "loocv": {
+      "rmse_linear": 3.9306457438108797,
+      "rmse_quadratic": 0.5406206746261595
+    },
+    "cooks_distance": {
+      "max": 0.5730174959254473,
+      "mean": 0.0908655687215068,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 875.5111917725343,
+      "p_full": 1.021405182655144e-14,
+      "f_clean": 410.3654151559664,
+      "p_clean": 1.201226895730656e-10,
+      "removed_indices": [
+        16,
+        0,
+        17
+      ],
+      "removed_labels": null,
+      "n_full": 18,
+      "n_clean": 15
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Happiness U-Curve (Age)",
+    "category": "Psychology",
+    "n": 26,
+    "x_label": "Age",
+    "y_label": "Life Satisfaction (0-10)",
+    "f_test": {
+      "f_stat": 113.05034505980257,
+      "p_value": 2.373691243562348e-10
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 15.805059537491736,
+        "bic": 18.3212526135347,
+        "r2": 0.0018476256060889762,
+        "r2_adj": -0.039742056660324154
+      },
+      "quadratic": {
+        "aic": -28.4107408872988,
+        "bic": -24.636451273234353,
+        "r2": 0.8312572849339801,
+        "r2_adj": 0.8165840053630219
+      },
+      "log": {
+        "aic": 14.551014853490194,
+        "bic": 17.067207929533158,
+        "r2": 0.04884840420660563,
+        "r2_adj": 0.009217087715214123
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.3314099621452395,
+      "rmse_quadratic": 0.15303815759201436
+    },
+    "cooks_distance": {
+      "max": 0.28172221584233303,
+      "mean": 0.04659401113118148,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 113.05034505980257,
+      "p_full": 2.373691243562348e-10,
+      "f_clean": 61.80424156249389,
+      "p_clean": 1.5248623486119328e-07,
+      "removed_indices": [
+        23,
+        1,
+        0
+      ],
+      "removed_labels": null,
+      "n_full": 26,
+      "n_clean": 23
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Hubble's Law",
+    "category": "Physics",
+    "n": 24,
+    "x_label": "Distance (Mpc)",
+    "y_label": "Recession Velocity (km/s)",
+    "f_test": {
+      "f_stat": 0.056741422998258594,
+      "p_value": 0.8140313426680617
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 331.65221607953947,
+        "bic": 334.00832374023537,
+        "r2": 0.6235305209067517,
+        "r2_adj": 0.6064182718570585
+      },
+      "quadratic": {
+        "aic": 333.587456189346,
+        "bic": 337.1216176803899,
+        "r2": 0.6245449900275926,
+        "r2_adj": 0.5887873700302204
+      },
+      "log": {
+        "aic": 344.2638045675114,
+        "bic": 346.6199122282073,
+        "r2": 0.3632864726738011,
+        "r2_adj": 0.33434494870442844
+      }
+    },
+    "loocv": {
+      "rmse_linear": 243.9282157919774,
+      "rmse_quadratic": 259.9039080765738
+    },
+    "cooks_distance": {
+      "max": 0.2954660674392411,
+      "mean": 0.04773188028132164,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 0.056741422998258594,
+      "p_full": 0.8140313426680617,
+      "f_clean": 0.020416801846920435,
+      "p_clean": 0.8879664773441711,
+      "removed_indices": [
+        15,
+        1,
+        20
+      ],
+      "removed_labels": [
+        "NGC.1068",
+        "L.Mag",
+        "NGC.4382"
+      ],
+      "n_full": 24,
+      "n_clean": 21
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.814)",
+      "best_aic": "linear",
+      "best_bic": "linear"
+    },
+    "data_source": "Hubble (1929) PNAS Table 1 (24 nebulae, public domain)"
+  },
+  {
+    "name": "Kleiber's Law",
+    "category": "Physics",
+    "n": 422,
+    "x_label": "log\u2081\u2080(Body Mass, kg)",
+    "y_label": "log\u2081\u2080(BMR, Watts)",
+    "f_test": {
+      "f_stat": 44.92915355781268,
+      "p_value": 6.616207581799927e-11
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -216.4616010156542,
+        "bic": -208.37159038758216,
+        "r2": 0.9504693504360469,
+        "r2_adj": 0.9503514203180374
+      },
+      "quadratic": {
+        "aic": -257.4469153107466,
+        "bic": -245.31189936863856,
+        "r2": 0.955266139219444,
+        "r2_adj": 0.9550526124376753
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.18753956256745966,
+      "rmse_quadratic": 0.17894773078762474
+    },
+    "cooks_distance": {
+      "max": 0.07044704939156009,
+      "mean": 0.0032120955090119215,
+      "n_influential": 37
+    },
+    "sensitivity": {
+      "f_full": 44.92915355781268,
+      "p_full": 6.616207581799927e-11,
+      "f_clean": 51.52793680901826,
+      "p_clean": 3.269162718311236e-12,
+      "removed_indices": [
+        389,
+        420,
+        421
+      ],
+      "removed_labels": [
+        "Phocoena phocoena",
+        "Trichechus manatus",
+        "Elephas maximus"
+      ],
+      "n_full": 422,
+      "n_clean": 419
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "AnAge / HAGR build (422 mammal species: body mass vs BMR)"
+  },
+  {
+    "name": "Gutenberg-Richter Law",
+    "category": "Physics",
+    "n": 10,
+    "x_label": "Magnitude",
+    "y_label": "log\u2081\u2080(Annual Frequency)",
+    "f_test": {
+      "f_stat": 5.4765817543117965,
+      "p_value": 0.05182895975954138
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -15.741319480961138,
+        "bic": -15.136149294973047,
+        "r2": 0.9964127716198827,
+        "r2_adj": 0.9959643680723681
+      },
+      "quadratic": {
+        "aic": -19.52075226573521,
+        "bic": -18.612996986753075,
+        "r2": 0.9979873815476629,
+        "r2_adj": 0.997412347704138
+      },
+      "log": {
+        "aic": 2.702587539422545,
+        "bic": 3.307757725410637,
+        "r2": 0.9773134878972077,
+        "r2_adj": 0.9744776738843587
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.12844734282569592,
+      "rmse_quadratic": 0.10716916776222028
+    },
+    "cooks_distance": {
+      "max": 1.07985182847648,
+      "mean": 0.24485483388446477,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 5.4765817543117965,
+      "p_full": 0.05182895975954138,
+      "f_clean": 0.5464955740645457,
+      "p_clean": 0.5007856690411717,
+      "removed_indices": [
+        7,
+        0,
+        9
+      ],
+      "removed_labels": null,
+      "n_full": 10,
+      "n_clean": 7
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.052)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "USGS FDSN earthquake catalog"
+  },
+  {
+    "name": "Moore's Law",
+    "category": "Physics",
+    "n": 99,
+    "x_label": "Year",
+    "y_label": "log\u2081\u2080(Transistors)",
+    "f_test": {
+      "f_stat": 6.319691113872247,
+      "p_value": 0.013604493875413404
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -3.3221550437743588,
+        "bic": 1.8680846564948208,
+        "r2": 0.9797167010076023,
+        "r2_adj": 0.979507594832423
+      },
+      "quadratic": {
+        "aic": -7.633795794165366,
+        "bic": 0.1515637562384029,
+        "r2": 0.9809694821976825,
+        "r2_adj": 0.9805730130768009
+      },
+      "log": {
+        "aic": -1.9213002799969274,
+        "bic": 3.268939420272252,
+        "r2": 0.9794276511389475,
+        "r2_adj": 0.9792155650682149
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.2386082563777827,
+      "rmse_quadratic": 0.23180382958897705
+    },
+    "cooks_distance": {
+      "max": 0.13096452901571612,
+      "mean": 0.011760656466074491,
+      "n_influential": 6
+    },
+    "sensitivity": {
+      "f_full": 6.319691113872247,
+      "p_full": 0.013604493875413404,
+      "f_clean": 3.531561339145021,
+      "p_clean": 0.06334247661086134,
+      "removed_indices": [
+        4,
+        7,
+        1
+      ],
+      "removed_labels": null,
+      "n_full": 99,
+      "n_clean": 96
+    },
+    "verdict": {
+      "verdict": "OUTLIER_DEPENDENT",
+      "explanation": "Nonlinearity significant with full data (p=0.014) but NOT after removing top influential points (p=0.063)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Karl Rupp microprocessor-trend-data"
+  },
+  {
+    "name": "Lipset Hypothesis",
+    "category": "Political Science",
+    "n": 181,
+    "x_label": "GDP per capita (PPP, $)",
+    "y_label": "Democracy score (Freedom House, 0-1)",
+    "f_test": {
+      "f_stat": 15.873266101000771,
+      "p_value": 9.86371195338398e-05
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 50.384917664153136,
+        "bic": 56.78191172668479,
+        "r2": 0.15025205707144884,
+        "r2_adj": 0.14550486185955747
+      },
+      "quadratic": {
+        "aic": 36.92369353625787,
+        "bic": 46.51918463005535,
+        "r2": 0.21982469845799268,
+        "r2_adj": 0.21105868383392512
+      },
+      "log": {
+        "aic": 38.258045495956026,
+        "bic": 44.65503955848768,
+        "r2": 0.20531924018190628,
+        "r2_adj": 0.20087968286448676
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.27930280551409065,
+      "rmse_quadratic": 0.26910577205370906
+    },
+    "cooks_distance": {
+      "max": 0.30404327099157447,
+      "mean": 0.007880324021170419,
+      "n_influential": 6
+    },
+    "sensitivity": {
+      "f_full": 15.873266101000771,
+      "p_full": 9.86371195338398e-05,
+      "f_clean": 6.424912446018665,
+      "p_clean": 0.012129557654788736,
+      "removed_indices": [
+        41,
+        48,
+        36
+      ],
+      "removed_labels": [
+        "Saudi Arabia",
+        "Qatar",
+        "Singapore"
+      ],
+      "n_full": 181,
+      "n_clean": 178
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.012), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "log"
+    },
+    "data_source": "World Bank WDI + Freedom House (FIW)"
+  },
+  {
+    "name": "Duverger's Law",
+    "category": "Political Science",
+    "n": 1660,
+    "x_label": "log(District Magnitude + 1)",
+    "y_label": "Effective Number of Parties",
+    "f_test": {
+      "f_stat": 36.640570116630265,
+      "p_value": 1.7531240903423395e-09
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 6861.555654542884,
+        "bic": 6872.3848003055855,
+        "r2": 0.08979784955774373,
+        "r2_adj": 0.08924887359245892
+      },
+      "quadratic": {
+        "aic": 6827.248703814925,
+        "bic": 6843.492422458977,
+        "r2": 0.10948935099083146,
+        "r2_adj": 0.10841450410005393
+      }
+    },
+    "loocv": {
+      "rmse_linear": 1.9112538870412044,
+      "rmse_quadratic": 1.8913554624522977
+    },
+    "cooks_distance": {
+      "max": 0.03280425604505622,
+      "mean": 0.0005851922999986559,
+      "n_influential": 95
+    },
+    "sensitivity": {
+      "f_full": 36.640570116630265,
+      "p_full": 1.7531240903423395e-09,
+      "f_clean": 37.77487193843627,
+      "p_clean": 9.92945059508088e-10,
+      "removed_indices": [
+        248,
+        347,
+        249
+      ],
+      "removed_labels": [
+        "Brazil 2014",
+        "Comoros 1992",
+        "Brazil 2018"
+      ],
+      "n_full": 1660,
+      "n_clean": 1657
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Bormann & Golder DES 5.0 (district magnitude vs ENEP, 1660 elections)"
+  },
+  {
+    "name": "Zipf's Law (US Cities)",
+    "category": "Political Science",
+    "n": 100,
+    "x_label": "log(Rank)",
+    "y_label": "log(Population)",
+    "f_test": {
+      "f_stat": 9.031356588677712,
+      "p_value": 0.0033778192899311943
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -275.5752227852769,
+        "bic": -270.3648824133007,
+        "r2": 0.9918475540348388,
+        "r2_adj": 0.9917643658107045
+      },
+      "quadratic": {
+        "aic": -282.47761165905865,
+        "bic": -274.6621011010944,
+        "r2": 0.992541949060519,
+        "r2_adj": 0.992388174814344
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.06504974918423169,
+      "rmse_quadratic": 0.0732095054890527
+    },
+    "cooks_distance": {
+      "max": 3.830540498926717,
+      "mean": 0.048309861322319854,
+      "n_influential": 7
+    },
+    "sensitivity": {
+      "f_full": 9.031356588677712,
+      "p_full": 0.0033778192899311943,
+      "f_clean": 3.3443423244515014,
+      "p_clean": 0.07060745377022781,
+      "removed_indices": [
+        9,
+        4,
+        0
+      ],
+      "removed_labels": null,
+      "n_full": 100,
+      "n_clean": 97
+    },
+    "verdict": {
+      "verdict": "OUTLIER_DEPENDENT",
+      "explanation": "Nonlinearity significant with full data (p=0.003) but NOT after removing top influential points (p=0.071)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "US Census 2020 Decennial (place populations)"
+  },
+  {
+    "name": "Crime-Temperature Curve",
+    "category": "Political Science",
+    "n": 16,
+    "x_label": "Temperature (\u00b0F)",
+    "y_label": "Crime Rate Index",
+    "f_test": {
+      "f_stat": 17.529286838765753,
+      "p_value": 0.0010654595121337707
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 110.65063868457821,
+        "bic": 112.19581612905777,
+        "r2": 0.8713808312161646,
+        "r2_adj": 0.862193747731605
+      },
+      "quadratic": {
+        "aic": 98.99084525012564,
+        "bic": 101.30861141684498,
+        "r2": 0.9452313051719665,
+        "r2_adj": 0.9368053521214998
+      },
+      "log": {
+        "aic": 104.00581543917284,
+        "bic": 105.5509928836524,
+        "r2": 0.915093181240998,
+        "r2_adj": 0.9090284084724979
+      }
+    },
+    "loocv": {
+      "rmse_linear": 8.10205728292129,
+      "rmse_quadratic": 6.190416597548519
+    },
+    "cooks_distance": {
+      "max": 1.054719787004162,
+      "mean": 0.10370791633059945,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 17.529286838765753,
+      "p_full": 0.0010654595121337707,
+      "f_clean": 2.4899979954245337,
+      "p_clean": 0.14565133138018127,
+      "removed_indices": [
+        11,
+        14,
+        15
+      ],
+      "removed_labels": null,
+      "n_full": 16,
+      "n_clean": 13
+    },
+    "verdict": {
+      "verdict": "OUTLIER_DEPENDENT",
+      "explanation": "Nonlinearity significant with full data (p=0.001) but NOT after removing top influential points (p=0.146)",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Putnam Social Capital",
+    "category": "Political Science",
+    "n": 22,
+    "x_label": "Daily TV Viewing (hours)",
+    "y_label": "Social Trust (%)",
+    "f_test": {
+      "f_stat": 0.2715332175472789,
+      "p_value": 0.6083256580344476
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 183.70067755580322,
+        "bic": 185.88276246251985,
+        "r2": 0.0836221390072377,
+        "r2_adj": 0.03780324595759954
+      },
+      "quadratic": {
+        "aic": 185.38849612372277,
+        "bic": 188.6616234837977,
+        "r2": 0.09653377537137997,
+        "r2_adj": 0.0014320675157356577
+      },
+      "log": {
+        "aic": 183.77410266727745,
+        "bic": 185.95618757399407,
+        "r2": 0.0805586138311819,
+        "r2_adj": 0.0345865445227409
+      }
+    },
+    "loocv": {
+      "rmse_linear": 15.663027493719248,
+      "rmse_quadratic": 15.970556906444902
+    },
+    "cooks_distance": {
+      "max": 0.3534078701446077,
+      "mean": 0.04499384263698602,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 0.2715332175472789,
+      "p_full": 0.6083256580344476,
+      "f_clean": 0.00617033564395672,
+      "p_clean": 0.9383633925859689,
+      "removed_indices": [
+        11,
+        1,
+        4
+      ],
+      "removed_labels": [
+        "FIN",
+        "SVN",
+        "NOR"
+      ],
+      "n_full": 22,
+      "n_clean": 19
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.608)",
+      "best_aic": "linear",
+      "best_bic": "linear"
+    },
+    "data_source": "Eurostat HETUS TV time (AC82) + OWID generalized trust; European proxy reconstruction"
+  },
+  {
+    "name": "Mitscherlich Yield Curve",
+    "category": "Agriculture",
+    "n": 18,
+    "x_label": "Nitrogen Input (kg/ha)",
+    "y_label": "Wheat Yield (tonnes/ha)",
+    "f_test": {
+      "f_stat": 157.38195265870976,
+      "p_value": 2.3497425116758563e-09
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 48.3360393343463,
+        "bic": 50.116782850138634,
+        "r2": 0.6908871757609868,
+        "r2_adj": 0.6715676242460484
+      },
+      "quadratic": {
+        "aic": 6.386114897861141,
+        "bic": 9.057230171549634,
+        "r2": 0.9731022169544329,
+        "r2_adj": 0.9695158458816906
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.9985643217860332,
+      "rmse_quadratic": 0.3831390789740198
+    },
+    "cooks_distance": {
+      "max": 0.7819499360321838,
+      "mean": 0.11174935732945482,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 157.38195265870976,
+      "p_full": 2.3497425116758563e-09,
+      "f_clean": 162.22765814403638,
+      "p_clean": 2.4826965705493365e-08,
+      "removed_indices": [
+        1,
+        0,
+        17
+      ],
+      "removed_labels": null,
+      "n_full": 18,
+      "n_clean": 15
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Green Revolution Yield Curve",
+    "category": "Agriculture",
+    "n": 62,
+    "x_label": "Year",
+    "y_label": "Global cereal yield (tonnes/ha)",
+    "f_test": {
+      "f_stat": 2.2033525877475766,
+      "p_value": 0.14303419368264736
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": -116.09641533269397,
+        "bic": -111.84214656260379,
+        "r2": 0.9865495703788671,
+        "r2_adj": 0.9863253965518483
+      },
+      "quadratic": {
+        "aic": -116.369615880071,
+        "bic": -109.98821272493572,
+        "r2": 0.9870337928545811,
+        "r2_adj": 0.9865942604089737
+      },
+      "log": {
+        "aic": -115.23080290967417,
+        "bic": -110.97653413958399,
+        "r2": 0.986360465308279,
+        "r2_adj": 0.9861331397300837
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.09432302819899215,
+      "rmse_quadratic": 0.0938623101966068
+    },
+    "cooks_distance": {
+      "max": 0.07559744850895742,
+      "mean": 0.013341699578335012,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 2.2033525877475766,
+      "p_full": 0.14303419368264736,
+      "f_clean": 2.2185951770575203,
+      "p_clean": 0.1419678868109301,
+      "removed_indices": [
+        23,
+        42,
+        56
+      ],
+      "removed_labels": null,
+      "n_full": 62,
+      "n_clean": 59
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.143)",
+      "best_aic": "quadratic",
+      "best_bic": "linear"
+    },
+    "data_source": "World Bank WDI (API)"
+  },
+  {
+    "name": "Micronutrient U-shape (Vitamin D)",
+    "category": "Agriculture",
+    "n": 19,
+    "x_label": "Serum 25(OH)D (ng/mL)",
+    "y_label": "Relative Risk (All-cause Mortality)",
+    "f_test": {
+      "f_stat": 24.386259323459925,
+      "p_value": 0.0001482582925731446
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 9.535386100021164,
+        "bic": 11.424264058354044,
+        "r2": 0.17696288294912543,
+        "r2_adj": 0.12854893488730923
+      },
+      "quadratic": {
+        "aic": -6.056730793237911,
+        "bic": -3.22341385573859,
+        "r2": 0.6739338058683612,
+        "r2_adj": 0.6331755316019063
+      },
+      "log": {
+        "aic": 13.233937616848472,
+        "bic": 15.122815575181352,
+        "r2": 9.336911675905668e-05,
+        "r2_adj": -0.058724667994019875
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.32826902585389284,
+      "rmse_quadratic": 0.27775927587246346
+    },
+    "cooks_distance": {
+      "max": 0.9239183778153521,
+      "mean": 0.09641517142619829,
+      "n_influential": 2
+    },
+    "sensitivity": {
+      "f_full": 24.386259323459925,
+      "p_full": 0.0001482582925731446,
+      "f_clean": 34.23965841137526,
+      "p_clean": 5.6715922897687676e-05,
+      "removed_indices": [
+        1,
+        0,
+        18
+      ],
+      "removed_labels": null,
+      "n_full": 19,
+      "n_clean": 16
+    },
+    "verdict": {
+      "verdict": "ROBUST_NONLINEAR",
+      "explanation": "Nonlinearity is robust: significant F-test (p=0.000), survives outlier removal (p=0.000), better LOOCV",
+      "best_aic": "quadratic",
+      "best_bic": "quadratic"
+    },
+    "data_source": "Representative/Published"
+  },
+  {
+    "name": "Body Weight Set-Point",
+    "category": "Agriculture",
+    "n": 16,
+    "x_label": "Caloric Change (kcal/day)",
+    "y_label": "Weight Change (kg, 8 weeks)",
+    "f_test": {
+      "f_stat": 0.11799980563770483,
+      "p_value": 0.7367060372380017
+    },
+    "model_comparison": {
+      "linear": {
+        "aic": 24.21093173898934,
+        "bic": 25.756109183468904,
+        "r2": 0.9848749394460864,
+        "r2_adj": 0.9837945779779497
+      },
+      "quadratic": {
+        "aic": 26.06635636949256,
+        "bic": 28.384122536211905,
+        "r2": 0.9850109932829567,
+        "r2_adj": 0.9827049922495654
+      }
+    },
+    "loocv": {
+      "rmse_linear": 0.5236981336336654,
+      "rmse_quadratic": 0.6823702272525095
+    },
+    "cooks_distance": {
+      "max": 0.46074611922083075,
+      "mean": 0.0781489305203203,
+      "n_influential": 1
+    },
+    "sensitivity": {
+      "f_full": 0.11799980563770483,
+      "p_full": 0.7367060372380017,
+      "f_clean": 3.8498249572641305,
+      "p_clean": 0.07816366773895278,
+      "removed_indices": [
+        1,
+        12,
+        15
+      ],
+      "removed_labels": null,
+      "n_full": 16,
+      "n_clean": 13
+    },
+    "verdict": {
+      "verdict": "NOT_SIGNIFICANT",
+      "explanation": "Nonlinear term not significant even with full data (p=0.737)",
+      "best_aic": "linear",
+      "best_bic": "linear"
+    },
+    "data_source": "Representative/Published"
+  }
+]

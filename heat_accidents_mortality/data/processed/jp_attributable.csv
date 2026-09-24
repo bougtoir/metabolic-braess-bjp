@@ -1,0 +1,2 @@
+total_deaths,years,mmt_abs_degC,dispersion_phi,cumRR_anom+9C,cumRR_anom+9C_lo,cumRR_anom+9C_hi,sameday_RR_anom+9C,sameday_RR_anom+9C_lo,sameday_RR_anom+9C_hi,net_heat_attributable_deaths,net_heat_attributable_lo,net_heat_attributable_hi,net_heat_attributable_per_year,net_heat_attributable_fraction_pct,net_cumRR_anom+3C,net_cumRR_anom+6C,net_cumRR_anom+9C,net_cumRR_anom+12C
+11576,6,-1.66,1.054,0.562,0.207,1.525,0.94,0.743,1.19,65.1,-103.4,216.3,10.8,0.562,0.994 (0.909-1.087),0.807 (0.530-1.231),0.562 (0.207-1.525),0.352 (0.062-1.996)

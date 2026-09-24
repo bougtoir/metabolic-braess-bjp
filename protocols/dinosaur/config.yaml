@@ -1,0 +1,22 @@
+system: dinosaur
+tier: strict_replication_reference
+era: Late Jurassic
+environment_type: terrestrial
+data_type: fossil_occurrence
+region: Morrison Formation (western North America)
+validation_region: Nemegt Formation (Mongolia, Maastrichtian)
+time_interval: "156.3-146.8 Ma"
+lower_trophic: "Sauropoda + Ornithischia"
+higher_trophic: "Theropoda"
+spatial_unit: collection
+temporal_unit: formation_pooled
+seeds:
+  beta_diversity: 20240920
+  sampling_bias: 20240921
+n_bootstrap: 999
+n_mantel_perm: 9999
+dist_bin_km: 100
+metrics:
+  primary: delta_beta_simpson
+  sensitivity: [delta_beta_sorensen]
+sampling_corrections: [raw, no_dominant_quarries, no_singletons, equalized_collections, spatial_thinning_1deg]

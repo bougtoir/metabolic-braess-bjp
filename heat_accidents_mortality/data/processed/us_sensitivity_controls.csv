@@ -1,0 +1,11 @@
+model,sameday_RR_anom+9C,sameday_RR_lo,sameday_RR_hi,cumRR_anom+9C,cumRR_lo,cumRR_hi,max_control_VIF,dropped
+with_national_VMT_gasoline,1.163,1.133,1.194,1.075,1.015,1.138,5.29,
+with_population_offset,1.165,1.135,1.196,1.075,1.015,1.138,,
+with_population_stateVMT,1.165,1.135,1.196,1.073,1.014,1.136,323.83,
+with_population_stateVMT_prcp,1.165,1.135,1.196,1.082,1.022,1.145,323.83,
+with_population_stateVMT_prcp_humidex,1.176,1.128,1.226,1.089,1.023,1.16,323.79,
+with_population_stateVMT_prcp_heat_index,1.049,1.002,1.097,0.989,0.927,1.055,323.81,
+with_population_stateVMT_prcp_wbgt,1.168,1.12,1.217,1.083,1.017,1.154,323.79,
+with_population_stateVMT_prcp_VIFfree,1.07,1.021,1.121,1.005,0.941,1.073,323.82,none
+with_population_stateVMT_prcp_VIFscreened,1.165,1.135,1.196,1.083,1.023,1.146,1.07,vmt_state (VIF=323.8); humidex_anom (VIF=63.5); heat_index_anom (VIF=24.5); wbgt_est_anom (VIF=8.5)
+with_population_stateVMT_prcp_VIFscreened10,1.17,1.122,1.219,1.086,1.019,1.157,8.46,vmt_state (VIF=323.8); humidex_anom (VIF=63.5); heat_index_anom (VIF=24.5)

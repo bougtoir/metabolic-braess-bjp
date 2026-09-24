@@ -1,0 +1,19 @@
+field,value
+publication,"Davoren et al. 2024, ""Aggregative responses of marine predators to a pulsed resource"", Journal of Animal Ecology"
+publication_doi,10.1111/1365-2656.14214
+dataset_doi,10.5061/dryad.jq2bvq8k8
+dataset_url,https://datadryad.org/dataset/doi:10.5061/dryad.jq2bvq8k8
+file,Davoren_et_al._2024_DRYAD.xlsx
+sha256,0063605dc827a77c1ac2738941b6199fac811fb1d207a9d6505e8778b0f24236
+study_location,"10 km2 foraging area associated with capelin spawning sites, coastal Newfoundland, Canada"
+years,"2009, 2010, 2012, 2014-2020 (10 years)"
+capelin_sampling,"weekly hydroacoustic surveys July-August; fish biomass g/m2 averaged over 100-m bins; first spawning date per year recorded"
+seabird_sampling,"weekly strip-transect seabird counts on the water + flying, same surveys, per 100-m bin"
+temporal_resolution,"weekly surveys; ordinal-date resolution; event timing = first spawning day"
+spatial_resolution,"single ~10 km2 area; no within-study spatial coordinates"
+simultaneous,"yes - fish and seabirds surveyed on the same date/transect"
+species,"Common Murre, Razorbill, Atlantic Puffin, Herring/Great Black-backed Gull, Northern Gannet, Sooty/Great Shearwater"
+n_years,10
+n_independent_capelin_events,"10 (one spawning-onset pulse per year); 8 with >=1 pre and event/post survey"
+license,CC0 public domain
+notes,"Dryad file downloads use Anubis bot protection; download via browser. README.md from Dryad package committed at data/raw/dryad/README.md"

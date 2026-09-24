@@ -1,0 +1,4 @@
+cluster,mu_M4,beta_M4,mu_M2_1,rnd_intensity,share_equipment,share_ipp,members,mean_silhouette
+0,0.7468650793650794,0.12476190476190477,-0.0019047619047619165,1.3230907182539684,0.20399635915781597,0.14820232376448508,"Canada, Colombia, Costa Rica, Estonia, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Lithuania, Luxembourg, Mexico, New Zealand, Norway, Poland, Portugal, Slovakia, Slovenia, Spain",0.15
+1,1.8478409090909091,0.0,0.08363636363636363,2.890859909090909,0.16817475037465857,0.2896350973424126,"Austria, Czech Republic, Denmark, Finland, Ireland, Israel, Japan, Republic of Korea, Sweden, United Kingdom, United States",0.231
+2,4.835277777777778,0.28,0.033333333333333263,2.1960503333333334,0.14352406935387688,0.21079296059373073,"Australia, Belgium, Netherlands",0.38

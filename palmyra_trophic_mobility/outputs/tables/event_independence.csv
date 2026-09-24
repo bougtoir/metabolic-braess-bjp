@@ -1,0 +1,13 @@
+definition,separation_days,n_raw_event_days,n_independent_events
+A_zscore,3,22,15
+A_zscore,7,22,14
+A_zscore,14,22,12
+B_percentile,3,50,31
+B_percentile,7,50,22
+B_percentile,14,50,18
+C_front,3,25,22
+C_front,7,25,18
+C_front,14,25,17
+D_persistent,3,6,6
+D_persistent,7,6,6
+D_persistent,14,6,6

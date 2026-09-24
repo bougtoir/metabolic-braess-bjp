@@ -1,0 +1,6 @@
+parameter,dinosaur,paleozoic,difference
+grid LxL,40x40,40x40,identical
+range model,disc radius 0.225L,disc radius 0.225L,identical
+occupancy p,0.35,0.35,identical
+reference gamma,26 (Morrison herbivores),60 (typical Paleozoic stage-level clade gamma),parameter value only
+contrast axis,predator vs herbivore pool,full vs contracted pool (pool_fraction),reparameterised

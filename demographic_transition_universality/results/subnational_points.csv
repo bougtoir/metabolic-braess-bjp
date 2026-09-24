@@ -1,0 +1,157 @@
+country,unit,year,e0,lambda,source
+Germany,Stuttgart,2019,82.4,10.0,Eurostat NUTS2
+Germany,Karlsruhe,2019,81.7,9.5,Eurostat NUTS2
+Germany,Freiburg,2019,82.2,9.8,Eurostat NUTS2
+Germany,Tübingen,2019,82.3,9.9,Eurostat NUTS2
+Germany,Oberbayern,2019,82.7,10.3,Eurostat NUTS2
+Germany,Niederbayern,2019,81.4,9.1,Eurostat NUTS2
+Germany,Oberpfalz,2019,81.2,9.7,Eurostat NUTS2
+Germany,Oberfranken,2019,81.1,8.7,Eurostat NUTS2
+Germany,Mittelfranken,2019,81.2,9.8,Eurostat NUTS2
+Germany,Unterfranken,2019,82.0,9.2,Eurostat NUTS2
+Germany,Schwaben,2019,82.0,9.9,Eurostat NUTS2
+Germany,Berlin,2019,81.3,10.8,Eurostat NUTS2
+Germany,Brandenburg,2019,80.9,7.7,Eurostat NUTS2
+Germany,Bremen,2019,80.5,10.5,Eurostat NUTS2
+Germany,Hamburg,2019,81.4,11.4,Eurostat NUTS2
+Germany,Darmstadt,2019,82.0,10.0,Eurostat NUTS2
+Germany,Gießen,2019,80.9,8.8,Eurostat NUTS2
+Germany,Kassel,2019,81.2,8.8,Eurostat NUTS2
+Germany,Mecklenburg-Vorpommern,2019,80.1,7.9,Eurostat NUTS2
+Germany,Braunschweig,2019,80.5,9.0,Eurostat NUTS2
+Germany,Hannover,2019,80.9,9.0,Eurostat NUTS2
+Germany,Lüneburg,2019,80.8,8.8,Eurostat NUTS2
+Germany,Weser-Ems,2019,80.9,9.7,Eurostat NUTS2
+Germany,Düsseldorf,2019,80.5,9.5,Eurostat NUTS2
+Germany,Köln,2019,81.2,9.6,Eurostat NUTS2
+Germany,Münster,2019,81.0,9.6,Eurostat NUTS2
+Germany,Detmold,2019,81.4,9.7,Eurostat NUTS2
+Germany,Arnsberg,2019,80.3,9.2,Eurostat NUTS2
+Germany,Koblenz,2019,81.0,8.9,Eurostat NUTS2
+Germany,Trier,2019,81.6,8.9,Eurostat NUTS2
+Germany,Rheinhessen-Pfalz,2019,81.2,9.2,Eurostat NUTS2
+Germany,Saarland,2019,80.1,8.1,Eurostat NUTS2
+Germany,Dresden,2019,81.7,8.6,Eurostat NUTS2
+Germany,Chemnitz,2019,80.7,7.5,Eurostat NUTS2
+Germany,Leipzig,2019,80.9,9.6,Eurostat NUTS2
+Germany,Sachsen-Anhalt,2019,79.9,7.5,Eurostat NUTS2
+Germany,Schleswig-Holstein,2019,80.9,8.5,Eurostat NUTS2
+Germany,Thüringen,2019,80.6,7.8,Eurostat NUTS2
+Spain,Galicia,2019,83.6,5.8,Eurostat NUTS2
+Spain,Principado de Asturias,2019,82.9,5.1,Eurostat NUTS2
+Spain,Cantabria,2019,83.6,6.1,Eurostat NUTS2
+Spain,País Vasco,2019,84.0,7.0,Eurostat NUTS2
+Spain,Comunidad Foral de Navarra,2019,84.6,8.2,Eurostat NUTS2
+Spain,La Rioja,2019,83.9,7.6,Eurostat NUTS2
+Spain,Aragón,2019,84.0,7.3,Eurostat NUTS2
+Spain,Comunidad de Madrid,2019,85.1,8.4,Eurostat NUTS2
+Spain,Castilla y León,2019,84.3,6.0,Eurostat NUTS2
+Spain,Castilla-La Mancha,2019,83.6,7.5,Eurostat NUTS2
+Spain,Extremadura,2019,82.9,7.2,Eurostat NUTS2
+Spain,Cataluña,2019,83.9,8.0,Eurostat NUTS2
+Spain,Comunitat Valenciana,2019,83.0,7.4,Eurostat NUTS2
+Spain,Illes Balears,2019,83.5,8.3,Eurostat NUTS2
+Spain,Andalucía,2019,82.3,8.2,Eurostat NUTS2
+Spain,Región de Murcia,2019,82.7,9.5,Eurostat NUTS2
+Spain,Ciudad de Ceuta,2019,80.7,9.9,Eurostat NUTS2
+Spain,Ciudad de Melilla,2019,81.0,14.3,Eurostat NUTS2
+Spain,Canarias,2019,82.5,6.5,Eurostat NUTS2
+France,Ile de France,2019,84.1,14.2,Eurostat NUTS2
+France,Centre — Val de Loire,2019,82.4,10.0,Eurostat NUTS2
+France,Bourgogne,2019,82.2,8.9,Eurostat NUTS2
+France,Franche-Comté,2019,82.5,9.9,Eurostat NUTS2
+France,Basse-Normandie,2019,82.2,9.1,Eurostat NUTS2
+France,Haute-Normandie,2019,81.5,10.9,Eurostat NUTS2
+France,Nord-Pas de Calais,2019,80.9,11.5,Eurostat NUTS2
+France,Picardie,2019,81.2,10.6,Eurostat NUTS2
+France,Alsace,2019,83.0,10.3,Eurostat NUTS2
+France,Champagne-Ardenne,2019,81.5,10.0,Eurostat NUTS2
+France,Lorraine,2019,81.8,9.4,Eurostat NUTS2
+France,Pays de la Loire,2019,83.1,10.3,Eurostat NUTS2
+France,Bretagne,2019,82.3,9.3,Eurostat NUTS2
+France,Aquitaine,2019,83.2,9.3,Eurostat NUTS2
+France,Limousin,2019,82.1,8.3,Eurostat NUTS2
+France,Poitou-Charentes,2019,82.5,8.6,Eurostat NUTS2
+France,Languedoc-Roussillon,2019,82.8,9.8,Eurostat NUTS2
+France,Midi-Pyrénées,2019,83.5,9.6,Eurostat NUTS2
+France,Auvergne,2019,82.2,8.9,Eurostat NUTS2
+France,Rhône-Alpes,2019,83.7,11.5,Eurostat NUTS2
+France,Provence-Alpes-Côte d’Azur,2019,83.2,11.1,Eurostat NUTS2
+France,Corse,2019,83.5,8.3,Eurostat NUTS2
+France,Guadeloupe,2019,80.9,12.4,Eurostat NUTS2
+France,Martinique,2019,81.8,10.3,Eurostat NUTS2
+France,Guyane,2019,80.0,28.6,Eurostat NUTS2
+France,La Réunion,2019,81.1,15.3,Eurostat NUTS2
+France,Mayotte,2019,75.8,35.6,Eurostat NUTS2
+Italy,Piemonte,2019,83.1,6.5,Eurostat NUTS2
+Italy,Valle d’Aosta/Vallée d’Aoste,2019,83.4,6.7,Eurostat NUTS2
+Italy,Liguria,2019,83.3,5.7,Eurostat NUTS2
+Italy,Lombardia,2019,83.9,7.3,Eurostat NUTS2
+Italy,Abruzzo,2019,83.5,6.6,Eurostat NUTS2
+Italy,Molise,2019,83.4,6.4,Eurostat NUTS2
+Italy,Campania,2019,81.9,8.2,Eurostat NUTS2
+Italy,Puglia,2019,83.5,7.0,Eurostat NUTS2
+Italy,Basilicata,2019,82.8,6.6,Eurostat NUTS2
+Italy,Calabria,2019,82.6,7.6,Eurostat NUTS2
+Italy,Sicilia,2019,82.2,7.9,Eurostat NUTS2
+Italy,Sardegna,2019,83.3,5.5,Eurostat NUTS2
+Italy,Provincia Autonoma di Bolzano/Bozen,2019,84.2,9.8,Eurostat NUTS2
+Italy,Provincia Autonoma di Trento,2019,84.6,7.8,Eurostat NUTS2
+Italy,Veneto,2019,84.0,6.9,Eurostat NUTS2
+Italy,Friuli-Venezia Giulia,2019,83.8,6.2,Eurostat NUTS2
+Italy,Emilia-Romagna,2019,83.8,6.9,Eurostat NUTS2
+Italy,Toscana,2019,84.0,6.3,Eurostat NUTS2
+Italy,Umbria,2019,84.3,6.4,Eurostat NUTS2
+Italy,Marche,2019,84.3,6.4,Eurostat NUTS2
+Italy,Lazio,2019,83.5,6.7,Eurostat NUTS2
+United States,Hawaii,2019,80.9,11.90072855,CDC/NCHS + US Census PEP
+United States,California,2019,80.9,11.71570662,CDC/NCHS + US Census PEP
+United States,New York,2019,80.7,11.43671779,CDC/NCHS + US Census PEP
+United States,Minnesota,2019,80.4,12.0296489,CDC/NCHS + US Census PEP
+United States,Massachusetts,2019,80.4,10.2240718,CDC/NCHS + US Census PEP
+United States,Connecticut,2019,80.3,9.68696505,CDC/NCHS + US Census PEP
+United States,New Jersey,2019,80.1,11.19988699,CDC/NCHS + US Census PEP
+United States,Washington,2019,80.0,11.61917996,CDC/NCHS + US Census PEP
+United States,Colorado,2019,80.0,11.27054505,CDC/NCHS + US Census PEP
+United States,Vermont,2019,79.8,8.94142414,CDC/NCHS + US Census PEP
+United States,Utah,2019,79.7,15.2974098,CDC/NCHS + US Census PEP
+United States,Oregon,2019,79.6,10.31117706,CDC/NCHS + US Census PEP
+United States,Idaho,2019,79.5,12.5621855,CDC/NCHS + US Census PEP
+United States,Rhode Island,2019,79.5,9.89871782,CDC/NCHS + US Census PEP
+United States,New Hampshire,2019,79.4,8.84867034,CDC/NCHS + US Census PEP
+United States,Wisconsin,2019,79.3,10.95664257,CDC/NCHS + US Census PEP
+United States,Nebraska,2019,79.2,13.13101324,CDC/NCHS + US Census PEP
+United States,Virginia,2019,79.1,11.55181385,CDC/NCHS + US Census PEP
+United States,Florida,2019,79.0,10.3784804,CDC/NCHS + US Census PEP
+United States,Iowa,2019,79.0,11.9523682,CDC/NCHS + US Census PEP
+United States,Illinois,2019,79.0,11.36441139,CDC/NCHS + US Census PEP
+United States,Arizona,2019,78.8,11.35186951,CDC/NCHS + US Census PEP
+United States,North Dakota,2019,78.8,13.8618629,CDC/NCHS + US Census PEP
+United States,Texas,2019,78.6,13.14245473,CDC/NCHS + US Census PEP
+United States,Maryland,2019,78.5,11.60304671,CDC/NCHS + US Census PEP
+United States,Montana,2019,78.4,10.91177364,CDC/NCHS + US Census PEP
+United States,South Dakota,2019,78.4,13.50945951,CDC/NCHS + US Census PEP
+United States,Pennsylvania,2019,78.3,10.5605179,CDC/NCHS + US Census PEP
+United States,Maine,2019,78.3,8.99872506,CDC/NCHS + US Census PEP
+United States,Kansas,2019,78.2,12.17476071,CDC/NCHS + US Census PEP
+United States,Delaware,2019,78.1,11.01770124,CDC/NCHS + US Census PEP
+United States,District of Columbia,2019,78.0,13.49112056,CDC/NCHS + US Census PEP
+United States,Nevada,2019,78.0,11.76652236,CDC/NCHS + US Census PEP
+United States,Michigan,2019,78.0,10.96313547,CDC/NCHS + US Census PEP
+United States,Alaska,2019,77.7,13.67847471,CDC/NCHS + US Census PEP
+United States,Wyoming,2019,77.7,11.4168598,CDC/NCHS + US Census PEP
+United States,North Carolina,2019,77.6,11.4235476,CDC/NCHS + US Census PEP
+United States,Georgia,2019,77.4,12.10428314,CDC/NCHS + US Census PEP
+United States,Indiana,2019,77.0,12.02155303,CDC/NCHS + US Census PEP
+United States,Missouri,2019,76.9,11.63173234,CDC/NCHS + US Census PEP
+United States,New Mexico,2019,76.9,11.03931907,CDC/NCHS + US Census PEP
+United States,Ohio,2019,76.9,11.49483975,CDC/NCHS + US Census PEP
+United States,South Carolina,2019,76.8,11.01411432,CDC/NCHS + US Census PEP
+United States,Louisiana,2019,75.7,12.56874911,CDC/NCHS + US Census PEP
+United States,Oklahoma,2019,75.7,12.34841791,CDC/NCHS + US Census PEP
+United States,Arkansas,2019,75.7,12.15753632,CDC/NCHS + US Census PEP
+United States,Tennessee,2019,75.6,11.79915454,CDC/NCHS + US Census PEP
+United States,Kentucky,2019,75.5,11.97716251,CDC/NCHS + US Census PEP
+United States,Alabama,2019,75.2,11.70744243,CDC/NCHS + US Census PEP
+United States,West Virginia,2019,74.5,9.9476204,CDC/NCHS + US Census PEP
+United States,Mississippi,2019,74.4,12.07889184,CDC/NCHS + US Census PEP

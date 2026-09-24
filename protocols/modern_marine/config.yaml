@@ -1,0 +1,12 @@
+system: modern_marine
+tier: ecological_translation
+era: modern
+environment_type: marine
+data_type: matched_survey + telemetry + positive_control
+region: California Current (ecomega, TOPP) + Palmyra (audit) + Newfoundland (capelin positive control)
+time_interval: modern multi-year
+lower_trophic: "krill/zooplankton (ecomega), forage fish (capelin), prey guild (TOPP/palmyra)"
+higher_trophic: "seabirds/whales/tunas/sharks"
+spatial_unit: matched_survey_unit | track_day
+temporal_unit: event_day
+exports: results/common_metrics/common_metrics_modern_marine.csv

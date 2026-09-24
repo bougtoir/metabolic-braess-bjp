@@ -1,0 +1,13 @@
+species,link,peak_lag
+Blue Whale,E->K,-10
+Blue Whale,E->P,-2
+Blue Whale,K->P,4
+California Sea Lion,E->K,-6
+California Sea Lion,E->P,-14
+California Sea Lion,K->P,-11
+Northern Elephant Seal,E->K,-6
+Northern Elephant Seal,E->P,-9
+Northern Elephant Seal,K->P,-14
+Salmon Shark,E->K,2
+Salmon Shark,E->P,1
+Salmon Shark,K->P,-7

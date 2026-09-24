@@ -1,0 +1,40 @@
+country,iso3,gamma_zero,in_range,min_log_ratio,max_log_ratio
+Australia,AUS,4.69,False,-14.19,-13.95
+Austria,AUT,4.4986,False,-13.6188,-13.3788
+Belgium,BEL,4.4816,False,-13.5683,-13.3283
+Canada,CAN,4.5367,False,-13.7302,-13.4902
+Chile,CHL,4.1211,False,-12.6933,-12.4533
+China,CHN,4.9169,False,-12.3149,-12.1261
+Colombia,COL,4.1372,False,-12.4943,-12.2543
+Costa Rica,CRI,4.3494,False,-13.1692,-12.9292
+Czech Republic,CZE,4.2858,False,-12.9835,-12.7435
+Denmark,DNK,4.6053,False,-13.9404,-13.7004
+Estonia,EST,4.1694,False,-12.9746,-12.7346
+Finland,FIN,4.5878,False,-13.8834,-13.6434
+France,FRA,4.5187,False,-13.6794,-13.4394
+Germany,DEU,4.5515,False,-13.7744,-13.5344
+Greece,GRC,4.1376,False,-12.54,-12.3
+Hungary,HUN,4.1692,False,-12.6302,-12.3902
+Iceland,ISL,4.7763,False,-14.5681,-14.3281
+Ireland,IRL,5.0472,False,-13.1588,-12.9188
+Israel,ISR,4.596,False,-13.8971,-13.6571
+Italy,ITA,4.2944,False,-13.0065,-12.7665
+Japan,JPN,4.7089,False,-14.2466,-14.0066
+Republic of Korea,KOR,4.4126,False,-13.3609,-13.1209
+Latvia,LVA,4.2195,False,-12.7878,-12.5478
+Lithuania,LTU,4.1201,False,-12.8725,-12.6325
+Luxembourg,LUX,4.4552,False,-13.485,-13.245
+Mexico,MEX,4.2538,False,-12.8815,-12.6415
+Netherlands,NLD,4.541,False,-13.7497,-13.5097
+New Zealand,NZL,4.7323,False,-14.317,-14.077
+Norway,NOR,4.6849,False,-14.0958,-13.8558
+Poland,POL,4.107,False,-12.3594,-12.1194
+Portugal,PRT,4.227,False,-12.8058,-12.5658
+Slovakia,SVK,4.2804,False,-12.9667,-12.7267
+Slovenia,SVN,4.2281,False,-12.8081,-12.5681
+Spain,ESP,4.2684,False,-12.9368,-12.6968
+Sweden,SWE,4.6702,False,-14.1318,-13.8918
+Switzerland,CHE,4.6098,False,-13.9495,-13.7095
+Turkey,TUR,4.8403,False,-11.4105,-11.2116
+United Kingdom,GBR,4.4518,False,-13.4803,-13.2403
+United States,USA,4.6799,False,-14.1635,-13.9235

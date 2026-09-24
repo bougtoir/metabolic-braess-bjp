@@ -1,0 +1,29 @@
+1	ORG_SKIPPED	OECD. Health at a Glance 2023: OECD Indicators. Paris: OECD Publishing; 2023.
+2	ORG_SKIPPED	Cabinet Office, Japan. Annual Report on the Japanese Economy 2025. Tokyo: Cabine
+3	HTTP 200	Ministry of Finance, Japan. Highlights of the Budget for FY2024. Tokyo: MOF; 202
+4	HTTP 200	Bank of Japan. Flow of Funds Accounts. Tokyo: BOJ; 2024. Available from: https:/
+5	ORG_SKIPPED	Ministry of Health, Labour and Welfare. Annual Health, Labour and Welfare Report
+6	ORG_SKIPPED	Maeda Y. Economic ripple effects of healthcare and long-term care. JMARI Working
+7	CROSSREF_FOUND (score=44.1)	Input-output analysis on the economic impact of medical care in Japan
+8	CROSSREF_FOUND (score=52.0)	The aggregate and local economic effects of government financed health care
+9	CROSSREF_FOUND (score=54.6)	The health care sector in the economies of the European Union: an overview using
+10	CROSSREF_FOUND (score=38.9)	Health satellite account: the first step
+11	CROSSREF_FOUND (score=16.4)	Health as an investment
+12	CROSSREF_FOUND (score=33.1)	On the concept of health capital and the demand for health
+13	CROSSREF_FOUND (score=34.5)	The effect of health on economic growth: a production function approach
+14	CROSSREF_FOUND (score=20.4)	Health and economic growth
+15	ORG_SKIPPED	Health-led growth hypothesis and health financing systems: an econometric synthe
+16	ORG_SKIPPED	Granger causality between total expenditure on health and GDP in OECD: Evidence 
+17	ORG_SKIPPED	The relationship between health expenditure indicators and economic growth in OE
+18	CROSSREF_FOUND (score=56.4)	Health care expenditure and economic growth: Quantile panel-type analysis
+19	CROSSREF_FOUND (score=75.6)	Health expenditure and economic growth - a review of the literature and an analy
+20	CROSSREF_FOUND (score=29.0)	On the quantum and tempo of fertility
+21	CROSSREF_FOUND (score=65.4)	Long-term population decline in Europe: the relative importance of tempo effects
+22	CROSSREF_FOUND (score=35.9)	Time to build and aggregate fluctuations
+23	ORG_SKIPPED	OECD. Health at a Glance 2023: OECD Indicators. Chapter 5.23: Diagnostic technol
+24	ORG_SKIPPED	Ministry of Health, Labour and Welfare. Pharmaceutical and medical device produc
+25	ORG_SKIPPED	OECD. Health at a Glance 2023: OECD Indicators. Chapter 8.1: Health workforce. P
+26	CROSSREF_FOUND (score=66.2)	Working hours of full-time hospital physicians in Japan: a cross-sectional natio
+27	HTTP 200	World Bank. World Development Indicators. Washington, DC: World Bank; 2024. Avai
+28	CROSSREF_FOUND (score=41.2)	The changing relation between mortality and level of economic development
+29	CROSSREF_FOUND (score=53.4)	Defensive medicine practices among gastroenterologists in Japan

@@ -1,0 +1,21 @@
+model,reaction,family
+human2,MAR04373,mid-glycolysis
+human2,MAR04368,mid-glycolysis
+human2,MAR04363,mid-glycolysis
+human2,MAR04365,mid-glycolysis
+human2,MAR04391,mid-glycolysis
+human2,MAR06409,PDH complex
+human2,MAR06412,PDH complex
+human2,MAR08746,PDH complex
+human2,MAR20069,PDH complex
+human2,MAR06921,ETC-I
+human2,MAR06916,ATP synthase
+human2,MAR04896,O2 transport
+recon3d,GAPD,mid-glycolysis
+recon3d,PGK,mid-glycolysis
+recon3d,ENO,mid-glycolysis
+recon3d,PGM,mid-glycolysis
+recon3d,TPI,mid-glycolysis
+recon3d,O2t,O2 transport
+recon3d,O2tm,O2 transport
+recon3d,CYOR_u10mi,ETC-III

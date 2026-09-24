@@ -1,0 +1,15 @@
+figure,role,panel_content,data_source,destination
+F1,conceptual_decomposition,"A: apparent memory X_t-1->X_t; B: static route suitability -> X_t-1,X_t; C: true state dependence after spatial control",schematic (no data),main
+F2,2x2_decomposition,"species-level HG distributions under LOYO/fwd x demean/none; paired trajectories; collapse after demeaning",phase9/results/tables/cv_demean_2x2_diagnostic.csv,main
+F3,species_hg_d,"116 species forward+demean HG ordered with CIs; zero reference; selected labels",phase9/results/tables/final_116_species_summary.csv (HG_D,CIs),main
+F4,occ_vs_abund,"A: matched-env occupancy contrast ~0 (41 spp); B: abundance prior-state effect dist, median 0.63, 40/41 CI>0",phase9/results/tables/matched_environment_hysteresis.csv,main
+F5,lagged_env_robustness,"specification curve: HG under current env, lagged env, min-history 5/10/15, expanding/10y/20y windows, common eval",phase9/results/tables/history_after_lagged_env.csv; forward_training_size_sensitivity.csv; window_sensitivity.csv,main
+F6,interpretation_schematic,"decomposition schematic tied to effect sizes: distribution persistence=static geography; abundance persistence=state dependence",schematic + measured values,main
+S1,species_inclusion_flow,"124->116 inclusion funnel, low_prevalence exclusions",phase9/results/tables/species_inclusion_audit.csv,supplement
+S2,observer_sensitivity,"observer-controlled HG vs baseline",phase9/results/tables/observer_occurrence_scale_moderators.csv,supplement
+S3,redistribution_validation,"toy cases: identical=0, tiny=0, moderate=0.5, large=1.0",phase9/results/tables/final_redistribution_validation.csv,supplement
+S4,simulation_nulls,"sim A-H HG/hysteresis distributions, TPR/FPR",phase9/results/tables/simulation_false_positive.csv,supplement
+S5,regional_aggregation,"route-level vs state-level HG comparison",phase9/results/tables/observer_occurrence_scale_moderators.csv (HG_regional),supplement
+S6,window_sensitivity,"expanding vs rolling 10/20y HG per species",phase9/results/tables/window_sensitivity.csv,supplement
+S7,bugfix_audit,"pre/post comparison table as figure",phase9/results/tables/pre_post_fix_comparison.csv,supplement
+S8,species_table,"full 116-species HG/effects table",phase9/results/tables/final_116_species_summary.csv,supplement

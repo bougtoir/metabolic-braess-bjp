@@ -1,0 +1,16 @@
+PCD numerical illustration summary
+================================
+
+1. Constitutional-cycle loss L(T)
+   Random parameter draws: 200
+   Observed local minima per draw: min=1, max=1, mean=1.00
+   In all draws L(T) had exactly one global minimum (unimodal).
+
+2. Agent-based intertemporal accountability game (Moran / Fermi process with mutation)
+   lambda=0.0: final public-will alignment mean=0.014, median=0.000, std=0.028
+          P(final>0.8)=0.00, P(final<0.2)=1.00
+   lambda=3.0: final public-will alignment mean=0.917, median=0.967, std=0.098
+          P(final>0.8)=0.82, P(final<0.2)=0.00
+   With lambda=0 the population drifts toward self-serving behavior; with lambda=3 it drifts
+   toward public-will alignment, but the stochastic process produces a distribution
+   of trajectories and final states (Fig. 2).

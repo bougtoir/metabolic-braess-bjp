@@ -1,0 +1,138 @@
+[
+ {
+  "query": "krill penguin telemetry tracking",
+  "doi": "10.5285/459597b2-ca0c-4110-b59c-62490867f348",
+  "title": "Argos Platform Transmitting Terminal (PTT) tracking of macaroni penguins from Zavodovski Island, South Sandwich Islands, December 2023 - March 2024",
+  "publisher": "NERC EDS UK Polar Data Centre",
+  "year": 2026,
+  "types": "Dataset"
+ },
+ {
+  "query": "krill penguin telemetry tracking",
+  "doi": "10.5285/529808a4-3967-49fe-abf6-fdb4fe5a7e5e",
+  "title": "Argos Platform Transmitting Terminal (PTT) tracking of chinstrap penguins from Zavodovski Island, South Sandwich Islands, December 2023 - March 2024",
+  "publisher": "NERC EDS UK Polar Data Centre",
+  "year": 2026,
+  "types": "Dataset"
+ },
+ {
+  "query": "krill penguin telemetry tracking",
+  "doi": "10.25959/23237231.v1",
+  "title": "Quantifying the trophic linkages of Antarctic marine predators",
+  "publisher": "University of Tasmania",
+  "year": 2023,
+  "types": "Dissertation"
+ },
+ {
+  "query": "krill penguin telemetry tracking",
+  "doi": "10.25959/23237231",
+  "title": "Quantifying the trophic linkages of Antarctic marine predators",
+  "publisher": "University of Tasmania",
+  "year": 2023,
+  "types": "Dissertation"
+ },
+ {
+  "query": "krill penguin telemetry tracking",
+  "doi": "10.5061/dryad.5x69p8d20",
+  "title": "Datasets supporting: Coastal regions of the northern Antarctic Peninsula are key for gentoo populations",
+  "publisher": "Dryad",
+  "year": 2021,
+  "types": "Dataset"
+ },
+ {
+  "query": "krill fur seal tracking South Georgia",
+  "doi": "10.5281/zenodo.6607215",
+  "title": "Hydrurga leptonyx",
+  "publisher": "Lynx Edicions",
+  "year": 2014,
+  "types": "Text"
+ },
+ {
+  "query": "krill fur seal tracking South Georgia",
+  "doi": "10.5281/zenodo.6607216",
+  "title": "Hydrurga leptonyx",
+  "publisher": "Lynx Edicions",
+  "year": 2014,
+  "types": "Text"
+ },
+ {
+  "query": "capelin seabird survey",
+  "doi": "10.5061/dryad.51c59zwqc",
+  "title": "Data from: Seabird survival as indicator of sustainable capelin fishery management",
+  "publisher": "Dryad",
+  "year": 2026,
+  "types": "Dataset"
+ },
+ {
+  "query": "capelin seabird survey",
+  "doi": "10.5061/dryad.jq2bvq8k8",
+  "title": "Aggregative responses of marine predators to a pulsed resource",
+  "publisher": "Dryad",
+  "year": 2024,
+  "types": "Dataset"
+ },
+ {
+  "query": "Tagging of Pacific Predators TOPP",
+  "doi": "10.15468/7zkca3",
+  "title": "TOPP Summary of SSM-derived Telemetry",
+  "publisher": "OBIS-SEAMAP",
+  "year": 2025,
+  "types": "Dataset"
+ },
+ {
+  "query": "Tagging of Pacific Predators TOPP",
+  "doi": "10.82144/d127533f",
+  "title": "TOPP Summary of SSM-derived Telemetry",
+  "publisher": "OBIS-SEAMAP",
+  "year": 2025,
+  "types": "Dataset"
+ },
+ {
+  "query": "seabird GPS tracking forage fish survey",
+  "doi": "10.5061/dryad.tx95x6b84",
+  "title": "Data from: A global review of Procellariiform flight height, flight speed and nocturnal activity: Implications for offshore wind farm collision risk",
+  "publisher": "Dryad",
+  "year": 2025,
+  "types": "Dataset"
+ },
+ {
+  "query": "herring predator telemetry",
+  "doi": "10.5281/zenodo.17633573",
+  "title": "Alosa pseudoharengus",
+  "publisher": "Zenodo",
+  "year": 2024,
+  "types": "Text"
+ },
+ {
+  "query": "herring predator telemetry",
+  "doi": "10.5281/zenodo.17633572",
+  "title": "Alosa pseudoharengus",
+  "publisher": "Zenodo",
+  "year": 2024,
+  "types": "Text"
+ },
+ {
+  "query": "herring predator telemetry",
+  "doi": "10.5281/zenodo.14273682",
+  "title": "Caretta Rafinesque 1814",
+  "publisher": "Zenodo",
+  "year": 1988,
+  "types": "Text"
+ },
+ {
+  "query": "herring predator telemetry",
+  "doi": "10.5281/zenodo.14273683",
+  "title": "Caretta Rafinesque 1814",
+  "publisher": "Zenodo",
+  "year": 1988,
+  "types": "Text"
+ },
+ {
+  "query": "herring predator telemetry",
+  "doi": "10.7275/19141443",
+  "title": "Don't Delay: The effects of tide gates and road-stream crossing culverts on river herring (Alosa spp.) spawning migrations",
+  "publisher": "University of Massachusetts Amherst",
+  "year": 2020,
+  "types": "Text"
+ }
+]

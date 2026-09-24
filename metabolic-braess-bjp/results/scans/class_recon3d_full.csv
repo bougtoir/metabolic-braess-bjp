@@ -1,0 +1,199 @@
+reaction_id,reaction_name,subsystem,metric,orientation,type,u_opt,J0,J1,J_opt,gain0,gain1,n_feasible
+ATPS4mi,ATP synthase (four protons for one ATP),Oxidative phosphorylation,atp_demand,higher,0,0.1,121.52284263959382,40.00000000000003,121.52284263959388,4.677591276348864e-16,0.6708437761069337,7
+ATPS4mi,ATP synthase (four protons for one ATP),Oxidative phosphorylation,atp_per_glc,higher,0,0.1,12.152284263959382,4.000000000000003,12.152284263959388,4.3852418215770607e-16,0.6708437761069336,7
+ATPS4mi,ATP synthase (four protons for one ATP),Oxidative phosphorylation,atp_per_o2,higher,0,0.1,6.076142131979691,2.0000000000000013,6.076142131979694,4.3852418215770607e-16,0.6708437761069336,7
+ATPS4mi,ATP synthase (four protons for one ATP),Oxidative phosphorylation,atp_per_carbon,higher,0,0.1,2.025380710659897,0.6666666666666672,2.0253807106598978,4.385241821577061e-16,0.6708437761069337,7
+ATPS4mi,ATP synthase (four protons for one ATP),Oxidative phosphorylation,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+ATPS4mi,ATP synthase (four protons for one ATP),Oxidative phosphorylation,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+ATPS4mi,ATP synthase (four protons for one ATP),Oxidative phosphorylation,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+ATPS4mi,ATP synthase (four protons for one ATP),Oxidative phosphorylation,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+ATPS4mi,ATP synthase (four protons for one ATP),Oxidative phosphorylation,total_flux,lower,0,1.0,-2184.873096446699,-1989.390862944165,-1989.390862944165,0.08947074950048609,0.0,7
+ATPtm,"ADP/ATP Transporter, Mitochondrial","Transport, mitochondrial",atp_demand,higher,0,1.0,121.5228426395938,121.52284263959386,121.52284263959386,4.677591276348865e-16,0.0,7
+ATPtm,"ADP/ATP Transporter, Mitochondrial","Transport, mitochondrial",atp_per_glc,higher,0,1.0,12.15228426395938,12.152284263959386,12.152284263959386,4.385241821577061e-16,0.0,7
+ATPtm,"ADP/ATP Transporter, Mitochondrial","Transport, mitochondrial",atp_per_o2,higher,0,1.0,6.07614213197969,6.076142131979693,6.076142131979693,4.385241821577061e-16,0.0,7
+ATPtm,"ADP/ATP Transporter, Mitochondrial","Transport, mitochondrial",atp_per_carbon,higher,0,1.0,2.025380710659897,2.0253807106598978,2.0253807106598978,4.385241821577061e-16,0.0,7
+ATPtm,"ADP/ATP Transporter, Mitochondrial","Transport, mitochondrial",glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+ATPtm,"ADP/ATP Transporter, Mitochondrial","Transport, mitochondrial",o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+ATPtm,"ADP/ATP Transporter, Mitochondrial","Transport, mitochondrial",lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+ATPtm,"ADP/ATP Transporter, Mitochondrial","Transport, mitochondrial",lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+ATPtm,"ADP/ATP Transporter, Mitochondrial","Transport, mitochondrial",total_flux,lower,III,0.0,-2184.8730964467186,-2553.2487309644644,-2184.8730964467186,0.0,0.16860276009478026,7
+CO2tm,"CO2 Transport (Diffusion), Mitochondrial","Transport, mitochondrial",atp_demand,higher,0,1.0,121.5228426395938,121.52284263959388,121.52284263959388,5.846989095436081e-16,0.0,7
+CO2tm,"CO2 Transport (Diffusion), Mitochondrial","Transport, mitochondrial",atp_per_glc,higher,0,1.0,12.15228426395938,12.152284263959388,12.152284263959388,5.846989095436081e-16,0.0,7
+CO2tm,"CO2 Transport (Diffusion), Mitochondrial","Transport, mitochondrial",atp_per_o2,higher,0,1.0,6.07614213197969,6.076142131979694,6.076142131979694,5.846989095436081e-16,0.0,7
+CO2tm,"CO2 Transport (Diffusion), Mitochondrial","Transport, mitochondrial",atp_per_carbon,higher,0,1.0,2.025380710659897,2.0253807106598978,2.0253807106598978,4.385241821577061e-16,0.0,7
+CO2tm,"CO2 Transport (Diffusion), Mitochondrial","Transport, mitochondrial",glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+CO2tm,"CO2 Transport (Diffusion), Mitochondrial","Transport, mitochondrial",o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+CO2tm,"CO2 Transport (Diffusion), Mitochondrial","Transport, mitochondrial",lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+CO2tm,"CO2 Transport (Diffusion), Mitochondrial","Transport, mitochondrial",lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+CO2tm,"CO2 Transport (Diffusion), Mitochondrial","Transport, mitochondrial",total_flux,lower,III,0.0,-2184.8730964467186,-2344.253807106605,-2184.8730964467186,0.0,0.07294735374749636,7
+CYOOm3i,CYOOm3i,Oxidative phosphorylation,atp_demand,higher,0,0.0,121.52284263959446,120.0,121.52284263959446,0.0,0.01253132832080647,7
+CYOOm3i,CYOOm3i,Oxidative phosphorylation,atp_per_glc,higher,0,0.0,12.152284263959446,12.0,12.152284263959446,0.0,0.012531328320806499,7
+CYOOm3i,CYOOm3i,Oxidative phosphorylation,atp_per_o2,higher,0,0.0,6.076142131979723,6.0,6.076142131979723,0.0,0.012531328320806499,7
+CYOOm3i,CYOOm3i,Oxidative phosphorylation,atp_per_carbon,higher,0,0.0,2.0253807106599075,2.0,2.0253807106599075,0.0,0.012531328320806426,7
+CYOOm3i,CYOOm3i,Oxidative phosphorylation,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+CYOOm3i,CYOOm3i,Oxidative phosphorylation,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+CYOOm3i,CYOOm3i,Oxidative phosphorylation,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+CYOOm3i,CYOOm3i,Oxidative phosphorylation,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+CYOOm3i,CYOOm3i,Oxidative phosphorylation,total_flux,lower,0,1.0,-2184.8730964467345,-2150.0000000000045,-2150.0000000000045,0.015961154221471343,0.0,7
+CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,atp_demand,higher,0,0.0,121.5228426396078,50.1522842639594,121.5228426396078,0.0,0.5873015873016344,7
+CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,atp_per_glc,higher,0,0.0,12.152284263960778,5.01522842639594,12.152284263960778,0.0,0.5873015873016343,7
+CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,atp_per_o2,higher,0,0.0,6.076142131980389,2.50761421319797,6.076142131980389,0.0,0.5873015873016343,7
+CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,atp_per_carbon,higher,0,0.0,2.0253807106601296,0.8358714043993234,2.0253807106601296,0.0,0.5873015873016343,7
+CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+CYOR_u10mi,CYOR_u10mi,Oxidative phosphorylation,total_flux,lower,II,0.1,-2184.873096447379,-2101.0659898477197,-2093.248730964655,0.04193578365338744,0.003577900655088732,7
+DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,atp_demand,higher,III,0.9,121.5228426395936,93.94247038917088,121.52284263959392,2.5726752019918745e-15,0.22695627958785874,7
+DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,atp_per_glc,higher,III,0.9,12.15228426395936,9.394247038917088,12.152284263959393,2.7773198203321372e-15,0.22695627958785877,7
+DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,atp_per_o2,higher,III,0.9,6.07614213197968,4.697123519458544,6.076142131979696,2.7773198203321372e-15,0.22695627958785877,7
+DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,atp_per_carbon,higher,III,0.9,2.0253807106598933,1.5657078398195146,2.0253807106598987,2.6311450929462356e-15,0.2269562795878588,7
+DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+DCK1m,"Deoxycytidine Kinase, Mitochondrial (ATP)",Nucleotide interconversion,total_flux,lower,0,1.0,-2184.8730964466986,-1578.104906937393,-1578.104906937393,0.27771324133017355,0.0,7
+DCMPtm,DCMPtm,"Transport, mitochondrial",atp_demand,higher,III,0.5,121.52284263959392,93.94247038917094,121.52284263959396,3.5081934572616463e-16,0.22695627958785855,7
+DCMPtm,DCMPtm,"Transport, mitochondrial",atp_per_glc,higher,III,0.5,12.152284263959393,9.394247038917094,12.152284263959396,2.9234945477180385e-16,0.22695627958785858,7
+DCMPtm,DCMPtm,"Transport, mitochondrial",atp_per_o2,higher,III,0.5,6.076142131979696,4.697123519458547,6.076142131979698,2.9234945477180385e-16,0.22695627958785858,7
+DCMPtm,DCMPtm,"Transport, mitochondrial",atp_per_carbon,higher,III,0.5,2.0253807106598987,1.5657078398195157,2.0253807106599,6.577862732365584e-16,0.22695627958785877,7
+DCMPtm,DCMPtm,"Transport, mitochondrial",glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+DCMPtm,DCMPtm,"Transport, mitochondrial",o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+DCMPtm,DCMPtm,"Transport, mitochondrial",lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+DCMPtm,DCMPtm,"Transport, mitochondrial",lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+DCMPtm,DCMPtm,"Transport, mitochondrial",total_flux,lower,0,1.0,-2184.873096446703,-1578.1049069373937,-1578.1049069373937,0.2777132413301747,0.0,7
+ENO,Enolase,Glycolysis/gluconeogenesis,atp_demand,higher,0,0.0,121.52284263959386,101.52284263959388,121.52284263959386,0.0,0.16457811194653293,7
+ENO,Enolase,Glycolysis/gluconeogenesis,atp_per_glc,higher,II,0.75,12.152284263959386,29.999999999999773,31.54575810497864,0.6147727937455565,0.04900050586309764,7
+ENO,Enolase,Glycolysis/gluconeogenesis,atp_per_o2,higher,0,0.0,6.076142131979693,5.076142131979695,6.076142131979693,0.0,0.16457811194653277,7
+ENO,Enolase,Glycolysis/gluconeogenesis,atp_per_carbon,higher,II,0.75,2.0253807106598978,4.999999999999962,5.257626350829773,0.6147727937455566,0.04900050586309775,7
+ENO,Enolase,Glycolysis/gluconeogenesis,glc_uptake,lower,0,0.75,-10.0,-3.3840947546531552,-3.384094754653116,0.6615905245346884,3.907985046680551e-15,7
+ENO,Enolase,Glycolysis/gluconeogenesis,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+ENO,Enolase,Glycolysis/gluconeogenesis,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+ENO,Enolase,Glycolysis/gluconeogenesis,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+ENO,Enolase,Glycolysis/gluconeogenesis,total_flux,lower,II,0.75,-2184.873096446724,-2113.254371122392,-2034.7894926970855,0.06869213776933802,0.03591278530222858,7
+GAPD,Glyceraldehyde-3-Phosphate Dehydrogenase,Glycolysis/gluconeogenesis,atp_demand,higher,III,0.75,121.52284263959386,101.52284263959422,121.52284263959402,1.2863376009959363e-15,0.1645781119465312,7
+GAPD,Glyceraldehyde-3-Phosphate Dehydrogenase,Glycolysis/gluconeogenesis,atp_per_glc,higher,0,1.0,12.152284263959386,29.999999999998355,29.999999999998355,0.5949238578679983,0.0,7
+GAPD,Glyceraldehyde-3-Phosphate Dehydrogenase,Glycolysis/gluconeogenesis,atp_per_o2,higher,III,0.75,6.076142131979693,5.076142131979711,6.076142131979701,1.3155725464731166e-15,0.16457811194653124,7
+GAPD,Glyceraldehyde-3-Phosphate Dehydrogenase,Glycolysis/gluconeogenesis,atp_per_carbon,higher,0,1.0,2.0253807106598978,4.9999999999997256,4.9999999999997256,0.5949238578679982,0.0,7
+GAPD,Glyceraldehyde-3-Phosphate Dehydrogenase,Glycolysis/gluconeogenesis,glc_uptake,lower,0,1.0,-10.0,-3.384094754653326,-3.384094754653326,0.6615905245346674,0.0,7
+GAPD,Glyceraldehyde-3-Phosphate Dehydrogenase,Glycolysis/gluconeogenesis,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+GAPD,Glyceraldehyde-3-Phosphate Dehydrogenase,Glycolysis/gluconeogenesis,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+GAPD,Glyceraldehyde-3-Phosphate Dehydrogenase,Glycolysis/gluconeogenesis,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+GAPD,Glyceraldehyde-3-Phosphate Dehydrogenase,Glycolysis/gluconeogenesis,total_flux,lower,0,1.0,-2184.873096446702,-2090.693739424726,-2090.693739424726,0.043105184083753724,0.0,7
+GLUt2m,"L-Glutamate Reversible Transport via Proton Symport, Mitochondrial","Transport, mitochondrial",atp_demand,higher,III,0.25,121.52284263959386,70.76142131979694,121.52284263959392,4.677591276348863e-16,0.4177109440267337,7
+GLUt2m,"L-Glutamate Reversible Transport via Proton Symport, Mitochondrial","Transport, mitochondrial",atp_per_glc,higher,III,0.25,12.152284263959386,7.076142131979694,12.152284263959393,5.846989095436078e-16,0.41771094402673375,7
+GLUt2m,"L-Glutamate Reversible Transport via Proton Symport, Mitochondrial","Transport, mitochondrial",atp_per_o2,higher,III,0.25,6.076142131979693,3.538071065989847,6.076142131979696,5.846989095436078e-16,0.41771094402673375,7
+GLUt2m,"L-Glutamate Reversible Transport via Proton Symport, Mitochondrial","Transport, mitochondrial",atp_per_carbon,higher,III,0.25,2.0253807106598978,1.1793570219966156,2.0253807106598987,4.385241821577059e-16,0.4177109440267337,7
+GLUt2m,"L-Glutamate Reversible Transport via Proton Symport, Mitochondrial","Transport, mitochondrial",glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+GLUt2m,"L-Glutamate Reversible Transport via Proton Symport, Mitochondrial","Transport, mitochondrial",o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+GLUt2m,"L-Glutamate Reversible Transport via Proton Symport, Mitochondrial","Transport, mitochondrial",lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+GLUt2m,"L-Glutamate Reversible Transport via Proton Symport, Mitochondrial","Transport, mitochondrial",lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+GLUt2m,"L-Glutamate Reversible Transport via Proton Symport, Mitochondrial","Transport, mitochondrial",total_flux,lower,0,1.0,-2184.8730964467013,-1225.187817258883,-1225.187817258883,0.43924074160122706,0.0,7
+H2Otm,"H2O Transport, Mitochondrial","Transport, mitochondrial",atp_demand,higher,0,0.9,121.5228426395938,121.52284263959388,121.52284263959392,9.355182552697727e-16,3.508193457261647e-16,7
+H2Otm,"H2O Transport, Mitochondrial","Transport, mitochondrial",atp_per_glc,higher,0,0.9,12.15228426395938,12.152284263959388,12.152284263959393,1.0232230917013138e-15,4.3852418215770587e-16,7
+H2Otm,"H2O Transport, Mitochondrial","Transport, mitochondrial",atp_per_o2,higher,0,0.9,6.07614213197969,6.076142131979694,6.076142131979696,1.0232230917013138e-15,4.3852418215770587e-16,7
+H2Otm,"H2O Transport, Mitochondrial","Transport, mitochondrial",atp_per_carbon,higher,0,0.9,2.025380710659897,2.0253807106598978,2.0253807106598987,8.770483643154118e-16,4.385241821577059e-16,7
+H2Otm,"H2O Transport, Mitochondrial","Transport, mitochondrial",glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+H2Otm,"H2O Transport, Mitochondrial","Transport, mitochondrial",o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+H2Otm,"H2O Transport, Mitochondrial","Transport, mitochondrial",lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+H2Otm,"H2O Transport, Mitochondrial","Transport, mitochondrial",lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+H2Otm,"H2O Transport, Mitochondrial","Transport, mitochondrial",total_flux,lower,III,0.0,-2184.8730964467186,-2427.30964467006,-2184.8730964467186,0.0,0.11096138655266459,7
+HMR_8475,HMR_8475,"Transport, mitochondrial",atp_demand,higher,III,0.1,121.52284263959385,93.94247038917092,121.52284263959392,5.846989095436079e-16,0.22695627958785838,7
+HMR_8475,HMR_8475,"Transport, mitochondrial",atp_per_glc,higher,III,0.1,12.152284263959384,9.394247038917092,12.152284263959393,7.308736369295098e-16,0.2269562795878585,7
+HMR_8475,HMR_8475,"Transport, mitochondrial",atp_per_o2,higher,III,0.1,6.076142131979692,4.697123519458546,6.076142131979696,7.308736369295098e-16,0.2269562795878585,7
+HMR_8475,HMR_8475,"Transport, mitochondrial",atp_per_carbon,higher,III,0.1,2.0253807106598973,1.5657078398195154,2.0253807106598987,6.577862732365589e-16,0.22695627958785836,7
+HMR_8475,HMR_8475,"Transport, mitochondrial",glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+HMR_8475,HMR_8475,"Transport, mitochondrial",o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+HMR_8475,HMR_8475,"Transport, mitochondrial",lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+HMR_8475,HMR_8475,"Transport, mitochondrial",lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+HMR_8475,HMR_8475,"Transport, mitochondrial",total_flux,lower,0,1.0,-2184.8730964467004,-1578.1049069373948,-1578.1049069373948,0.27771324133017333,0.0,7
+LDH_L,L-Lactate Dehydrogenase,Glycolysis/gluconeogenesis,atp_demand,higher,0,1.0,121.5228426395938,121.52284263959386,121.52284263959386,4.677591276348865e-16,0.0,7
+LDH_L,L-Lactate Dehydrogenase,Glycolysis/gluconeogenesis,atp_per_glc,higher,0,1.0,12.15228426395938,12.152284263959386,12.152284263959386,4.385241821577061e-16,0.0,7
+LDH_L,L-Lactate Dehydrogenase,Glycolysis/gluconeogenesis,atp_per_o2,higher,0,1.0,6.07614213197969,6.076142131979693,6.076142131979693,4.385241821577061e-16,0.0,7
+LDH_L,L-Lactate Dehydrogenase,Glycolysis/gluconeogenesis,atp_per_carbon,higher,0,1.0,2.025380710659897,2.0253807106598978,2.0253807106598978,4.385241821577061e-16,0.0,7
+LDH_L,L-Lactate Dehydrogenase,Glycolysis/gluconeogenesis,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+LDH_L,L-Lactate Dehydrogenase,Glycolysis/gluconeogenesis,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+LDH_L,L-Lactate Dehydrogenase,Glycolysis/gluconeogenesis,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+LDH_L,L-Lactate Dehydrogenase,Glycolysis/gluconeogenesis,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+LDH_L,L-Lactate Dehydrogenase,Glycolysis/gluconeogenesis,total_flux,lower,III,0.0,-2184.8730964467186,-2218.561759729273,-2184.8730964467186,0.0,0.015419048061575137,7
+LDH_Lm,L-Lactate Dehydrogenase,Pyruvate metabolism,atp_demand,higher,0,0.5,121.52284263959385,121.52284263959392,121.52284263959405,1.6371569467221002e-15,1.0524580371784931e-15,7
+LDH_Lm,L-Lactate Dehydrogenase,Pyruvate metabolism,atp_per_glc,higher,0,0.5,12.152284263959384,12.152284263959393,12.152284263959404,1.60792200124492e-15,8.770483643154109e-16,7
+LDH_Lm,L-Lactate Dehydrogenase,Pyruvate metabolism,atp_per_o2,higher,0,0.5,6.076142131979692,6.076142131979696,6.076142131979702,1.60792200124492e-15,8.770483643154109e-16,7
+LDH_Lm,L-Lactate Dehydrogenase,Pyruvate metabolism,atp_per_carbon,higher,0,0.5,2.0253807106598973,2.0253807106598987,2.0253807106599004,1.5348346375519693e-15,8.77048364315411e-16,7
+LDH_Lm,L-Lactate Dehydrogenase,Pyruvate metabolism,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+LDH_Lm,L-Lactate Dehydrogenase,Pyruvate metabolism,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+LDH_Lm,L-Lactate Dehydrogenase,Pyruvate metabolism,lac_out,lower,III,0.0,-0.0,-13.231810490693794,-0.0,0.0,13231810490.693794,7
+LDH_Lm,L-Lactate Dehydrogenase,Pyruvate metabolism,lac_per_atp,lower,III,0.0,-0.0,-0.1088833194096356,-0.0,0.0,108883319.40963559,7
+LDH_Lm,L-Lactate Dehydrogenase,Pyruvate metabolism,total_flux,lower,0,0.0,-2184.873096446702,-2232.098138747888,-2184.873096446702,0.0,0.021614547031582058,7
+L_LACtcm,"Transport of L-Lactate via Diffusion, Mitochondrial","Transport, mitochondrial",atp_demand,higher,0,1.0,121.5228426395938,121.52284263959407,121.52284263959407,2.221855856265707e-15,0.0,7
+L_LACtcm,"Transport of L-Lactate via Diffusion, Mitochondrial","Transport, mitochondrial",atp_per_glc,higher,0,1.0,12.15228426395938,12.152284263959409,12.152284263959409,2.3387956381744284e-15,0.0,7
+L_LACtcm,"Transport of L-Lactate via Diffusion, Mitochondrial","Transport, mitochondrial",atp_per_o2,higher,0,1.0,6.07614213197969,6.076142131979704,6.076142131979704,2.3387956381744284e-15,0.0,7
+L_LACtcm,"Transport of L-Lactate via Diffusion, Mitochondrial","Transport, mitochondrial",atp_per_carbon,higher,0,1.0,2.025380710659897,2.0253807106599013,2.0253807106599013,2.1926209107885268e-15,0.0,7
+L_LACtcm,"Transport of L-Lactate via Diffusion, Mitochondrial","Transport, mitochondrial",glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+L_LACtcm,"Transport of L-Lactate via Diffusion, Mitochondrial","Transport, mitochondrial",o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+L_LACtcm,"Transport of L-Lactate via Diffusion, Mitochondrial","Transport, mitochondrial",lac_out,lower,0,0.0,-0.0,-13.23181049069368,-0.0,0.0,13231810490.69368,7
+L_LACtcm,"Transport of L-Lactate via Diffusion, Mitochondrial","Transport, mitochondrial",lac_per_atp,lower,0,0.0,-0.0,-0.1088833194096345,-0.0,0.0,108883319.40963449,7
+L_LACtcm,"Transport of L-Lactate via Diffusion, Mitochondrial","Transport, mitochondrial",total_flux,lower,0,0.25,-2184.8730964467186,-2225.3299492385904,-2184.873096446702,7.492840045738527e-15,0.018516797546586843,7
+NADH2_u10mi,NADH2_u10mi,Oxidative phosphorylation,atp_demand,higher,0,0.0,121.52284263959396,100.9137055837565,121.52284263959396,0.0,0.16959064327485293,7
+NADH2_u10mi,NADH2_u10mi,Oxidative phosphorylation,atp_per_glc,higher,0,0.0,12.152284263959396,10.09137055837565,12.152284263959396,0.0,0.16959064327485296,7
+NADH2_u10mi,NADH2_u10mi,Oxidative phosphorylation,atp_per_o2,higher,0,0.0,6.076142131979698,5.045685279187825,6.076142131979698,0.0,0.16959064327485296,7
+NADH2_u10mi,NADH2_u10mi,Oxidative phosphorylation,atp_per_carbon,higher,0,0.0,2.0253807106599,1.6818950930626082,2.0253807106599,0.0,0.1695906432748532,7
+NADH2_u10mi,NADH2_u10mi,Oxidative phosphorylation,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+NADH2_u10mi,NADH2_u10mi,Oxidative phosphorylation,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+NADH2_u10mi,NADH2_u10mi,Oxidative phosphorylation,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+NADH2_u10mi,NADH2_u10mi,Oxidative phosphorylation,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+NADH2_u10mi,NADH2_u10mi,Oxidative phosphorylation,total_flux,lower,0,0.0,-2184.873096446709,-3047.664974619312,-2184.873096446709,0.0,0.39489335997398384,7
+O2t,O2 Transport (Diffusion),"Transport, extracellular",atp_demand,higher,0,0.0,121.52284263959386,50.76142131979691,121.52284263959386,0.0,0.5822890559732667,7
+O2t,O2 Transport (Diffusion),"Transport, extracellular",atp_per_glc,higher,0,0.0,12.152284263959386,5.076142131979691,12.152284263959386,0.0,0.5822890559732666,7
+O2t,O2 Transport (Diffusion),"Transport, extracellular",atp_per_o2,higher,0,0.0,6.076142131979693,2.5380710659898456,6.076142131979693,0.0,0.5822890559732666,7
+O2t,O2 Transport (Diffusion),"Transport, extracellular",atp_per_carbon,higher,0,0.0,2.0253807106598978,0.8460236886632818,2.0253807106598978,0.0,0.5822890559732667,7
+O2t,O2 Transport (Diffusion),"Transport, extracellular",glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+O2t,O2 Transport (Diffusion),"Transport, extracellular",o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+O2t,O2 Transport (Diffusion),"Transport, extracellular",lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+O2t,O2 Transport (Diffusion),"Transport, extracellular",lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+O2t,O2 Transport (Diffusion),"Transport, extracellular",total_flux,lower,II,0.25,-2184.8730964466986,-2463.096446700509,-2012.101874994624,0.07907608992625509,0.2064168268808593,7
+O2tm,"Transport of Oxygen, (Diffusion)","Transport, mitochondrial",atp_demand,higher,0,0.0,121.52284263959385,70.761421319797,121.52284263959385,0.0,0.41771094402673287,7
+O2tm,"Transport of Oxygen, (Diffusion)","Transport, mitochondrial",atp_per_glc,higher,0,0.0,12.152284263959384,7.076142131979699,12.152284263959384,0.0,0.41771094402673287,7
+O2tm,"Transport of Oxygen, (Diffusion)","Transport, mitochondrial",atp_per_o2,higher,0,0.0,6.076142131979692,3.5380710659898496,6.076142131979692,0.0,0.41771094402673287,7
+O2tm,"Transport of Oxygen, (Diffusion)","Transport, mitochondrial",atp_per_carbon,higher,0,0.0,2.0253807106598973,1.1793570219966163,2.0253807106598973,0.0,0.417710944026733,7
+O2tm,"Transport of Oxygen, (Diffusion)","Transport, mitochondrial",glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+O2tm,"Transport of Oxygen, (Diffusion)","Transport, mitochondrial",o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+O2tm,"Transport of Oxygen, (Diffusion)","Transport, mitochondrial",lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+O2tm,"Transport of Oxygen, (Diffusion)","Transport, mitochondrial",lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+O2tm,"Transport of Oxygen, (Diffusion)","Transport, mitochondrial",total_flux,lower,0,1.0,-2184.873096446702,-1359.543147208124,-1359.543147208124,0.37774731657450805,0.0,7
+PGK,Phosphoglycerate Kinase,Glycolysis/gluconeogenesis,atp_demand,higher,III,0.25,121.52284263959388,101.52284263959382,121.52284263959396,7.016386914523293e-16,0.1645781119465341,7
+PGK,Phosphoglycerate Kinase,Glycolysis/gluconeogenesis,atp_per_glc,higher,0,1.0,12.152284263959388,30.000000000000863,30.000000000000863,0.594923857868032,0.0,7
+PGK,Phosphoglycerate Kinase,Glycolysis/gluconeogenesis,atp_per_o2,higher,III,0.25,6.076142131979694,5.076142131979691,6.076142131979697,5.846989095436077e-16,0.16457811194653396,7
+PGK,Phosphoglycerate Kinase,Glycolysis/gluconeogenesis,atp_per_carbon,higher,0,1.0,2.0253807106598978,5.000000000000144,5.000000000000144,0.5949238578680321,0.0,7
+PGK,Phosphoglycerate Kinase,Glycolysis/gluconeogenesis,glc_uptake,lower,0,1.0,-10.0,-3.38409475465303,-3.38409475465303,0.661590524534697,0.0,7
+PGK,Phosphoglycerate Kinase,Glycolysis/gluconeogenesis,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+PGK,Phosphoglycerate Kinase,Glycolysis/gluconeogenesis,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+PGK,Phosphoglycerate Kinase,Glycolysis/gluconeogenesis,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+PGK,Phosphoglycerate Kinase,Glycolysis/gluconeogenesis,total_flux,lower,0,1.0,-2184.873096446704,-2002.7072758037236,-2002.7072758037236,0.08337592738875303,0.0,7
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,atp_demand,higher,0,0.0,121.52284263959392,101.52284263959392,121.52284263959392,0.0,0.164578111946533,7
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,atp_per_glc,higher,II,0.75,12.152284263959393,29.99999999999988,31.54575810497731,0.6147727937455401,0.04900050586305421,7
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,atp_per_o2,higher,0,0.0,6.076142131979696,5.076142131979696,6.076142131979696,0.0,0.16457811194653296,7
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,atp_per_carbon,higher,II,0.75,2.0253807106598987,4.9999999999999805,5.257626350829551,0.6147727937455402,0.049000505863054045,7
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,glc_uptake,lower,0,1.0,-10.0,-3.384094754653144,-3.384094754653144,0.6615905245346856,0.0,7
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis,total_flux,lower,II,0.75,-2184.8730964467013,-2029.7800338409495,-2009.7851648391188,0.08013643075761753,0.009151501308862612,7
+TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,atp_demand,higher,0,0.0,121.52284263959524,111.52284263959396,121.52284263959524,0.0,0.08228905597327613,7
+TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,atp_per_glc,higher,0,0.0,12.152284263957847,11.152284263959436,12.152284263957847,0.0,0.08228905597314627,7
+TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,atp_per_o2,higher,0,0.0,6.076142131979761,5.576142131979699,6.076142131979761,0.0,0.08228905597327583,7
+TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,atp_per_carbon,higher,0,0.0,2.025380710659641,1.8587140439932397,2.025380710659641,0.0,0.08228905597314598,7
+TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,glc_uptake,lower,0,1.0,-10.000000000001378,-9.999999999999964,-9.999999999999964,1.4139800441624044e-13,0.0,7
+TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis,total_flux,lower,0,0.0,-2184.873096446708,-2264.8730964467045,-2184.873096446708,0.0,0.03661539891268814,7
+r0377,ATP:Deoxycitidine 5-Phosphotransferase,Pyrimidine catabolism,atp_demand,higher,0,1.0,121.5228426395938,121.52284263959392,121.52284263959392,9.355182552697727e-16,0.0,7
+r0377,ATP:Deoxycitidine 5-Phosphotransferase,Pyrimidine catabolism,atp_per_glc,higher,0,1.0,12.15228426395938,12.152284263959393,12.152284263959393,1.0232230917013138e-15,0.0,7
+r0377,ATP:Deoxycitidine 5-Phosphotransferase,Pyrimidine catabolism,atp_per_o2,higher,0,1.0,6.07614213197969,6.076142131979696,6.076142131979696,1.0232230917013138e-15,0.0,7
+r0377,ATP:Deoxycitidine 5-Phosphotransferase,Pyrimidine catabolism,atp_per_carbon,higher,0,1.0,2.025380710659897,2.0253807106598987,2.0253807106598987,8.770483643154118e-16,0.0,7
+r0377,ATP:Deoxycitidine 5-Phosphotransferase,Pyrimidine catabolism,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+r0377,ATP:Deoxycitidine 5-Phosphotransferase,Pyrimidine catabolism,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+r0377,ATP:Deoxycitidine 5-Phosphotransferase,Pyrimidine catabolism,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+r0377,ATP:Deoxycitidine 5-Phosphotransferase,Pyrimidine catabolism,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+r0377,ATP:Deoxycitidine 5-Phosphotransferase,Pyrimidine catabolism,total_flux,lower,III,0.0,-2184.8730964467186,-2350.3553299492382,-2184.8730964467186,0.0,0.07573997490822011,7

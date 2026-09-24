@@ -1,0 +1,240 @@
+collection_no,collection_name,lng,lat,systems_tract,n_occurrences,n_genera,n_herbivore,n_predator
+11611,"Mygatt-Moore Quarry, lower mudstone",-108.995796,39.2383,4.0,7,6,5,2
+11924,"Riggs Quarry 12, Fruita (FMNH)",-108.699989,39.068802,4.0,1,1,1,0
+11925,"Riggs Quarry 14, Fruita (FMNH)",-108.717499,39.111668,4.0,1,1,1,0
+12816,"Quarry 9, Como Bluff (YPM)",-106.00222,41.893055,6.0,11,7,7,4
+13212,"Quarry 1, Como Bluff (YPM)",-106.041,41.893101,6.0,6,3,5,1
+13214,Freeze Out Mtns. Kansas Univ. Expedition,-106.389999,42.035831,6.0,6,4,3,3
+13341,"Lakes Quarry 10, Morrison (YPM)",-105.187332,39.653423,4.0,3,2,2,1
+13352,"Carnegie Quarry D, Sheep Creek",-105.916199,42.152302,4.0,4,4,4,0
+21852,Dinosaur National Monument Quarry (CM),-109.300552,40.441387,4.0,19,11,15,4
+22648,Bone Cabin Quarry (AMNH),-106.048615,42.017776,6.0,14,12,10,4
+22650,"BS Quarry + S Quarry, Warm Springs Ranch",-108.120003,43.380001,6.0,3,2,2,1
+22678,"RB Quarry, Warm Springs Ranch",-108.199997,43.630001,6.0,6,6,5,1
+22711,Rainbow Park (DNM 94),-109.205833,40.423611,5.0,5,5,4,1
+22717,"Peterson Quarry, NMMNH L-3282",-107.13279,35.197208,4.0,1,1,1,0
+25141,Calico Gulch Dinosaur Quarry,-108.391647,40.455929,4.0,5,5,4,1
+28366,"Felch Quarry 1, Garden Park (YPM)",-105.224701,38.539501,3.0,17,13,13,4
+28382,"Lakes Quarry 5, Morrison (YPM)",-105.192596,39.675598,4.0,3,3,2,1
+35293,Dominguez/Jones Quarry,-108.388,38.806,4.0,1,1,1,0
+36265,Suwanee Peak,-107.133202,34.942299,4.0,1,1,0,1
+36576,"Riggs Quarry 15, Fruita (FMNH)",-108.728699,39.128502,3.0,2,2,2,0
+38866,Rattlesnake Ridge Quarry,-108.75,45.25,5.0,1,1,1,0
+38867,NMMNH L-3281,-103.634003,36.214001,4.0,1,1,1,0
+38871,NMMNH L-3285,-106.940559,35.320278,4.0,1,1,0,1
+38872,"NMMNH L-369, Lee Acres",-106.769997,35.563332,4.0,1,1,1,0
+38883,"CO-49, Dino Cove",-107.400002,38.450001,,3,3,2,1
+38884,"Meilyn Quarry, Flat Top Anticline",-106.138054,41.980556,5.0,2,2,1,1
+39253,"Quarry 13, Como Bluff (YPM)",-105.963402,41.9077,5.0,23,9,20,3
+39337,"Quarry 1A, Como Bluff (YPM)",-106.079803,41.878601,5.0,3,2,1,2
+39338,"Quarry 1-1/2, Como Bluff (YPM)",-106.079803,41.893101,6.0,1,1,0,1
+39339,"Quarry 2, Como Bluff (YPM)",-106.060402,41.878601,6.0,1,1,1,0
+39340,"Quarry 3, Como Bluff (YPM)",-106.021599,41.893101,6.0,4,4,3,1
+39342,"Quarry 4, Como Bluff (YPM)",-105.982803,41.9077,6.0,5,5,4,1
+39344,"Quarry 5, Como Bluff (YPM)",-106.078903,41.878601,6.0,4,4,4,0
+39346,"Quarry 7, Como Bluff (YPM)",-106.099098,41.878601,6.0,1,1,1,0
+39347,"Quarry 8, Como Bluff (YPM)",-106.021599,41.893101,6.0,5,5,3,2
+39368,"Quarry 10, Como Bluff (YPM)",-106.002197,41.893101,6.0,1,1,1,0
+39369,"Quarry 11, Como Bluff (YPM)",-106.002197,41.893101,6.0,2,2,2,0
+39370,"Quarry 12, Como Bluff (YPM)",-106.1073,41.8825,6.0,8,7,3,5
+39371,"Quarry 14, Como Bluff (YPM)",-106.002197,41.893101,6.0,1,1,0,1
+39373,"Quarry C, Como Bluff (YPM)",-105.963402,41.9077,,1,1,0,1
+39374,"Quarry D, Como Bluff (YPM)",-105.963402,41.9077,,1,1,0,1
+39375,"Lakes Quarry 1, Morrison (YPM)",-105.192596,39.675598,4.0,1,1,0,1
+39376,"Lakes Quarry 8, Morrison (YPM)",-105.192596,39.675598,4.0,2,2,2,0
+39377,"Felch Quarry 2, Garden Park (YPM)",-105.224701,38.539501,3.0,2,2,1,1
+45975,Dry Mesa Quarry [BYU],-108.397202,38.583099,4.0,17,15,10,7
+46439,Cleveland-Lloyd Dinosaur Quarry,-110.687622,39.32399,4.0,16,11,9,7
+46460,Howe Quarry,-107.779167,44.535557,5.0,5,5,4,1
+46462,Howe Quarry 2,-107.779167,44.535557,5.0,2,2,1,1
+46465,Howe-Stephens Quarry,-107.816666,44.650002,5.0,9,8,8,1
+46468,Big Al Quarry (MOR M-106),-107.779167,44.535557,5.0,4,4,3,1
+46469,"Spring Hill, Howe Ranch",-107.779167,44.535557,5.0,2,2,1,1
+47065,East Camarasaurus Quarry '93,-106.291,41.967098,6.0,3,3,3,0
+47196,Willow Springs Quarry,-111.270554,38.731667,,4,4,3,1
+48124,"Hups Quarry, MWC Loc. 197",-108.476669,38.853611,5.0,2,2,1,1
+48127,"Cope Quarry I, Cope's Nipple",-105.231598,38.547501,5.0,2,2,1,1
+48128,"Cope Quarry II, Cope's Nipple",-105.231598,38.547501,5.0,2,2,1,1
+48129,"Cope Quarry III, Cope's Nipple",-105.231598,38.547501,5.0,5,4,4,1
+48130,"Cope Quarry IV, Cope's Nipple",-105.231598,38.547501,5.0,1,1,1,0
+48146,"Cope Quarry V, Cope's Nipple",-105.231598,38.547501,5.0,1,1,1,0
+48147,"Cope Quarry VI, Cope's Nipple",-105.231598,38.547501,5.0,1,1,1,0
+48148,"Cope Quarry VII, Cope's Nipple",-105.231598,38.547501,5.0,1,1,1,0
+48149,"Cope Quarry VIII, The Fort",-105.231598,38.547501,5.0,1,1,1,0
+48153,Cope Quarry XIV,-105.231598,38.547501,5.0,1,1,1,0
+48154,Cope Quarry XII,-105.2397,38.5527,5.0,2,2,2,0
+48155,"Delfs Quarry, Garden Park (CMNH)",-105.2202,38.533501,2.0,1,1,1,0
+48156,"Egg Gulch, Garden Park",-105.2202,38.533501,2.0,1,1,1,0
+48158,"Cope Quarry XV, Oil Tract",-105.210602,38.5168,3.0,1,1,1,0
+48160,"Kessler's Quarry, Garden Park",-105.212502,38.541,3.0,2,2,1,1
+48161,"Small's Quarry, Garden Park",-105.212502,38.541,4.0,4,4,4,0
+48162,Lindsey Quarry (DMNH),-105.193703,38.544998,4.0,3,3,2,1
+48163,"DeWeese Quarry, Green Acres (DMNH)",-105.193703,38.544998,4.0,1,1,1,0
+48164,"Greg's Bone, Garden Park",-105.193703,38.544998,4.0,1,1,1,0
+48166,Valley of Death 5,-105.231598,38.546501,3.0,2,2,2,0
+48168,"Lucas's Site, Garden Park",-105.231598,38.547501,,1,1,1,0
+48169,"Meyer Site 3, Garden Park",-105.210602,38.5168,2.0,1,1,1,0
+48170,"Kenny's Stegosaurus, Garden Park",-105.210602,38.5168,3.0,1,1,1,0
+48171,"Meyer Site 2, Garden Park",-105.210602,38.5168,2.0,5,5,3,2
+48172,"Meyer Site 1, Garden Park",-105.210602,38.5168,2.0,1,1,0,1
+48557,Alcova Quarry (UW),-106.687599,42.552223,5.0,1,1,1,0
+48565,Red Fork Powder River Quarry A,-106.780556,43.649166,6.0,1,1,1,0
+48837,"Carnegie Quarry N, Sheep Creek",-105.90976,42.155437,,5,5,4,1
+49338,"OMNH Quarry 1, Kenton (OMNH V92)",-102.824997,36.897499,5.0,10,9,7,3
+49577,Bone Cabin Quarry West (BCQ West),-106.291,41.967098,6.0,11,11,8,3
+49595,"Brush Creek, Yale College Scientific Party",-109.391602,40.5345,4.0,1,1,0,1
+49596,"Stovall's Pit 5, Kenton (OMNH)",-102.962776,36.903057,4.0,6,6,5,1
+49597,"Stovall's Pit 6, Kenton (OMNH)",-102.962776,36.903057,4.0,5,5,4,1
+49598,"Stovall's Pit 8, Kenton (OMNH)",-102.962776,36.903057,4.0,1,1,1,0
+49614,Hinkle Site (BYU),-109.252899,39.172699,,1,1,0,1
+49621,Cabin Creek Quarry,-106.812202,38.537498,3.0,1,1,1,0
+49622,Jones Hole Quarry,-108.397202,38.583099,4.0,3,3,2,1
+49623,Potter Creek Quarry,-108.194443,38.638058,4.0,1,1,1,0
+49624,Upper Strickland Creek Quarry,-110.616386,45.544167,4.0,5,5,4,1
+49625,Bear Butte Quarry,-103.306946,44.474445,6.0,1,1,1,0
+49626,Green River Dinosaur Quarry,-110.367203,39.014301,4.0,3,3,2,1
+49627,Nail Quarry,-106.00222,41.893055,6.0,6,6,4,2
+49628,Louise Quarry,-106.00222,41.893055,6.0,5,5,3,2
+49629,op-KAT Locality,-105.963402,41.9077,,1,1,1,0
+49630,Fuller's 351 (SDSM V351),-103.828003,44.528,6.0,3,3,2,1
+49631,Wonderland Quarry (SDSM V9141),-103.344597,44.184399,6.0,3,3,2,1
+49633,"Parker's Mystery Locality, Hot Springs (SDSM V381)",-103.409698,43.409801,6.0,1,1,1,0
+49634,Inyan Kara Creek (SDSM V9137),-104.734703,44.458099,6.0,1,1,1,0
+49636,"Little Houston Quarry (SDSM V9138, SDSM V941)",-104.734703,44.458099,6.0,8,4,5,3
+49637,SDSM V9139,-104.409302,44.247398,6.0,1,1,1,0
+49652,"Eriksen Ceratosaurus, FPA",-108.769012,39.146667,4.0,1,1,0,1
+50714,"AMNH 03-30, Horse CoulÃ©e",-108.100197,45.453602,,2,2,2,0
+51990,NMMNH locality L-210,-106.313911,35.317261,4.0,1,1,1,0
+51991,NMMNH locality L-211,-106.313911,35.317261,,1,1,1,0
+51992,NMMNH locality L-344,-106.943939,35.580383,4.0,1,1,1,0
+52110,"DNM 315, Dinosaur National Monument",-109.317497,40.4436,5.0,1,1,1,0
+52815,"Carnegie Quarry C, Sheep Creek",-105.908501,42.152802,,5,3,5,0
+52816,"Carnegie Quarry E, Sheep Creek",-105.908501,42.152802,,4,3,4,0
+52872,Middle Park (USNM 218),-105.940292,40.092209,,1,1,0,1
+53040,"Main Callison Quarry, FPA",-108.769501,39.149235,4.0,2,2,2,0
+53041,Uravan Locality (BYU),-108.827545,38.316418,4.0,1,1,1,0
+55320,"Something Interesting Quarry (SI), unit 1",-108.184586,43.622528,6.0,3,3,3,0
+55323,Ninemile Quarry (AMNH),-106.356903,41.916302,6.0,1,1,1,0
+55329,"Kings View Quarry, Fruita",-108.774719,39.167778,,3,2,3,0
+55330,Red Mountain,-106.589996,41.799999,,1,1,0,1
+55349,"Buffalo Quarry, Smith Ranch",-106.698891,44.348057,,1,1,1,0
+55350,Nielsen Gulch (DNM),-109.278313,40.440536,4.0,1,1,0,1
+55482,Lynn Quarry,-106.145699,41.98,,4,4,3,1
+55483,AMNH Stego 99 Quarry,-106.310997,41.951698,6.0,3,3,3,0
+55484,Graff Ranch,-106.145699,41.98,,1,1,1,0
+55486,"Bernice Quarry, Como Bluff",-105.979721,41.893055,6.0,2,2,2,0
+55487,"Bertha Quarry, Como Bluff",-105.979721,41.893055,6.0,3,3,2,1
+56165,Mile 175 (SDSM V931),-104.734001,44.458099,6.0,1,1,1,0
+56421,"Stovall's Pit 3A, Kenton (OMNH)",-102.962776,36.903057,5.0,1,1,1,0
+56422,"Stovall's Pit 9, Kenton (OMNH)",-102.962776,36.903057,4.0,1,1,1,0
+56586,"Bollan Quarry, Rabbit Valley",-109.036133,39.200081,3.0,2,2,1,1
+56590,Rabbit Valley Iguanodon,-109.036133,39.200081,4.0,3,3,2,1
+56596,Rabbit Valley Camarasaurus,-109.036133,39.200081,4.0,1,1,1,0
+56599,Rabbit Valley stop 11,-109.036133,39.200081,4.0,1,1,1,0
+56654,Ninemile Hill,-106.145699,41.98,6.0,4,4,3,1
+56683,"Riggs Quarry 13, Fruita (FMNH)",-108.650299,39.068802,4.0,1,1,1,0
+56684,Holt Quarry,-108.647003,39.076099,4.0,3,3,2,1
+57893,Freezeout Hills Quarry 4,-106.390556,42.035831,,1,1,1,0
+57894,Freezeout Hills Quarry 6 (FMNH),-106.390556,42.035831,6.0,6,6,4,2
+57895,Freezeout Hills Quarry L,-106.390556,42.035831,,1,1,1,0
+57896,Freezeout Hills Quarry O,-106.390556,42.035831,,2,2,2,0
+57897,"Carnegie Quarry D, Sheep Creek",-105.916199,42.152302,4.0,2,2,2,0
+57898,"Carnegie Quarry F, Sheep Creek",-105.886398,42.146099,,1,1,1,0
+57899,"Carnegie Quarry G, Sheep Creek",-105.886398,42.146099,,1,1,1,0
+57900,"Carnegie Quarry J, Sheep Creek",-105.908424,42.149494,,2,2,2,0
+57901,"Carnegie Quarry K, Sheep Creek",-105.908501,42.152802,,1,1,1,0
+57902,"Carnegie Quarry 4, Sheep Creek",-105.908424,42.149494,,1,1,1,0
+57903,Quarry R (AMNH),-105.963402,41.9077,,4,4,3,1
+57904,Wonderland North (SDSM V951),-103.344597,44.184399,6.0,1,1,1,0
+57905,"Hatch Ranch, Piedmont Butte",-103.377998,44.23307,6.0,2,2,1,1
+57910,Acoma Site,-107.597702,34.936798,,1,1,0,1
+57913,Rainbow Park microsite (DNM 96),-109.1651,40.504601,5.0,5,5,4,1
+58507,Bobcat Pit,-104.240555,44.021111,,2,2,1,1
+58508,Paint Creek,-109.207924,44.839115,,1,1,1,0
+58509,Red Fork Powder River Quarry B,-106.780556,43.649166,6.0,3,3,2,1
+58510,Poison Creek Quarry (MSM),-106.778,44.087002,5.0,9,9,7,2
+58511,"SDSM V923, Blacktail Creek",-104.612999,44.677502,,1,1,1,0
+58512,Dyer Ranch Quarry 1,-106.3153,42.181629,,1,1,1,0
+58513,Dyer Ranch Quarry 2,-106.3153,42.181629,,1,1,1,0
+58514,Hanksville-Burpee Quarry,-110.813889,38.25222,4.0,7,7,6,1
+58515,"Utah Field House Quarry, DNM",-109.524025,40.456348,3.0,1,1,1,0
+58516,Mill Canyon Quarry (BYU),-109.741203,38.710346,3.0,5,5,4,1
+58517,Floy Junction,-109.935837,38.924442,,2,2,2,0
+58518,Cisco sauropod site,-109.320557,38.970001,,1,1,1,0
+58551,Emery County sauropod site,-111.1502,38.8396,,1,1,0,1
+62561,Red Canyon Ranch,-107.814163,44.632221,5.0,4,4,2,2
+64053,"Sand Bench, San Rafael Swell (BYU)",-110.898888,38.863888,,1,1,0,1
+66909,Alameda Parkway Morrison dinosaur site,-105.192596,39.675598,,1,1,1,0
+68097,Sinbad Valley,-108.99778,38.502777,,1,1,1,0
+68099,"NMMNH L-555, San Ysidro Camarasaurus Quarry",-106.823196,35.515598,4.0,2,2,1,1
+69890,Mother's Day Quarry,-108.826668,45.22361,4.0,2,2,2,0
+70024,PiÃ±on Locality,-110.22583,36.100834,,1,1,1,0
+70026,Wilson Creek,-105.208885,38.503334,2.0,1,1,0,1
+70027,Radium Locality,-106.558609,39.952778,,1,1,0,1
+70028,Blue Mesa Quarry,-107.334442,38.452778,3.0,2,2,1,1
+70029,Masonville locality,-105.210831,40.487499,5.0,2,2,1,1
+70030,Villegreen,-103.520279,37.305832,,1,1,1,0
+70031,Cactus Park Quarry 3A (CU-Denver),-108.477219,38.853611,4.0,2,2,1,1
+70032,Cactus Park Quarry (BYU Loc. 681),-108.477219,38.853611,4.0,3,3,3,0
+71476,FPA General Site (LACM),-108.769997,39.146,4.0,6,6,6,0
+73998,Aurora Quarry 3 (AMNH),-106.07917,41.901386,4.0,1,1,0,1
+74000,Como Bluff (AMNH 222),-106.07917,41.901386,,2,2,1,1
+74663,Cottonwood Creek Dinosaur Trail (Tate-UW),-106.740685,42.520729,5.0,2,2,2,0
+74664,Jimbo Quarry (2A) (PROXY),-105.439041,42.629375,6.0,2,2,1,1
+75453,"Zane Quarry, Sheep Creek",-105.85611,42.196388,6.0,4,4,4,0
+84308,Section 19 Mine (stope 4303),-107.831299,35.428398,2.0,1,1,0,1
+92360,"George's ""Coelurosaur"" Site, FPA",-108.770508,39.148617,4.0,1,1,1,0
+96826,"Jensen/Jensen Quarry, DNM",-109.223335,40.405556,3.0,3,3,3,0
+104715,"La Sal Mountains, southwest",-109.337975,38.38448,,1,1,1,0
+106532,Lance Creek area,-104.28611,43.2425,,1,1,1,0
+119021,McConnell I,-106.920998,35.563457,4.0,1,1,0,1
+126540,Dana Quarry,-107.458336,44.051388,5.0,14,14,9,5
+132242,"AMNH quarries, Sturgis area (PROXY)",-103.306946,44.474445,6.0,1,1,1,0
+132243,"USNM Quarry, Sturgis area (PROXY)",-103.306946,44.474445,,1,1,1,0
+142334,"near Brown's Ranch, Elk Mountains",-106.421387,44.037498,,1,1,1,0
+142335,"Carnegie Quarry A, Sheep Creek",-105.889999,42.1469,,1,1,1,0
+142336,"Carnegie Quarry B, Sheep Creek",-105.916199,42.152302,4.0,1,1,1,0
+142337,"Carnegie Quarry 5, Sheep Creek",-105.908424,42.149494,,1,1,1,0
+154924,Northern Dinosaur Beach (CURE),-107.400002,38.450001,3.0,5,5,3,2
+154925,Dinosaur Beach (CURE),-107.400002,38.450001,3.0,3,3,2,1
+164787,Gordon-Bramson-Brothers Quarry (MWC),-106.933334,39.200001,4.0,1,1,1,0
+164830,McElmo Canyon,-108.747002,37.337002,4.0,1,1,0,1
+168056,Como Bluff (AMNH 223),-106.07917,41.901386,6.0,1,1,1,0
+176983,Poison Creek Quarry 1,-106.866402,44.0933,,5,5,4,1
+176984,Poison Creek Quarry 2,-106.866402,44.0933,,1,1,1,0
+176985,Poison Creek Quarry 3,-106.866402,44.0933,,1,1,0,1
+177492,Big Nose Quarry,-105.885803,41.878601,,1,1,1,0
+177496,Picketwire Canyonlands (upper),-103.676201,37.5322,,2,2,1,1
+177497,Picketwire Canyonlands (middle),-103.676201,37.5322,,1,1,1,0
+184626,"Eriksen Stegosaur, FPA",-108.767174,39.14613,4.0,1,1,1,0
+184627,"Taildust Theropod Quarry, FPA (PROXY)",-108.728333,39.15889,4.0,1,1,0,1
+185607,Howe-Scott Quarry,-107.816666,44.650002,5.0,3,3,3,0
+188393,Bull Canyon (UNM/1),-104.169296,34.9911,,1,1,1,0
+188395,5 km west of Exter,-107.401108,33.773609,,1,1,0,1
+188398,Little Wagonhound Creek (UW),-106.27417,41.730278,,1,1,1,0
+190894,Sheep Mountain anticline,-108.124908,44.637482,,1,1,1,0
+191718,"Cisco Mammal Quarry, OMNH V1728",-109.269165,38.992222,4.0,1,1,1,0
+192428,Montezuma Canyon,-109.197891,37.559715,,1,1,0,1
+192432,White Mesa,-109.467621,37.465836,,1,1,1,0
+192450,"Stegosurus Knob, FPA",-108.771576,39.150227,4.0,1,1,1,0
+192453,"Ceratosaurus Pond, FPA",-108.771576,39.150227,4.0,1,1,0,1
+192455,"Fossil Ridge, FPA",-108.771576,39.150227,4.0,2,2,1,1
+192746,"Becky Quarry, Como Bluff",-105.979721,41.893055,,1,1,1,0
+193250,DNM 116,-109.292778,40.438133,,1,1,0,1
+196439,Griffin Ranch,-106.291,41.967098,,1,1,1,0
+207744,Twin Juniper Quarry,-109.022301,39.139599,,1,1,1,0
+207747,Boris Quarry,-106.00222,41.893055,,1,1,1,0
+207748,McKinsey-REX pipeline quarry (PROXY),-105.706497,41.3139,,1,1,1,0
+207749,Sheridan College Quarry 1,-106.717598,44.058601,,3,3,3,0
+215054,JRDI 5ES Quarry,-108.792999,46.867001,,2,2,1,1
+220417,Aaron Scott Quarry [PROXY],-111.024002,39.005001,4.0,9,9,6,3
+221673,foot of Freezeout Mountains [PROXY],-111.725281,44.844444,,1,1,1,0
+224376,Sheridan College Allosaur Quarry (PROXY),-106.717598,44.058601,,1,1,0,1
+225118,ARCH 3151 locality [PROXY],-109.716454,38.777451,,1,1,1,0
+225131,"Blue Peak, near Grants",-107.813301,35.341,,1,1,1,0
+225132,Concho Springs,-107.230202,35.095699,,1,1,1,0
+225938,SDSM V932,-104.734703,44.458099,,1,1,0,1
+226819,Hulett (BHI) [PROXY],-104.600281,44.683056,,1,1,1,0
+227262,Nickopod Quarry (VMNH),-107.851501,44.655998,4.0,6,6,5,1
+227263,Little Al site (VMNH),-107.851501,44.655998,4.0,1,1,0,1
+227703,UCM Loc. 86050,-105.188614,40.673889,,1,1,0,1

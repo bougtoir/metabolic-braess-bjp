@@ -1,0 +1,10 @@
+metric,value
+n_occurrences_dinosaur,319
+n_occurrences_genus,174
+n_collections,124
+n_genera,42
+n_herbivore_occ,135
+n_predator_occ,184
+n_predator_genera,29
+n_herbivore_genera,13
+missing_coords,0

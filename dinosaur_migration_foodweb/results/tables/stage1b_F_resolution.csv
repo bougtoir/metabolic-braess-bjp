@@ -1,0 +1,7 @@
+level,guild,n_collections,n_taxa,beta_simpson
+genus_level,herbivore,206.0,26.0,0.6354357280049916
+genus_level,predator,114.0,12.0,0.0920767996687885
+genus_level,DELTA,,,-0.5433589283362031
+species_level,herbivore,206.0,52.0,0.7513321794105597
+species_level,predator,114.0,22.0,0.4857915437561456
+species_level,DELTA,,,-0.26554063565441416

@@ -1,0 +1,6 @@
+data/
+results/tables/cross_system_export.csv
+results/tables/paleozoic_extended.csv
+results/tables/pool_perturbation_replicates.csv
+results/tables/sampling_factorial_replicates.csv
+__pycache__/

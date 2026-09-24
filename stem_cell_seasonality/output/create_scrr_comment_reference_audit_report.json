@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-08-22T11:10:25Z",
+  "method": "Crossref API (articles) + Open Library (books) + HTTP (URLs) with severity classification",
+  "script": "scripts/verify_references.py",
+  "source": "scripts/create_scrr_comment.py",
+  "total_references": 5,
+  "summary": {
+    "match": 5,
+    "warning": 0,
+    "critical_mismatch": 0,
+    "unverified": 0
+  },
+  "results": [
+    {
+      "ref_number": 1,
+      "manuscript": "Volpato V, Smith J, Sandor C, et al. Reproducibility of molecular phenotypes after long-term differentiation to human iPSC-derived neurons: a multi-site omics study. Stem Cell Reports. 2018;11(4):897-911.",
+      "status": "MATCH",
+      "issues": [],
+      "crossref": {
+        "doi": "10.1016/j.stemcr.2018.08.013",
+        "title": "Reproducibility of Molecular Phenotypes after Long-Term Differentiation to Human iPSC-Derived Neurons: A Multi-Site Omics Study",
+        "authors": [
+          "Volpato V",
+          "Smith J",
+          "Sandor C",
+          "Ried JS",
+          "Baud A"
+        ],
+        "journal": "Stem Cell Reports",
+        "volume": "11",
+        "issue": "4",
+        "pages": "897-911",
+        "year": "2018",
+        "score": 47.103218
+      }
+    },
+    {
+      "ref_number": 2,
+      "manuscript": "McCreery KP, Stubb A, Stephens R, et al. Mechano-osmotic signals control chromatin state and fate transitions in pluripotent stem cells. Nat Cell Biol. 2025;27(10):1757-1770.",
+      "status": "MATCH",
+      "issues": [
+        {
+          "severity": "INFO",
+          "message": "Year +/-1 (online-first vs print): MS=2025 vs Crossref=2024"
+        }
+      ],
+      "crossref": {
+        "doi": "10.1101/2024.09.07.611779",
+        "title": "Mechano-osmotic signals control chromatin state and fate transitions in pluripotent stem cells",
+        "authors": [
+          "McCreery KP",
+          "Stubb A",
+          "Stephens R",
+          "Fursova NA",
+          "Cook A"
+        ],
+        "journal": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "year": "2024",
+        "score": 64.35965
+      }
+    },
+    {
+      "ref_number": 3,
+      "manuscript": "Bi S, Tang J, Zhang L, et al. Fine particulate matter reduces the pluripotency and proliferation of human embryonic stem cells through ROS induced AKT and ERK signaling pathway. Reprod Toxicol. 2020;96:231-240.",
+      "status": "MATCH",
+      "issues": [],
+      "crossref": {
+        "doi": "10.1016/j.reprotox.2020.07.010",
+        "title": "Fine particulate matter reduces the pluripotency and proliferation of human embryonic stem cells through ROS induced AKT and ERK signaling pathway",
+        "authors": [
+          "Bi S",
+          "Tang J",
+          "Zhang L",
+          "Huang L",
+          "Chen J"
+        ],
+        "journal": "Reproductive Toxicology",
+        "volume": "96",
+        "issue": "",
+        "pages": "231-240",
+        "year": "2020",
+        "score": 100.96134
+      }
+    },
+    {
+      "ref_number": 4,
+      "manuscript": "Cai J, Zhou L, Liu L, et al. Real-time monitoring reveals the effects of low concentrations of volatile organic compounds in the embryology laboratory. Hum Reprod. 2025;40(4):601-611.",
+      "status": "MATCH",
+      "issues": [],
+      "crossref": {
+        "doi": "10.1093/humrep/deaf008",
+        "title": "Real-time monitoring reveals the effects of low concentrations of volatile organic compounds in the embryology laboratory",
+        "authors": [
+          "Cai J",
+          "Zhou L",
+          "Liu L",
+          "Liu Z",
+          "Chen J"
+        ],
+        "journal": "Human Reproduction",
+        "volume": "40",
+        "issue": "4",
+        "pages": "601-611",
+        "year": "2025",
+        "score": 65.81243
+      }
+    },
+    {
+      "ref_number": 5,
+      "manuscript": "Barrett T, Wilhite SE, Ledoux P, et al. NCBI GEO: archive for functional genomics data sets-update. Nucleic Acids Res. 2013;41(D):D991-D995.",
+      "status": "MATCH",
+      "issues": [
+        {
+          "severity": "INFO",
+          "message": "Year +/-1 (online-first vs print): MS=2013 vs Crossref=2012"
+        }
+      ],
+      "crossref": {
+        "doi": "10.1093/nar/gks1193",
+        "title": "NCBI GEO: archive for functional genomics data sets—update",
+        "authors": [
+          "Barrett T",
+          "Wilhite SE",
+          "Ledoux P",
+          "Evangelista C",
+          "Kim IF"
+        ],
+        "journal": "Nucleic Acids Research",
+        "volume": "41",
+        "issue": "D1",
+        "pages": "D991-D995",
+        "year": "2012",
+        "score": 46.263294
+      }
+    }
+  ]
+}

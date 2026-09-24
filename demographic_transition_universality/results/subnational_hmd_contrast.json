@@ -1,0 +1,15 @@
+{
+  "Germany": {
+    "units": [
+      "East Germany",
+      "West Germany"
+    ],
+    "e0_overlap": [
+      68.49,
+      80.74
+    ],
+    "mean_abs_lambda_gap": 2.492684197198635,
+    "max_abs_lambda_gap": 4.974619635657472,
+    "mean_rel_gap": 0.26923210146170257
+  }
+}

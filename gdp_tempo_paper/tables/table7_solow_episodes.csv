@@ -1,0 +1,7 @@
+episode,country,period,M0_growth_pp,M2_growth_pp,M4_growth_pp,tempo_artifact_pp,joint_artifact_pp,artifact_share_pct
+"Republic of Korea, Asian crisis",Republic of Korea,1997-1999,1.74,0.47,0.22,1.27,1.52,72.98850574712644
+"United States, global financial crisis",United States,2007-2009,-0.38,-0.56,-0.61,0.18000000000000005,0.22999999999999998,-47.36842105263159
+"United States, dot-com boom",United States,1995-2000,1.68,1.82,1.75,-0.14000000000000012,-0.07000000000000006,-8.333333333333341
+"Germany, global financial crisis",Germany,2007-2009,-2.38,-2.38,-2.46,0.0,0.08000000000000007,-0.0
+Japan's 'lost decade',Japan,1990-1999,-0.22,-0.22,-0.22,0.0,0.0,-0.0
+"Japan, global financial crisis",Japan,2007-2009,-2.46,-2.46,-2.46,0.0,0.0,-0.0

@@ -1,0 +1,22 @@
+{
+  "n_countries_with_transition": 180,
+  "duration_years": {
+    "median": 39.0,
+    "q1": 24.75,
+    "q3": 69.75,
+    "min": 5,
+    "max": 158
+  },
+  "raw_lambda": {
+    "sd_event_time": 6.337083823917979,
+    "sd_rescaled_time": 7.5204383209348675,
+    "variance_ratio_event_over_rescaled": 0.7100559911081008
+  },
+  "amplitude_normalised_shape": {
+    "sd_event_time": 0.20335793145184342,
+    "sd_rescaled_time": 0.1118212823501832,
+    "variance_ratio_event_over_rescaled": 3.307297742727112
+  },
+  "irreducible_sd_lambda_at_matched_e0": 6.886712263740978,
+  "note": "Time rescaling by transition duration does NOT collapse raw lambda better than onset-shift alone. Only after ALSO normalising amplitude does the (sigmoidal) shape align, and that discards the level information universality is about. The matched-e0 residual is invariant to any time warp."
+}

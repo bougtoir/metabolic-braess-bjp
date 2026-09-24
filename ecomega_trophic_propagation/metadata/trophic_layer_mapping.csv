@@ -1,0 +1,17 @@
+species,functional_group,feeding_mode,trophic_level_estimate,assigned_layer,confidence,source
+Euphausia pacifica,krill,filter/grazer on phytoplankton+microzoop,2.5,Layer2_prey,HIGH,ACCESS zooplankton nets
+Thysanoessa spinifera,krill,filter/grazer,2.5,Layer2_prey,HIGH,ACCESS zooplankton nets
+other zooplankton (non-euphausiid),zooplankton,various,2.0,Layer1_basal,MEDIUM,ACCESS zooplankton nets
+Common Murre,piscivorous seabird,diving pursuit,4.1,Layer3_predator,HIGH,ACCESS visual surveys
+Cassin's Auklet,planktivorous seabird,surface/dive krill feeder,3.5,Layer3_predator,HIGH,ACCESS visual surveys
+Rhinoceros Auklet,piscivorous seabird,pursuit diving,3.9,Layer3_predator,HIGH,ACCESS visual surveys
+Sooty Shearwater,krill+forage seabird,surface/dive,4.0,Layer3_predator,HIGH,ACCESS visual surveys
+Pink-footed Shearwater,forage seabird,dive,4.0,Layer3_predator,MEDIUM,ACCESS visual surveys
+Northern Fulmar,generalist seabird,surface,3.8,Layer3_predator,MEDIUM,ACCESS visual surveys
+Western Gull,generalist seabird,surface,3.9,Layer3_predator,MEDIUM,ACCESS visual surveys
+Red Phalarope,planktivorous seabird,surface,3.4,Layer3_predator,MEDIUM,ACCESS visual surveys
+Red-necked Phalarope,planktivorous seabird,surface,3.4,Layer3_predator,MEDIUM,ACCESS visual surveys
+Black-footed Albatross,piscivorous seabird,surface/dive,4.2,Layer3_predator,MEDIUM,ACCESS visual surveys
+Megaptera novaeangliae,baleen whale,krill/forage feeder,4.4,Layer3_predator,HIGH,ACCESS visual surveys
+Balaenoptera musculus,baleen whale,krill feeder,4.5,Layer3_predator,HIGH,ACCESS visual surveys
+Zalophus californianus,pinniped,piscivore,4.4,Layer3_predator,MEDIUM,ACCESS visual surveys

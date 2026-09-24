@@ -1,0 +1,5 @@
+field,class,role,rationale
+"SeaWiFS chl-a (8d, 4km)",INDIRECT,primary production / forage-fish proxy,No direct prey (krill/fish school) co-located measurements in TOPP; chl-a is the standard productivity proxy used in the TOPP literature (Block et al. 2011).
+Bakun UWI (coastal stations),ENVIRONMENTAL,upwelling forcing (not prey),Wind-driven forcing index; enters E terms only.
+OISST daily SST,ENVIRONMENTAL,thermal habitat / niche control,Habitat-selection covariate per spec §17.
+AVISO geostrophic u/v,ENVIRONMENTAL,advection correction,"Used to compute residual (active) displacement, §10."

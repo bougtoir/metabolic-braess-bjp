@@ -1,0 +1,5 @@
+- Scoping review of 2,169 records yields 18 direct micromobility studies.
+- Public vehicle feeds disclose persistent identifiers and GPS almost everywhere.
+- No audited privacy notice addressed vulnerability reporting or device disposal.
+- A reproducible lifecycle model links evidence strength to management controls.
+- Disclosure gaps are observable indicators for concession design and procurement.

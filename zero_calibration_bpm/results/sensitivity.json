@@ -1,0 +1,71 @@
+{
+  "s4_bias": 0.269,
+  "s4_v": 1.108,
+  "threshold_sweep": {
+    "bias_threshold_3mmHg": {
+      "meanbias_flagged": false,
+      "v_flagged_0.05": true
+    },
+    "bias_threshold_5mmHg": {
+      "meanbias_flagged": false,
+      "v_flagged_0.05": true
+    },
+    "bias_threshold_10mmHg": {
+      "meanbias_flagged": false,
+      "v_flagged_0.05": true
+    },
+    "v_threshold_0.02": {
+      "meanbias_flagged_5mmHg": false,
+      "v_flagged": true
+    },
+    "v_threshold_0.05": {
+      "meanbias_flagged_5mmHg": false,
+      "v_flagged": true
+    },
+    "v_threshold_0.10": {
+      "meanbias_flagged_5mmHg": false,
+      "v_flagged": true
+    }
+  },
+  "grid": {
+    "gain_values": [
+      1.0,
+      1.02,
+      1.04,
+      1.06,
+      1.08,
+      1.1,
+      1.12,
+      1.14,
+      1.16,
+      1.18,
+      1.2
+    ],
+    "offset_values": [
+      -20,
+      -18,
+      -16,
+      -14,
+      -12,
+      -10,
+      -8,
+      -6,
+      -4,
+      -2,
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "masked_combinations": 28,
+    "total_combinations": 231,
+    "masked_fraction": 0.121
+  }
+}

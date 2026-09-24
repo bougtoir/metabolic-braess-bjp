@@ -1,0 +1,4 @@
+artifact,source_url,version_or_commit,acquired_utc,stored_path,sha256,license,notes
+Human-GEM SBML,https://github.com/SysBioChalmers/Human-GEM (release tag v2.0.1),v2.0.1 (git 93e8d29),2026-09-23,models/human2/Human-GEM.xml,6ce49b620391f0ad76be24fdbdfc884fa376ff534dd3813c95abbe9d8c66fa5e,see repository LICENSE,primary model; frozen; 12877 rxns
+Recon3DModel_301 SBML,https://www.vmh.life (Recon3D v301),v301 (git 967ff51),2026-09-23,models/recon3d/Recon3DModel_301.xml,6f96538177cc65248413c012876fc6e7608dda2647c2445c64f0b5ab727ad440,see source license,replication model; frozen; 10600 rxns
+drug-target mapping,authored from literature knowledge in-session (references in manuscript),n/a,2026-09-24,data/drug_mapping.csv,(computed at commit),n/a,representative modulators; not exhaustive; no fabricated dose mappings

@@ -1,0 +1,5 @@
+- A measurable share of the Solow residual is a measurement artefact, not technology
+- Correcting lags and omitted intangibles reconciles flow- and wealth-side accounts
+- An OECD asset-composition proxy validates the lag without free parameters
+- Adjustments are largest in research-intensive, long-gestation economies
+- Policy implication: the correction affects potential-output and policy calibration

@@ -1,0 +1,179 @@
+"""Machine-readable feasibility table for learning-based / recent event
+denoisers and public labelled datasets, as used by the Pattern Recognition
+manuscript generator.  Every entry records what the method needs, what is
+public, and whether it was executed in this repository (and where)."""
+import json
+from pathlib import Path
+
+import sp_evaluation as sp
+
+RESULTS = Path(__file__).parent / 'results'
+
+METHODS = [
+    {
+        'key': 'mlpf',
+        'name': 'MLPF (multilayer-perceptron filter)',
+        'reference': 'Guo and Delbruck, IEEE TPAMI 44(1):785-795, 2022',
+        'type': 'supervised, event-driven',
+        'input': 'local time-surface patch (age and polarity of recent events) around each event',
+        'training_labels': 'per-event signal/noise labels (published training used DND21-style mixes '
+                           'of clean recordings with measured noise)',
+        'extra_sensors_required': 'none',
+        'public_code': 'jAER (Java); C++ re-implementation in E-MLB (cuke-emlb, CUDA)',
+        'executed_here': 'yes: MLPF-style MLP on the same patch features, trained inside each '
+                         'grouped-CV fold (sp_evaluation.MLPF); EBSSA and DND21',
+        'result_files': ['results/sp_evaluation_summary.json', 'results/dnd21_evaluation_summary.json'],
+        'caveat': 'architecture re-implemented from the paper; weights are not the published ones',
+    },
+    {
+        'key': 'edncnn',
+        'name': 'EDnCNN (event denoising CNN)',
+        'reference': 'Baldwin, Almatrafi, Asari and Hirakawa, CVPR 2020',
+        'type': 'supervised, patch-based CNN',
+        'input': 'spatio-temporal feature volume built from events around each event (event-only at inference)',
+        'training_labels': 'Event Probability Mask (EPM): per-event probabilities computed from '
+                           'co-registered APS intensity frames and IMU motion (DVSNOISE20)',
+        'extra_sensors_required': 'APS frames + IMU for label generation only',
+        'public_code': 'MATLAB (bald6354/edncnn); C++/CUDA re-implementation in E-MLB',
+        'executed_here': 'yes: EDnCNN-style 2-channel time-surface CNN trained inside each grouped-CV '
+                         'fold on the exact labels available (bounding boxes on EBSSA, origin labels on '
+                         'DND21) instead of EPM labels (sp_evaluation.EDnCNNStyle)',
+        'result_files': ['results/sp_evaluation_summary.json', 'results/dnd21_evaluation_summary.json'],
+        'caveat': 'EPM labels cannot be generated for EBSSA or DND21 (no APS/IMU streams in the '
+                  'labelled data); the CNN is trained on the datasets\' own labels',
+    },
+    {
+        'key': 'aednet',
+        'name': 'AEDNet (asynchronous event denoising network)',
+        'reference': 'Fang et al., ACM Multimedia 2022 (doi:10.1145/3503161.3548048)',
+        'type': 'supervised, point-set network on raw asynchronous events',
+        'input': '(x, y) offsets of the 50 nearest-in-time events inside a 25 x 15 px neighbourhood '
+                 'of each event, treated as an irregular point set',
+        'training_labels': 'per-event labels from DVSCLEAN (simulated + real-world; 1280x720 sensor)',
+        'extra_sensors_required': 'none',
+        'public_code': 'PyTorch (github.com/Fanghuachen/AEDNet, commit 4fca5c5) with one set of released '
+                       'weights (GitHub release "AEDNet", AEDNet_model.pth, SHA-256 e20c3da6...583e30; '
+                       'DVSCLEAN background-activity model, 1280x720); official inference script is CUDA-only',
+        'executed_here': 'yes: released weights applied unchanged (zero-shot transfer, CPU) to the EBSSA '
+                         'recordings and the DND21 mixtures on a stratified event subset '
+                         '(aednet_transfer.py); no re-training',
+        'result_files': ['results/aednet_transfer.json'],
+        'caveat': 'not the published protocol: CPU inference instead of CUDA 11.3 / PyTorch 1.12, sensor '
+                  'frame set to that of each recording (180x240 / 240x304 for EBSSA, 346x260 for DND21) '
+                  'with the released 25x15 px neighbourhood, whole recording as one '
+                  'shape, softmax probability used as a ranking score, and <= 1500 signal + 1500 noise '
+                  'events scored per recording; the patch construction and model output of the '
+                  're-implementation were checked to be bit-identical to the official loader and model on '
+                  'the authors\' released sample (results/aednet_transfer.json, official_parity). No '
+                  'weights for DAVIS-class sensors or DVSCLEAN-style labels for EBSSA/DND21 exist, so the '
+                  'result is a transfer test of a fixed model, not a trained comparator',
+    },
+    {
+        'key': 'wednet',
+        'name': 'WedNet (window-based event denoising network)',
+        'reference': 'Fang, Wu, Hou, Dong and Shi, IEEE TPAMI 2024 (doi:10.1109/TPAMI.2024.3467709)',
+        'type': 'supervised, window-based deep network (temporal window + learned sparse coding)',
+        'input': 'stack of events in a spatio-temporal window; labels the whole stack at once',
+        'training_labels': 'per-event labels; trained on 39 simulated DVSCLEAN scenes, tested on '
+                           'DVSCLEAN, DVSNOISE20 and ED-KoGTL (per the paper)',
+        'extra_sensors_required': 'none',
+        'public_code': 'none located (checked 2026-09-12): the paper (arXiv 2402.09270) gives '
+                       'no code link; the first author\'s GitHub account (Fanghuachen) exposes only AEDNet; '
+                       'GitHub repository search for "WedNet" and "window-based event denoising" returns '
+                       'no implementation, and GitHub code search for "WedNet event denoising" returns only '
+                       'third-party paper summaries',
+        'executed_here': 'no',
+        'result_files': [],
+        'caveat': 'cannot be run or re-trained faithfully without the authors\' code and weights; a '
+                  're-implementation from the paper would not be the published method',
+    },
+    {
+        'key': 'pfd',
+        'name': 'PFD-A (polarity-focused denoising)',
+        'reference': 'Shi et al., IEEE TCSVT 35(5):4370-4383, 2025',
+        'type': 'hand-crafted two-stage filter (no learning), event-driven',
+        'input': 'timestamps and polarities of the 8-neighbourhood; polarity-change FIFO per pixel',
+        'training_labels': 'none',
+        'extra_sensors_required': 'none',
+        'public_code': 'C++ (shicy17/PFD), GPL-3.0',
+        'executed_here': 'yes: re-implemented in numba (sp_evaluation.pfd_filter) with the reference '
+                         'thresholds; DND21 only (added after the EBSSA runs were frozen)',
+        'result_files': ['results/dnd21_evaluation_summary.json'],
+        'caveat': 'binary decision converted to a ranking by neighbour support for ROC analysis; '
+                  'stage-2 polarity change is taken relative to the previous event at the pixel '
+                  '(group-processing reference code), not the first event',
+    },
+]
+
+DATASETS = [
+    {
+        'key': 'ebssa',
+        'name': 'EBSSA (event-based space situational awareness)',
+        'reference': 'Afshar et al., 2020',
+        'sensor': 'two sensor formats in the labelled set (240x180 and 304x240 pixels), '
+                  'star-field and satellite tracking',
+        'labels': 'bounding-box annotations of tracked targets; per-event labels derived by box '
+                  'membership within +/-10 ms',
+        'label_type': 'surrogate (box membership)',
+        'roc_feasible': True,
+        'executed_here': 'yes (43 labelled recordings, grouped 4-fold CV)',
+        'result_files': ['results/sp_evaluation_summary.json'],
+        'access': 'Google Drive via tonic.datasets.EBSSA (subject to download quotas) or the same '
+                  'labelled_ebssa.h5 from the authors\' institutional mirror (sp_evaluation.EBSSA_H5_MIRROR, '
+                  f'SHA-256 {sp.EBSSA_H5_SHA256[:12]}...)',
+    },
+    {
+        'key': 'dnd21',
+        'name': 'DND21 (DeNoising Dynamic vision sensors 2021)',
+        'reference': 'Guo and Delbruck, IEEE TPAMI 2022',
+        'sensor': 'DAVIS346 (346x260)',
+        'labels': 'exact origin label: clean signal recordings (real hotel-bar segment, v2e renderings '
+                  'without noise) mixed with separately measured dark/light background-activity noise',
+        'label_type': 'exact (recording of origin)',
+        'roc_feasible': True,
+        'executed_here': 'yes (dnd21_evaluation.py; leave-one-signal-source-out)',
+        'result_files': ['results/dnd21_evaluation_summary.json', 'results/dnd21_per_recording.json'],
+        'access': 'public Google Drive folder 1fR8x3lTcO7qpxfItNjvAbTx_6hyiI6i9 (AEDAT-2.0)',
+    },
+    {
+        'key': 'dvsnoise20',
+        'name': 'DVSNOISE20',
+        'reference': 'Baldwin et al., CVPR 2020',
+        'sensor': 'DAVIS346 with APS frames and IMU',
+        'labels': 'Event Probability Mask: model-based per-event probability from APS+IMU, not an '
+                  'exact origin label',
+        'label_type': 'model-derived probability',
+        'roc_feasible': False,
+        'executed_here': 'no',
+        'result_files': [],
+        'access': 'public (udayton ISSL); not used because EPM labels would make the ground truth '
+                  'depend on a competing model of the same task',
+    },
+    {
+        'key': 'emlb',
+        'name': 'E-MLB / END (Event Noisy Dataset)',
+        'reference': 'Ding et al., IEEE TMM 2023',
+        'sensor': 'DAVIS346, four neutral-density illumination levels',
+        'labels': 'none; evaluated with the label-free ESR metric',
+        'label_type': 'none',
+        'roc_feasible': False,
+        'executed_here': 'no',
+        'result_files': [],
+        'access': 'public (KugaMaxx/cuke-emlb, aedat4); no per-event ground truth, so ROC-AUC and '
+                  'the paired tests used here are not defined',
+    },
+]
+
+
+def main():
+    RESULTS.mkdir(exist_ok=True)
+    out = {'methods': METHODS, 'datasets': DATASETS}
+    json.dump(out, open(RESULTS / 'comparator_feasibility.json', 'w'), indent=1)
+    for m in METHODS:
+        print(f"{m['key']:10s} executed_here={m['executed_here'].split(':')[0]}")
+    for d in DATASETS:
+        print(f"{d['key']:10s} roc_feasible={d['roc_feasible']}")
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,21 @@
+system: quaternary
+tier: strict_replication
+era: Quaternary
+environment_type: terrestrial
+data_type: fossil_occurrence
+region: configurable (default North America, cc=NOA)
+time_interval: "2.58-0 Ma"
+guilds:
+  inherit: cenozoic_mammals   # same herbivore order list / Carnivora rule
+taxonomic_resolution: genus
+spatial_unit: collection
+temporal_unit:
+  primary: coarse_bins_comparable_to_cenozoic
+  secondary_ladder: [100kyr, 50kyr, 20kyr, event_bins]
+seeds:
+  beta_diversity: 20240920
+  sampling_bias: 20240921
+n_bootstrap: 999
+n_mantel_perm: 9999
+dist_bin_km: 100
+required_extra_output: resolution_contrast_strengthening_metric

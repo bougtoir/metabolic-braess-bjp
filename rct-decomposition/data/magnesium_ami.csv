@@ -1,0 +1,13 @@
+study,year,e_treat,n_treat,e_ctrl,n_ctrl,design,era
+Morton 1984,1984,1,40,2,36,RCT,pre-thrombolysis
+Rasmussen 1986,1986,1,56,9,79,RCT,pre-thrombolysis
+Smith 1986,1986,2,200,7,200,RCT,pre-thrombolysis
+Abraham 1987,1987,1,48,1,46,RCT,pre-thrombolysis
+Ceremuzynski 1989,1989,1,25,3,23,RCT,pre-thrombolysis
+Shechter 1990,1990,1,50,9,53,RCT,pre-thrombolysis
+Singh 1990,1990,6,39,11,37,RCT,pre-thrombolysis
+Feldstedt 1991,1991,4,100,7,100,RCT,transition
+Schechter 1991,1991,1,59,2,57,RCT,transition
+LIMIT-2 1992,1992,90,1159,118,1157,RCT,thrombolysis
+Shechter 1995,1995,4,107,17,108,RCT,thrombolysis
+ISIS-4 1995,1995,2216,29011,2103,29039,RCT,thrombolysis

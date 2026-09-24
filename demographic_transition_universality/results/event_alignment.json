@@ -1,0 +1,38 @@
+{
+  "calendar_split_year": 1950,
+  "two_isocline_R2_calendar": 0.45226363748801357,
+  "two_isocline_R2_event": 0.38839301599401266,
+  "R2_gain_event_over_calendar": -0.06387062149400091,
+  "fit_calendar": {
+    "r2": 0.45226363748801357,
+    "c1": 1538.046290112634,
+    "c2": 985.6703403578285,
+    "c3": 42.64810359067133,
+    "n_fit": 39810
+  },
+  "fit_event": {
+    "r2": 0.38839301599401266,
+    "c1": 2272.3756631298393,
+    "c2": 818.4373401892747,
+    "c3": 42.64810359067133,
+    "n_fit": 39810
+  },
+  "collapse": {
+    "sd_lambda_calendar": 10.913457333903649,
+    "sd_lambda_event": 5.948540428825673,
+    "variance_reduction_ratio": 3.365920659205056,
+    "window": 25
+  },
+  "conserved_cv_calendar": {
+    "cv_lambda_e0_phaseI": 0.26534298582643195,
+    "cv_lambda_exp_phaseII": 0.30423529960984813,
+    "n_phaseI": 2739,
+    "n_phaseII": 7742
+  },
+  "conserved_cv_event": {
+    "cv_lambda_e0_phaseI": 0.16591367935530635,
+    "cv_lambda_exp_phaseII": 0.31254944949226204,
+    "n_phaseI": 3843,
+    "n_phaseII": 7694
+  }
+}

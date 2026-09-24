@@ -1,0 +1,244 @@
+reaction_id,reaction_name,subsystem,metric,orientation,type,u_opt,J0,J1,J_opt,gain0,gain1,n_feasible
+MAR02225,Free Diffusion,,atp_demand,higher,0,0.0,119.99999999999996,119.99999999999996,119.99999999999996,0.0,0.0,7
+MAR02225,Free Diffusion,,atp_per_glc,higher,0,0.0,11.999999999999996,11.999999999999996,11.999999999999996,0.0,0.0,7
+MAR02225,Free Diffusion,,atp_per_o2,higher,0,0.0,5.999999999999998,5.999999999999998,5.999999999999998,0.0,0.0,7
+MAR02225,Free Diffusion,,atp_per_carbon,higher,0,0.0,1.9999999999999996,1.9999999999999996,1.9999999999999996,0.0,0.0,7
+MAR02225,Free Diffusion,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR02225,Free Diffusion,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR02225,Free Diffusion,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR02225,Free Diffusion,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR02225,Free Diffusion,,total_flux,lower,III,0.0,-1296.666666666666,-1310.0000000000011,-1296.666666666666,0.0,0.010282776349615745,7
+MAR03956,carbonate hydro-lyase (carbon-dioxide-forming),,atp_demand,higher,0,1.0,119.99999999999996,120.00000000000004,120.00000000000004,7.105427357600999e-16,0.0,7
+MAR03956,carbonate hydro-lyase (carbon-dioxide-forming),,atp_per_glc,higher,0,1.0,11.999999999999996,12.000000000000004,12.000000000000004,5.9211894646675e-16,0.0,7
+MAR03956,carbonate hydro-lyase (carbon-dioxide-forming),,atp_per_o2,higher,0,1.0,5.999999999999998,6.000000000000002,6.000000000000002,5.9211894646675e-16,0.0,7
+MAR03956,carbonate hydro-lyase (carbon-dioxide-forming),,atp_per_carbon,higher,0,1.0,1.9999999999999996,2.0000000000000004,2.0000000000000004,4.440892098500625e-16,0.0,7
+MAR03956,carbonate hydro-lyase (carbon-dioxide-forming),,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR03956,carbonate hydro-lyase (carbon-dioxide-forming),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR03956,carbonate hydro-lyase (carbon-dioxide-forming),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR03956,carbonate hydro-lyase (carbon-dioxide-forming),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR03956,carbonate hydro-lyase (carbon-dioxide-forming),,total_flux,lower,III,0.0,-1296.666666666666,-1310.0000000000232,-1296.666666666666,0.0,0.010282776349632754,7
+MAR04095,Acetyl-CoA hydrolase,,atp_demand,higher,0,0.0,119.99999999999996,119.99999999999991,119.99999999999996,0.0,3.552713678800502e-16,7
+MAR04095,Acetyl-CoA hydrolase,,atp_per_glc,higher,0,0.0,11.999999999999996,11.999999999999991,11.999999999999996,0.0,4.440892098500627e-16,7
+MAR04095,Acetyl-CoA hydrolase,,atp_per_o2,higher,0,0.0,5.999999999999998,5.9999999999999964,5.999999999999998,0.0,2.9605947323337516e-16,7
+MAR04095,Acetyl-CoA hydrolase,,atp_per_carbon,higher,0,0.0,1.9999999999999996,1.999999999999999,1.9999999999999996,0.0,3.3306690738754706e-16,7
+MAR04095,Acetyl-CoA hydrolase,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR04095,Acetyl-CoA hydrolase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04095,Acetyl-CoA hydrolase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04095,Acetyl-CoA hydrolase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04095,Acetyl-CoA hydrolase,,total_flux,lower,0,0.0,-1296.666666666666,-1356.6666666668273,-1296.666666666666,0.0,0.046272493573389126,7
+MAR04280,(S)-Lactate:NAD+ oxidoreductase,,atp_demand,higher,0,1.0,119.99999999999996,120.00000000000004,120.00000000000004,7.105427357600999e-16,0.0,7
+MAR04280,(S)-Lactate:NAD+ oxidoreductase,,atp_per_glc,higher,0,1.0,11.999999999999996,12.000000000000004,12.000000000000004,5.9211894646675e-16,0.0,7
+MAR04280,(S)-Lactate:NAD+ oxidoreductase,,atp_per_o2,higher,0,1.0,5.999999999999998,6.000000000000002,6.000000000000002,5.9211894646675e-16,0.0,7
+MAR04280,(S)-Lactate:NAD+ oxidoreductase,,atp_per_carbon,higher,0,1.0,1.9999999999999996,2.0000000000000004,2.0000000000000004,4.440892098500625e-16,0.0,7
+MAR04280,(S)-Lactate:NAD+ oxidoreductase,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR04280,(S)-Lactate:NAD+ oxidoreductase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04280,(S)-Lactate:NAD+ oxidoreductase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04280,(S)-Lactate:NAD+ oxidoreductase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04280,(S)-Lactate:NAD+ oxidoreductase,,total_flux,lower,0,0.0,-1296.666666666666,-1316.6666666666708,-1296.666666666666,0.0,0.015424164524425283,7
+MAR04363,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),,atp_demand,higher,0,0.0,119.99999999999991,99.99999999999996,119.99999999999991,0.0,0.16666666666666644,7
+MAR04363,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),,atp_per_glc,higher,0,1.0,11.999999999999991,29.99999999999982,29.99999999999982,0.599999999999998,0.0,7
+MAR04363,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),,atp_per_o2,higher,0,0.0,5.9999999999999964,4.999999999999998,5.9999999999999964,0.0,0.16666666666666646,7
+MAR04363,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),,atp_per_carbon,higher,0,1.0,1.999999999999999,4.99999999999997,4.99999999999997,0.5999999999999978,0.0,7
+MAR04363,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),,glc_uptake,lower,0,1.0,-10.0,-3.333333333333352,-3.333333333333352,0.6666666666666649,0.0,7
+MAR04363,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04363,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04363,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04363,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),,total_flux,lower,0,1.0,-1296.666666666658,-1083.333333333337,-1083.333333333337,0.16452442159382208,0.0,7
+MAR04365,"D-phosphoglycerate 2,3-phosphomutase",,atp_demand,higher,0,0.0,119.99999999999991,100.00000000000004,119.99999999999991,0.0,0.1666666666666657,7
+MAR04365,"D-phosphoglycerate 2,3-phosphomutase",,atp_per_glc,higher,0,1.0,11.999999999999991,29.99999999999891,29.99999999999891,0.5999999999999858,0.0,7
+MAR04365,"D-phosphoglycerate 2,3-phosphomutase",,atp_per_o2,higher,0,0.0,5.9999999999999964,5.000000000000002,5.9999999999999964,0.0,0.16666666666666588,7
+MAR04365,"D-phosphoglycerate 2,3-phosphomutase",,atp_per_carbon,higher,0,1.0,1.999999999999999,4.999999999999819,4.999999999999819,0.5999999999999857,0.0,7
+MAR04365,"D-phosphoglycerate 2,3-phosphomutase",,glc_uptake,lower,0,1.0,-10.0,-3.333333333333456,-3.333333333333456,0.6666666666666543,0.0,7
+MAR04365,"D-phosphoglycerate 2,3-phosphomutase",,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04365,"D-phosphoglycerate 2,3-phosphomutase",,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04365,"D-phosphoglycerate 2,3-phosphomutase",,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04365,"D-phosphoglycerate 2,3-phosphomutase",,total_flux,lower,0,1.0,-1296.6666666666647,-1083.3333333333446,-1083.3333333333446,0.16452442159382036,0.0,7
+MAR04368,ATP:3-phospho-D-glycerate 1-phosphotransferase,,atp_demand,higher,0,0.0,120.0000000000027,100.0,120.0000000000027,0.0,0.16666666666668542,7
+MAR04368,ATP:3-phospho-D-glycerate 1-phosphotransferase,,atp_per_glc,higher,II,0.75,12.00000000000027,19.999999999999517,20.999999999997268,0.4285714285713414,0.047619047618946725,7
+MAR04368,ATP:3-phospho-D-glycerate 1-phosphotransferase,,atp_per_o2,higher,0,0.0,6.000000000000135,5.000000000000001,6.000000000000135,0.0,0.16666666666668528,7
+MAR04368,ATP:3-phospho-D-glycerate 1-phosphotransferase,,atp_per_carbon,higher,II,0.75,2.000000000000045,3.333333333333252,3.499999999999545,0.42857142857134145,0.04761904761894693,7
+MAR04368,ATP:3-phospho-D-glycerate 1-phosphotransferase,,glc_uptake,lower,0,0.9,-10.0,-5.000000000000123,-5.000000000000051,0.49999999999999495,7.194245199571014e-15,7
+MAR04368,ATP:3-phospho-D-glycerate 1-phosphotransferase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04368,ATP:3-phospho-D-glycerate 1-phosphotransferase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04368,ATP:3-phospho-D-glycerate 1-phosphotransferase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04368,ATP:3-phospho-D-glycerate 1-phosphotransferase,,total_flux,lower,0,1.0,-1296.6666666669582,-1131.6666666666777,-1131.6666666666777,0.12724935732666592,0.0,7
+MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,atp_demand,higher,0,0.0,120.00000000000212,96.66666666666669,120.00000000000212,0.0,0.1944444444444585,7
+MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,atp_per_glc,higher,II,0.9,12.000000000000211,29.00000000000038,30.050000000000157,0.6006655574043213,0.034941763727113856,7
+MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,atp_per_o2,higher,0,0.0,6.000000000000107,4.833333333333334,6.000000000000107,0.0,0.19444444444445866,7
+MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,atp_per_carbon,higher,II,0.9,2.0000000000000355,4.833333333333396,5.00833333333336,0.6006655574043211,0.03494176372711415,7
+MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,glc_uptake,lower,0,1.0,-10.0,-3.33333333333329,-3.33333333333329,0.6666666666666711,0.0,7
+MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04373,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),,total_flux,lower,II,0.9,-1296.6666666666997,-1098.3333333333433,-1074.3333333333314,0.17146529562984264,0.01850899742931456,7
+MAR04388,(S)-Lactate:NAD+ oxidoreductase,,atp_demand,higher,0,1.0,119.99999999999996,120.00000000000004,120.00000000000004,7.105427357600999e-16,0.0,7
+MAR04388,(S)-Lactate:NAD+ oxidoreductase,,atp_per_glc,higher,0,1.0,11.999999999999996,12.000000000000004,12.000000000000004,5.9211894646675e-16,0.0,7
+MAR04388,(S)-Lactate:NAD+ oxidoreductase,,atp_per_o2,higher,0,1.0,5.999999999999998,6.000000000000002,6.000000000000002,5.9211894646675e-16,0.0,7
+MAR04388,(S)-Lactate:NAD+ oxidoreductase,,atp_per_carbon,higher,0,1.0,1.9999999999999996,2.000000000000001,2.000000000000001,6.661338147750936e-16,0.0,7
+MAR04388,(S)-Lactate:NAD+ oxidoreductase,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR04388,(S)-Lactate:NAD+ oxidoreductase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04388,(S)-Lactate:NAD+ oxidoreductase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04388,(S)-Lactate:NAD+ oxidoreductase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04388,(S)-Lactate:NAD+ oxidoreductase,,total_flux,lower,III,0.0,-1296.666666666666,-1316.6666666666902,-1296.666666666666,0.0,0.015424164524440188,7
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,atp_demand,higher,III,0.0,119.99999999999996,109.99999999999994,119.99999999999996,0.0,0.08333333333333348,7
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,atp_per_glc,higher,III,0.0,11.999999999999996,11.000000000000044,11.999999999999996,0.0,0.08333333333332936,7
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,atp_per_o2,higher,III,0.0,5.999999999999998,5.499999999999997,5.999999999999998,0.0,0.08333333333333351,7
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,atp_per_carbon,higher,III,0.0,1.9999999999999996,1.8333333333333408,1.9999999999999996,0.0,0.08333333333332939,7
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,glc_uptake,lower,0,1.0,-10.0,-9.999999999999956,-9.999999999999956,4.440892098500626e-15,0.0,7
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,lac_out,lower,III,0.0,-0.0,-9.999999999999956,-0.0,0.0,9999999999.999954,7
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,lac_per_atp,lower,III,0.0,-0.0,-0.0909090909090905,-0.0,0.0,90909090.90909049,7
+MAR04391,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,,total_flux,lower,II,0.75,-1296.666666666666,-1493.3333333333303,-1282.4999999999386,0.010925449871512179,0.1625964010283227,7
+MAR04888,transport of H2O (cytosol to mitochondria),,atp_demand,higher,0,0.9,119.99999999999996,119.99999999999996,120.00000000000004,7.105427357600999e-16,7.105427357600999e-16,7
+MAR04888,transport of H2O (cytosol to mitochondria),,atp_per_glc,higher,0,0.9,11.999999999999996,11.999999999999996,12.000000000000004,5.9211894646675e-16,5.9211894646675e-16,7
+MAR04888,transport of H2O (cytosol to mitochondria),,atp_per_o2,higher,0,0.9,5.999999999999998,5.999999999999998,6.000000000000002,5.9211894646675e-16,5.9211894646675e-16,7
+MAR04888,transport of H2O (cytosol to mitochondria),,atp_per_carbon,higher,0,0.9,1.9999999999999996,2.0,2.0000000000000004,4.440892098500625e-16,2.2204460492503126e-16,7
+MAR04888,transport of H2O (cytosol to mitochondria),,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR04888,transport of H2O (cytosol to mitochondria),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04888,transport of H2O (cytosol to mitochondria),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04888,transport of H2O (cytosol to mitochondria),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04888,transport of H2O (cytosol to mitochondria),,total_flux,lower,III,0.0,-1296.666666666666,-1496.6666666666688,-1296.666666666666,0.0,0.15424164524421813,7
+MAR04896,transport of O2 (cytosol to extracellular),,atp_demand,higher,0,0.0,120.00000000000004,50.000000000000014,120.00000000000004,0.0,0.5833333333333334,7
+MAR04896,transport of O2 (cytosol to extracellular),,atp_per_glc,higher,0,0.0,12.000000000000004,5.000000000000002,12.000000000000004,0.0,0.5833333333333333,7
+MAR04896,transport of O2 (cytosol to extracellular),,atp_per_o2,higher,0,0.0,6.000000000000002,2.500000000000001,6.000000000000002,0.0,0.5833333333333333,7
+MAR04896,transport of O2 (cytosol to extracellular),,atp_per_carbon,higher,0,0.0,2.0000000000000004,0.8333333333333336,2.0000000000000004,0.0,0.5833333333333334,7
+MAR04896,transport of O2 (cytosol to extracellular),,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR04896,transport of O2 (cytosol to extracellular),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04896,transport of O2 (cytosol to extracellular),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04896,transport of O2 (cytosol to extracellular),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04896,transport of O2 (cytosol to extracellular),,total_flux,lower,II,0.25,-1296.6666666666893,-1810.0,-1175.8333333333374,0.09318766066839317,0.4890745501285231,7
+MAR04898,transport of O2 (cytosol to mitochondria),,atp_demand,higher,0,0.9,119.99999999999996,120.00000000000004,120.00000000000004,7.105427357600999e-16,0.0,7
+MAR04898,transport of O2 (cytosol to mitochondria),,atp_per_glc,higher,0,0.9,11.999999999999996,12.000000000000004,12.000000000000004,5.9211894646675e-16,0.0,7
+MAR04898,transport of O2 (cytosol to mitochondria),,atp_per_o2,higher,0,0.9,5.999999999999998,6.000000000000002,6.000000000000002,5.9211894646675e-16,0.0,7
+MAR04898,transport of O2 (cytosol to mitochondria),,atp_per_carbon,higher,0,0.9,1.9999999999999996,2.0000000000000004,2.0000000000000004,4.440892098500625e-16,0.0,7
+MAR04898,transport of O2 (cytosol to mitochondria),,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR04898,transport of O2 (cytosol to mitochondria),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR04898,transport of O2 (cytosol to mitochondria),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04898,transport of O2 (cytosol to mitochondria),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR04898,transport of O2 (cytosol to mitochondria),,total_flux,lower,0,0.0,-1296.666666666666,-1410.0000000000111,-1296.666666666666,0.0,0.08740359897173147,7
+MAR05043,transport of H+ and Pi (inner mitochondria to mitochondria),,atp_demand,higher,0,0.1,119.99999999999996,86.66666666666664,120.00000000000004,7.105427357600999e-16,0.27777777777777823,7
+MAR05043,transport of H+ and Pi (inner mitochondria to mitochondria),,atp_per_glc,higher,0,0.1,11.999999999999996,8.666666666666664,12.000000000000004,5.9211894646675e-16,0.2777777777777782,7
+MAR05043,transport of H+ and Pi (inner mitochondria to mitochondria),,atp_per_o2,higher,0,0.1,5.999999999999998,4.333333333333332,6.000000000000002,5.9211894646675e-16,0.2777777777777782,7
+MAR05043,transport of H+ and Pi (inner mitochondria to mitochondria),,atp_per_carbon,higher,0,0.1,2.0,1.444444444444444,2.0000000000000004,2.2204460492503126e-16,0.2777777777777782,7
+MAR05043,transport of H+ and Pi (inner mitochondria to mitochondria),,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR05043,transport of H+ and Pi (inner mitochondria to mitochondria),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR05043,transport of H+ and Pi (inner mitochondria to mitochondria),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR05043,transport of H+ and Pi (inner mitochondria to mitochondria),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR05043,transport of H+ and Pi (inner mitochondria to mitochondria),,total_flux,lower,0,0.0,-1296.6666666666576,-1664.666666666682,-1296.6666666666576,0.0,0.28380462724937805,7
+MAR05292,transport of acetate (cytosol to mitochondria),,atp_demand,higher,0,0.0,119.99999999999996,119.99999999999996,119.99999999999996,0.0,0.0,7
+MAR05292,transport of acetate (cytosol to mitochondria),,atp_per_glc,higher,0,0.0,11.999999999999996,11.999999999999996,11.999999999999996,0.0,0.0,7
+MAR05292,transport of acetate (cytosol to mitochondria),,atp_per_o2,higher,0,0.0,5.999999999999998,5.999999999999998,5.999999999999998,0.0,0.0,7
+MAR05292,transport of acetate (cytosol to mitochondria),,atp_per_carbon,higher,0,1.0,1.9999999999999996,2.0,2.0,2.220446049250313e-16,0.0,7
+MAR05292,transport of acetate (cytosol to mitochondria),,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR05292,transport of acetate (cytosol to mitochondria),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR05292,transport of acetate (cytosol to mitochondria),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR05292,transport of acetate (cytosol to mitochondria),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR05292,transport of acetate (cytosol to mitochondria),,total_flux,lower,III,0.0,-1296.666666666666,-1316.6666666666674,-1296.666666666666,0.0,0.015424164524422653,7
+MAR05407,carbonate hydro-lyase (carbon-dioxide-forming),,atp_demand,higher,0,0.0,119.99999999999996,119.99999999999996,119.99999999999996,0.0,0.0,7
+MAR05407,carbonate hydro-lyase (carbon-dioxide-forming),,atp_per_glc,higher,0,0.0,11.999999999999996,11.999999999999996,11.999999999999996,0.0,0.0,7
+MAR05407,carbonate hydro-lyase (carbon-dioxide-forming),,atp_per_o2,higher,0,0.0,5.999999999999998,5.999999999999998,5.999999999999998,0.0,0.0,7
+MAR05407,carbonate hydro-lyase (carbon-dioxide-forming),,atp_per_carbon,higher,0,1.0,1.9999999999999996,2.0,2.0,2.220446049250313e-16,0.0,7
+MAR05407,carbonate hydro-lyase (carbon-dioxide-forming),,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR05407,carbonate hydro-lyase (carbon-dioxide-forming),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR05407,carbonate hydro-lyase (carbon-dioxide-forming),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR05407,carbonate hydro-lyase (carbon-dioxide-forming),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR05407,carbonate hydro-lyase (carbon-dioxide-forming),,total_flux,lower,III,0.0,-1296.666666666666,-1310.0000000000136,-1296.666666666666,0.0,0.01028277634962539,7
+MAR05411,transport of L-lactate (cytosol to mitochondria),,atp_demand,higher,0,0.0,119.99999999999996,119.99999999999996,119.99999999999996,0.0,0.0,7
+MAR05411,transport of L-lactate (cytosol to mitochondria),,atp_per_glc,higher,0,0.0,11.999999999999996,11.999999999999996,11.999999999999996,0.0,0.0,7
+MAR05411,transport of L-lactate (cytosol to mitochondria),,atp_per_o2,higher,0,0.0,5.999999999999998,5.999999999999998,5.999999999999998,0.0,0.0,7
+MAR05411,transport of L-lactate (cytosol to mitochondria),,atp_per_carbon,higher,0,0.0,1.9999999999999996,1.9999999999999996,1.9999999999999996,0.0,0.0,7
+MAR05411,transport of L-lactate (cytosol to mitochondria),,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR05411,transport of L-lactate (cytosol to mitochondria),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR05411,transport of L-lactate (cytosol to mitochondria),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR05411,transport of L-lactate (cytosol to mitochondria),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR05411,transport of L-lactate (cytosol to mitochondria),,total_flux,lower,0,0.0,-1296.666666666666,-1316.6666666666654,-1296.666666666666,0.0,0.015424164524421075,7
+MAR06328,ATP:ADP phosphatransferase,,atp_demand,higher,0,1.0,119.99999999999996,120.0,120.0,3.552713678800501e-16,0.0,7
+MAR06328,ATP:ADP phosphatransferase,,atp_per_glc,higher,0,1.0,11.999999999999996,12.0,12.0,2.9605947323337506e-16,0.0,7
+MAR06328,ATP:ADP phosphatransferase,,atp_per_o2,higher,0,1.0,5.999999999999998,6.0,6.0,2.9605947323337506e-16,0.0,7
+MAR06328,ATP:ADP phosphatransferase,,atp_per_carbon,higher,0,1.0,1.9999999999999996,2.0,2.0,2.220446049250313e-16,0.0,7
+MAR06328,ATP:ADP phosphatransferase,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR06328,ATP:ADP phosphatransferase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR06328,ATP:ADP phosphatransferase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06328,ATP:ADP phosphatransferase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06328,ATP:ADP phosphatransferase,,total_flux,lower,III,0.9,-1296.666666666666,-1441.6666666666856,-1296.6666666666638,1.7535244892794254e-15,0.11182519280207344,7
+MAR06409,Dihydrolipoamide:NAD+ oxidoreductase,,atp_demand,higher,III,0.1,119.99999999999996,116.00000000000004,120.00000000000004,7.105427357600999e-16,0.03333333333333332,7
+MAR06409,Dihydrolipoamide:NAD+ oxidoreductase,,atp_per_glc,higher,III,0.1,11.999999999999996,11.600000000000003,12.000000000000004,5.9211894646675e-16,0.033333333333333354,7
+MAR06409,Dihydrolipoamide:NAD+ oxidoreductase,,atp_per_o2,higher,III,0.1,5.999999999999998,5.800000000000002,6.000000000000002,5.9211894646675e-16,0.033333333333333354,7
+MAR06409,Dihydrolipoamide:NAD+ oxidoreductase,,atp_per_carbon,higher,III,0.1,2.0,1.9333333333333336,2.0000000000000004,2.2204460492503126e-16,0.03333333333333343,7
+MAR06409,Dihydrolipoamide:NAD+ oxidoreductase,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR06409,Dihydrolipoamide:NAD+ oxidoreductase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR06409,Dihydrolipoamide:NAD+ oxidoreductase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06409,Dihydrolipoamide:NAD+ oxidoreductase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06409,Dihydrolipoamide:NAD+ oxidoreductase,,total_flux,lower,II,0.75,-1296.666666666666,-1272.4444444458331,-1246.1111111110815,0.038988860325643616,0.020308483291582233,7
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,atp_demand,higher,0,0.0,120.0,115.99999999999996,120.0,0.0,0.03333333333333369,7
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,atp_per_glc,higher,0,0.0,12.0,11.599999999999996,12.0,0.0,0.03333333333333366,7
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,atp_per_o2,higher,0,0.0,6.0,5.799999999999998,6.0,0.0,0.03333333333333366,7
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,atp_per_carbon,higher,0,0.0,2.0,1.933333333333333,2.0,0.0,0.03333333333333355,7
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06412,acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase,,total_flux,lower,II,0.9,-1296.6666666666715,-1256.666666666672,-1243.4916666666463,0.041008997429325185,0.010160668380482466,7
+MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,atp_demand,higher,0,0.0,119.99999999999692,20.0,119.99999999999692,0.0,0.833333333333329,7
+MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,atp_per_glc,higher,0,0.0,11.999999999999693,2.0,11.999999999999693,0.0,0.833333333333329,7
+MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,atp_per_o2,higher,0,1.0,5.999999999999846,20000000000.0,20000000000.0,0.9999999997,0.0,7
+MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,atp_per_carbon,higher,0,0.0,1.999999999999949,0.3333333333333333,1.999999999999949,0.0,0.8333333333333292,7
+MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,o2_uptake,lower,0,1.0,-20.0,-0.0,-0.0,1.0,0.0,7
+MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,lac_out,lower,0,0.0,-0.0,-20.0,-0.0,0.0,20000000000.0,7
+MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,lac_per_atp,lower,III,0.0,-0.0,-1.0,-0.0,0.0,999999999.9999999,7
+MAR06914,ferrocytochrome-c:oxygen oxidoreductase,,total_flux,lower,0,1.0,-1296.6666666667934,-270.0000000000001,-270.0000000000001,0.7917737789203289,0.0,7
+MAR06916,ATP phosphohydrolase,,atp_demand,higher,0,0.1,119.99999999999991,40.00000000000008,120.00000000000004,1.0658141036401498e-15,0.6666666666666662,7
+MAR06916,ATP phosphohydrolase,,atp_per_glc,higher,0,0.1,11.999999999999991,4.000000000000008,12.000000000000004,1.0362081563168124e-15,0.6666666666666661,7
+MAR06916,ATP phosphohydrolase,,atp_per_o2,higher,0,0.1,5.9999999999999964,2.000000000000004,6.000000000000002,8.881784197001249e-16,0.6666666666666661,7
+MAR06916,ATP phosphohydrolase,,atp_per_carbon,higher,0,0.1,1.999999999999999,0.666666666666668,2.000000000000001,9.992007221626405e-16,0.6666666666666662,7
+MAR06916,ATP phosphohydrolase,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR06916,ATP phosphohydrolase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR06916,ATP phosphohydrolase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06916,ATP phosphohydrolase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06916,ATP phosphohydrolase,,total_flux,lower,0,0.0,-1296.6666666666636,-1760.0000000000089,-1296.6666666666636,0.0,0.35732647814911034,7
+MAR06918,ubiquinol:ferricytochrome-c oxidoreductase,,atp_demand,higher,0,0.0,119.99999999999326,40.00000000000001,119.99999999999326,0.0,0.666666666666648,7
+MAR06918,ubiquinol:ferricytochrome-c oxidoreductase,,atp_per_glc,higher,0,0.0,11.999999999999329,4.000000000000001,11.999999999999329,0.0,0.666666666666648,7
+MAR06918,ubiquinol:ferricytochrome-c oxidoreductase,,atp_per_o2,higher,0,0.0,5.999999999999663,2.0000000000000004,5.999999999999663,0.0,0.6666666666666479,7
+MAR06918,ubiquinol:ferricytochrome-c oxidoreductase,,atp_per_carbon,higher,0,0.0,1.999999999999888,0.6666666666666667,1.999999999999888,0.0,0.666666666666648,7
+MAR06918,ubiquinol:ferricytochrome-c oxidoreductase,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR06918,ubiquinol:ferricytochrome-c oxidoreductase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR06918,ubiquinol:ferricytochrome-c oxidoreductase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06918,ubiquinol:ferricytochrome-c oxidoreductase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06918,ubiquinol:ferricytochrome-c oxidoreductase,,total_flux,lower,0,1.0,-1296.666666666648,-896.6666666666727,-896.6666666666727,0.3084832904884174,0.0,7
+MAR06921,NADH:ubiquinone oxidoreductase,,atp_demand,higher,0,0.0,119.99999999999376,95.0,119.99999999999376,0.0,0.20833333333329218,7
+MAR06921,NADH:ubiquinone oxidoreductase,,atp_per_glc,higher,0,0.0,11.999999999999376,9.500000000000002,11.999999999999376,0.0,0.20833333333329204,7
+MAR06921,NADH:ubiquinone oxidoreductase,,atp_per_o2,higher,0,0.0,5.999999999999688,4.750000000000001,5.999999999999688,0.0,0.20833333333329204,7
+MAR06921,NADH:ubiquinone oxidoreductase,,atp_per_carbon,higher,0,0.0,1.999999999999896,1.5833333333333337,1.999999999999896,0.0,0.20833333333329201,7
+MAR06921,NADH:ubiquinone oxidoreductase,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR06921,NADH:ubiquinone oxidoreductase,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR06921,NADH:ubiquinone oxidoreductase,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06921,NADH:ubiquinone oxidoreductase,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR06921,NADH:ubiquinone oxidoreductase,,total_flux,lower,II,0.1,-1296.6666666662898,-2060.0000000000045,-1235.9999999998176,0.04678663239060906,0.6354755784064985,7
+MAR07638,transport of H+ (cytosol to mitochondria),,atp_demand,higher,0,0.0,119.99999999999996,119.99999999999996,119.99999999999996,0.0,0.0,7
+MAR07638,transport of H+ (cytosol to mitochondria),,atp_per_glc,higher,0,0.0,11.999999999999996,11.999999999999996,11.999999999999996,0.0,0.0,7
+MAR07638,transport of H+ (cytosol to mitochondria),,atp_per_o2,higher,0,0.0,5.999999999999998,5.999999999999998,5.999999999999998,0.0,0.0,7
+MAR07638,transport of H+ (cytosol to mitochondria),,atp_per_carbon,higher,0,0.0,1.9999999999999996,1.9999999999999996,1.9999999999999996,0.0,0.0,7
+MAR07638,transport of H+ (cytosol to mitochondria),,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR07638,transport of H+ (cytosol to mitochondria),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR07638,transport of H+ (cytosol to mitochondria),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR07638,transport of H+ (cytosol to mitochondria),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR07638,transport of H+ (cytosol to mitochondria),,total_flux,lower,III,0.0,-1296.666666666666,-1356.6666666666652,-1296.666666666666,0.0,0.0462724935732641,7
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,atp_demand,higher,0,0.0,119.99999999999996,115.99999999999996,119.99999999999996,0.0,0.03333333333333335,7
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,atp_per_glc,higher,0,0.0,11.999999999999996,11.599999999999998,11.999999999999996,0.0,0.03333333333333322,7
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,atp_per_o2,higher,0,0.0,5.999999999999998,5.799999999999999,5.999999999999998,0.0,0.03333333333333322,7
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,atp_per_carbon,higher,0,0.0,1.9999999999999996,1.933333333333333,1.9999999999999996,0.0,0.03333333333333333,7
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR08746,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),,total_flux,lower,II,0.9,-1296.666666666666,-1256.666666666668,-1243.4916666666525,0.04100899742931642,0.010160668380474793,7
+MAR20069,MAR20069,,atp_demand,higher,0,0.0,119.99999999999996,115.99999999999996,119.99999999999996,0.0,0.03333333333333335,7
+MAR20069,MAR20069,,atp_per_glc,higher,0,0.0,11.999999999999996,11.599999999999996,11.999999999999996,0.0,0.033333333333333375,7
+MAR20069,MAR20069,,atp_per_o2,higher,0,0.0,5.999999999999998,5.799999999999998,5.999999999999998,0.0,0.033333333333333375,7
+MAR20069,MAR20069,,atp_per_carbon,higher,0,0.0,2.0,1.933333333333333,2.0,0.0,0.03333333333333355,7
+MAR20069,MAR20069,,glc_uptake,lower,0,0.0,-10.0,-10.0,-10.0,0.0,0.0,7
+MAR20069,MAR20069,,o2_uptake,lower,0,0.0,-20.0,-20.0,-20.0,0.0,0.0,7
+MAR20069,MAR20069,,lac_out,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR20069,MAR20069,,lac_per_atp,lower,0,0.0,-0.0,-0.0,-0.0,0.0,0.0,7
+MAR20069,MAR20069,,total_flux,lower,II,0.9,-1296.6666666666788,-1256.6666666666713,-1243.4916666666463,0.04100899742933057,0.010160668380481883,7

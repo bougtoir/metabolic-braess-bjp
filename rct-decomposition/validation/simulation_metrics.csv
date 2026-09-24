@@ -1,0 +1,6 @@
+method,bias,rmse,coverage,power
+Target (all RCTs),-0.040,0.119,91.200,67.800
+RCT enrolled only,0.127,0.160,73.600,24.400
+Observational only,-0.224,0.248,45.400,97.000
+KOTHA alpha=0.3,-0.039,0.101,85.200,87.200
+KOTHA alpha=0.1,0.024,0.092,89.800,70.000

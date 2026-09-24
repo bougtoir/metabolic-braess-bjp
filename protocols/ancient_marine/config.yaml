@@ -1,0 +1,13 @@
+system: ancient_marine
+tier: ecological_translation
+era: Paleozoic-Mesozoic marine (exact interval set by the implementation session)
+environment_type: marine
+data_type: fossil_occurrence
+region: configurable (basin / palaeogeographic province)
+time_interval: configurable
+spatial_unit_candidates: [palaeogeographic_grid, basin, shelf_region, palaeolatitude_band, depositional_province]
+trophic_mapping:
+  lower: [primary_consumers, suspension_feeders, grazers]
+  higher: [predators, nektonic_predators]
+observation_processes: [depositional_environment, stratigraphic_condensation, facies, mineralization_bias, collection_intensity]
+exports: results/common_metrics/common_metrics_ancient_marine.csv

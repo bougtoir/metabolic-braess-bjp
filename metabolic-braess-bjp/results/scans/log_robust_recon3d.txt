@@ -1,0 +1,11 @@
+robust recon3d_aerobic_moma_linear_fva_informed: 42 rows (813s)
+robust recon3d_aerobic_moma_linear_bound_scaling: 42 rows (705s)
+robust recon3d_glucose_limited_pfba_fva_informed: 462 rows (657s)
+robust recon3d_glucose_limited_pfba_bound_scaling: 462 rows (657s)
+robust recon3d_glucose_limited_moma_linear_fva_informed: 42 rows (915s)
+robust recon3d_glucose_limited_moma_linear_bound_scaling: 42 rows (920s)
+robust recon3d_oxygen_limited_pfba_fva_informed: 462 rows (643s)
+robust recon3d_oxygen_limited_pfba_bound_scaling: 462 rows (630s)
+robust recon3d_oxygen_limited_moma_linear_fva_informed: 42 rows (894s)
+robust recon3d_oxygen_limited_moma_linear_bound_scaling: 42 rows (655s)
+done

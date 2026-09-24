@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+ClinicalTrials_figures/
+*_highlights.docx

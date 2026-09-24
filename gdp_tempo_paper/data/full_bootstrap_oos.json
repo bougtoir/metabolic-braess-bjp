@@ -1,0 +1,10 @@
+{
+  "n_countries": 35,
+  "actual_median_diff": 0.10690983781300645,
+  "actual_mean_diff": 0.017026147734856424,
+  "actual_pct_positive": 57.14285714285714,
+  "boot_median_ci_lo": -0.16169205693334487,
+  "boot_median_ci_hi": 0.36255087139890296,
+  "boot_mean_ci_lo": -0.25070986066976914,
+  "boot_mean_ci_hi": 0.25786735591317017
+}

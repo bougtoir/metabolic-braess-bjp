@@ -1,0 +1,10 @@
+species_common,species_sci,trophic_guild,mobility_class,rationale
+reef manta ray,Mobula alfredi,A_plankton_feeding_mobile,1,Plankton-feeding mobile consumer; NOT treated as herbivore analogy; baseline low-mobility trophic link to primary production
+grey reef shark,Carcharhinus amblyrhynchos,C_mesopredator,2,Reef-associated mesopredator; intermediate mobility and trophic level
+yellowfin tuna,Thunnus albacares,D_mobile_predator,3,Highly mobile pelagic predator
+blue marlin,Makaira nigricans,D_mobile_predator,3,Highly mobile pelagic predator
+melon-headed whale,Peponocephala electra,D_mobile_predator,3,Mobile oceanic odontocete predator
+bottlenose dolphin,Tursiops truncatus,D_mobile_predator,3,Mobile predator
+great frigatebird,Fregata minor,E_seabird_predator,4,Wide-ranging aerial predator/scavenger; largest daily ranges
+red-footed booby,Sula sula,E_seabird_predator,4,Wide-ranging aerial piscivore
+sooty tern,Onychoprion fuscatus,E_seabird_predator,4,Wide-ranging aerial piscivore

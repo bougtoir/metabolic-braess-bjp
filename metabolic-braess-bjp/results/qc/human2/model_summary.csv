@@ -1,0 +1,2 @@
+model,version,reactions,metabolites,genes,compartments,boundary_reactions,sha256,blocked_reactions,dead_end_metabolites
+Human-GEM,v2.0.1,12877,8460,2848,9,1660,6ce49b620391f0ad76be24fdbdfc884fa376ff534dd3813c95abbe9d8c66fa5e,1293,2288

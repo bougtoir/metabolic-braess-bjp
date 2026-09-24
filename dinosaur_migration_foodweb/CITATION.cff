@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Migration sustained dinosaur food webs"
+authors:
+  - family-names: "Onishi"
+    given-names: "Tatsuki"
+version: 0.1.0
+date-released: 2026-09-20

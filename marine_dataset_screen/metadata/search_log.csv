@@ -1,0 +1,20 @@
+source,query,url,accessed,n_hits,note
+datacite_api,krill penguin telemetry tracking,https://api.datacite.org/dois?query=krill%20penguin%20telemetry%20tracking,2026-09-21,5,
+datacite_api,krill fur seal tracking South Georgia,https://api.datacite.org/dois?query=krill%20fur%20seal%20tracking%20South%20Georgia,2026-09-21,2,
+datacite_api,capelin seabird survey,https://api.datacite.org/dois?query=capelin%20seabird%20survey,2026-09-21,2,
+datacite_api,sardine anchovy seabird upwelling tracking,https://api.datacite.org/dois?query=sardine%20anchovy%20seabird%20upwelling%20tracking,2026-09-21,0,
+datacite_api,Tagging of Pacific Predators TOPP,https://api.datacite.org/dois?query=Tagging%20of%20Pacific%20Predators%20TOPP,2026-09-21,2,
+datacite_api,seabird GPS tracking forage fish survey,https://api.datacite.org/dois?query=seabird%20GPS%20tracking%20forage%20fish%20survey,2026-09-21,1,
+datacite_api,sandeel seabird tracking North Sea,https://api.datacite.org/dois?query=sandeel%20seabird%20tracking%20North%20Sea,2026-09-21,0,
+datacite_api,tuna telemetry eddy,https://api.datacite.org/dois?query=tuna%20telemetry%20eddy,2026-09-21,0,
+datacite_api,herring predator telemetry,https://api.datacite.org/dois?query=herring%20predator%20telemetry,2026-09-21,5,
+datacite_api,marine mammal telemetry prey acoustic survey,https://api.datacite.org/dois?query=marine%20mammal%20telemetry%20prey%20acoustic%20survey,2026-09-21,0,
+datacite_api,pinniped fish telemetry foraging hotspot,https://api.datacite.org/dois?query=pinniped%20fish%20telemetry%20foraging%20hotspot,2026-09-21,0,
+datacite_api,whale shark zooplankton tracking,https://api.datacite.org/dois?query=whale%20shark%20zooplankton%20tracking,2026-09-21,0,
+manual:movebank,seabird penguin seal tracking Southern Ocean South Georgia,https://www.movebank.org/,2026-09-21,-1,browse web UI; requires login for data download
+manual:obis_seamap,telemetry penguin seal turtle shark,https://seamap.env.duke.edu/,2026-09-21,-1,"dataset catalog, registration-free download for most"
+manual:otn,salmon herring predator acoustic telemetry,https://members.oceantrack.org/,2026-09-21,-1,data portal; much data restricted
+manual:imos,animal tracking facility,https://animaltracking.aodn.org.au/,2026-09-21,-1,AODN portal; open CSV/netCDF downloads
+manual:pangaea,krill penguin tracking,https://www.pangaea.de/,2026-09-21,-1,open data; per-dataset DOI
+manual:ices_datras,sandeel acoustic survey,https://datras.ices.dk/,2026-09-21,-1,open API downloads of survey haul data
+manual:noaa_fisheries,CalCOFI anchovy sardine acoustic trawl,https://coastwatch.pfeg.noaa.gov/erddap,2026-09-21,-1,open ERDDAP datasets

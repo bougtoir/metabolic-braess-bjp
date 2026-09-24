@@ -1,0 +1,28 @@
+Japan temperature-anomaly distributed-lag model, bins=[(0, 0), (1, 3), (4, 10)], var_df=4
+observations: 71,321  deaths: 11,576  prefectures: 47
+quasi-Poisson dispersion phi = 1.054
+
+Lag-window RR for a +9C anomaly vs seasonal norm:
+  lag0-0   : 0.940 (0.743-1.190)
+  lag1-3   : 1.146 (0.739-1.779)
+  lag4-10  : 0.521 (0.217-1.249)
+
+total_deaths: 11576
+years: 6
+mmt_abs_degC: -1.66
+dispersion_phi: 1.054
+cumRR_anom+9C: 0.562
+cumRR_anom+9C_lo: 0.207
+cumRR_anom+9C_hi: 1.525
+sameday_RR_anom+9C: 0.94
+sameday_RR_anom+9C_lo: 0.743
+sameday_RR_anom+9C_hi: 1.19
+net_heat_attributable_deaths: 65.1
+net_heat_attributable_lo: -103.4
+net_heat_attributable_hi: 216.3
+net_heat_attributable_per_year: 10.8
+net_heat_attributable_fraction_pct: 0.562
+net_cumRR_anom+3C: 0.994 (0.909-1.087)
+net_cumRR_anom+6C: 0.807 (0.530-1.231)
+net_cumRR_anom+9C: 0.562 (0.207-1.525)
+net_cumRR_anom+12C: 0.352 (0.062-1.996)

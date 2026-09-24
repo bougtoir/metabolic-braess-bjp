@@ -1,0 +1,27 @@
+{
+  "global_change_year_point_estimate": 1966,
+  "global_change_year_posterior": {
+    "mean": 1965.8436059158764,
+    "sd": 0.36869745980866514,
+    "credible95_lo": 1965,
+    "credible95_hi": 1966
+  },
+  "global_change_year_bootstrap": {
+    "mean": 1962.9225,
+    "sd": 6.084118157136662,
+    "ci95_lo": 1946.0,
+    "ci95_hi": 1969.0,
+    "n_boot": 2000
+  },
+  "per_country_onset": {
+    "n": 185,
+    "min": 1828,
+    "max": 2013,
+    "median": 1965.0,
+    "iqr": 58.0,
+    "sd": 42.29195849368402,
+    "frac_within_10y_of_1950": 0.05945945945945946,
+    "frac_before_1930": 0.2702702702702703,
+    "frac_after_1970": 0.372972972972973
+  }
+}

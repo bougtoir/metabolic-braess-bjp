@@ -1,0 +1,12 @@
+system: modern_terrestrial
+tier: ecological_translation
+era: modern
+environment_type: terrestrial
+data_type: survey_panel + telemetry
+region: North America (BBS) + phase8b cross-ecosystem panels
+time_interval: "BBS annual panel"
+lower_trophic: "not guild-coded natively — see VARIABLE_MAP.md"
+higher_trophic: "not guild-coded natively — see VARIABLE_MAP.md"
+spatial_unit: survey_route
+temporal_unit: year
+exports: results/common_metrics/common_metrics_modern_terrestrial.csv

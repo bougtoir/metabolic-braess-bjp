@@ -1,0 +1,7 @@
+grid_size_deg,guild,n_cells,n_collections,n_genera,mean_genera_per_cell
+0.5,herbivore,62,206,26,3.693548387096774
+0.5,predator,48,114,12,1.8541666666666667
+1.0,herbivore,42,206,26,4.738095238095238
+1.0,predator,35,114,12,2.2
+2.0,herbivore,22,206,26,6.545454545454546
+2.0,predator,19,114,12,3.0

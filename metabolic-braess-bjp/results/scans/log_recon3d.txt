@@ -1,0 +1,20 @@
+eligible: 8794
+baseline metrics: {"atp_demand": 121.52284263959392, "atp_per_glc": 12.152284263959391, "atp_per_o2": 6.0761421319796955, "atp_per_carbon": 2.0253807106598987, "glc_uptake": 10.0, "o2_uptake": 20.0, "lac_out": 0.0, "lac_per_atp": 0.0, "total_flux": 2184.8730964467045}
+stage1: 5220 reactions with span > tol (0s)
+  obj-changing KO hits: 15
+  alternate-optimum spanned: 2489 (0s)
+stage2 hits: 2494
+  screen 200/2494 kept=2 (280s)
+  screen 400/2494 kept=7 (558s)
+  screen 600/2494 kept=11 (838s)
+  screen 800/2494 kept=12 (1113s)
+  screen 1000/2494 kept=16 (1387s)
+  screen 1200/2494 kept=20 (1662s)
+  screen 1400/2494 kept=21 (1942s)
+  screen 1600/2494 kept=22 (2218s)
+  screen 1800/2494 kept=22 (2508s)
+  screen 2000/2494 kept=22 (2800s)
+  screen 2200/2494 kept=22 (3091s)
+  screen 2400/2494 kept=22 (3381s)
+screen kept: 22
+stage3 rows: 154 (218s) -> results/scans/full_recon3d_aerobic_pfba_fva_informed_stage3_grid.csv

@@ -1,0 +1,62 @@
+{
+  "France": {
+    "year": 2019,
+    "n_regions": 27,
+    "e0_min": 75.8,
+    "e0_max": 84.1,
+    "lambda_min": 8.3,
+    "lambda_max": 35.6,
+    "lambda_range": 27.3,
+    "lambda_cv_across_regions": 0.5127769263684733,
+    "lambda_cv_matched_e0": 0.35870489971700964,
+    "e0_spread_matched": 4.099999999999994
+  },
+  "Germany": {
+    "year": 2019,
+    "n_regions": 38,
+    "e0_min": 79.9,
+    "e0_max": 82.7,
+    "lambda_min": 7.5,
+    "lambda_max": 11.4,
+    "lambda_range": 3.9000000000000004,
+    "lambda_cv_across_regions": 0.09665682143785782,
+    "lambda_cv_matched_e0": 0.09665682143785782,
+    "e0_spread_matched": 2.799999999999997
+  },
+  "Italy": {
+    "year": 2019,
+    "n_regions": 21,
+    "e0_min": 81.9,
+    "e0_max": 84.6,
+    "lambda_min": 5.5,
+    "lambda_max": 9.8,
+    "lambda_range": 4.300000000000001,
+    "lambda_cv_across_regions": 0.13693413689492087,
+    "lambda_cv_matched_e0": 0.13693413689492087,
+    "e0_spread_matched": 2.6999999999999886
+  },
+  "Spain": {
+    "year": 2019,
+    "n_regions": 19,
+    "e0_min": 80.7,
+    "e0_max": 85.1,
+    "lambda_min": 5.1,
+    "lambda_max": 14.3,
+    "lambda_range": 9.200000000000001,
+    "lambda_cv_across_regions": 0.2547552099454907,
+    "lambda_cv_matched_e0": 0.2547552099454907,
+    "e0_spread_matched": 4.3999999999999915
+  },
+  "United States": {
+    "year": 2019,
+    "n_regions": 51,
+    "e0_min": 74.4,
+    "e0_max": 80.9,
+    "lambda_min": 8.84867034,
+    "lambda_max": 15.2974098,
+    "lambda_range": 6.4487394600000005,
+    "lambda_cv_across_regions": 0.10862130605506602,
+    "lambda_cv_matched_e0": 0.109744555070409,
+    "e0_spread_matched": 5.400000000000006
+  }
+}

@@ -1,0 +1,101 @@
+raw occurrences: 13874
+collections: 2622
+genera (gnl): 726
+
+== env value counts ==
+env
+terrestrial indet.                 10618
+marine indet.                        603
+fluvial indet.                       507
+"channel"                            420
+marginal marine indet.               287
+eolian indet.                        240
+estuary/bay                          212
+coastal indet.                       163
+pond                                 100
+shoreface                             72
+lacustrine indet.                     59
+offshore shelf                        58
+foreshore                             54
+fluvial-lacustrine indet.             53
+coarse channel fill                   48
+crevasse splay                        41
+deltaic indet.                        41
+basinal (siliciclastic)               38
+offshore                              38
+lagoonal                              36
+shallow subtidal indet.               29
+sinkhole                              28
+fine channel fill                     27
+"floodplain"                          20
+alluvial fan                          14
+open shallow subtidal                 13
+transition zone/lower shoreface       11
+slope/ramp reef                        7
+carbonate indet.                       6
+crater lake                            6
+wet floodplain                         5
+delta plain                            5
+fluvial-deltaic indet.                 5
+basinal (siliceous)                    4
+NaN                                    3
+slope                                  1
+prodelta                               1
+karst indet.                           1
+
+== order value counts ==
+odl
+Perissodactyla        3431
+Artiodactyla          3109
+Carnivora             2594
+Rodentia              2203
+Cetacea                721
+NO_ORDER_SPECIFIED     545
+Lagomorpha             447
+Proboscidea            446
+Sirenia                109
+Desmostyloidea          79
+Xenarthra               65
+Chiroptera              54
+NaN                     33
+Marsupialia             14
+Desmostylia             12
+Insectivora              4
+Didelphimorphia          4
+Primates                 2
+Cingulata                2
+
+age range: eag 7.246-29.5, lag 0.0117-20.45
+
+== early interval (oei) counts ==
+oei
+Barstovian                 2977
+Clarendonian               2402
+Hemphillian                1674
+Hemingfordian              1197
+Miocene                    1042
+Harrisonian                 775
+Late Hemphillian            751
+Early Hemingfordian         542
+Early Barstovian            515
+Tortonian                   328
+Langhian                    313
+Serravallian                216
+Late Clarendonian           195
+Burdigalian                 154
+Messinian                   121
+Aquitanian                  110
+Late Miocene                 98
+Late Hemingfordian           94
+Middle Miocene               79
+early Early Hemphillian      77
+Early Miocene                62
+Early Clarendonian           43
+Monroecreekian               28
+early Late Barstovian        22
+Chattian                     20
+Arikareean                   19
+Neogene                       8
+late Early Hemphillian        8
+Late Oligocene                3
+late Late Barstovian          1

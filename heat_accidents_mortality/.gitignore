@@ -1,0 +1,7 @@
+# Large raw downloads are re-fetched by scripts/build_*.py; do not commit.
+data/raw/
+__pycache__/
+*.pyc
+.venv/
+output/manuscript/submission_package.zip
+output/manuscript_bw/submission_package.zip

@@ -1,0 +1,6 @@
+product,variable,source_dataset,provider,resolution,frequency,coverage_used,access,limitations
+chlorophyll-a,chlor_a,noaacwN20VIIRSchlaDaily,NOAA CoastWatch ERDDAP (VIIRS NOAA-20),0.0375 deg,daily,2022-02-01..2023-05-31,public (no auth),Not gap-filled; ~67% of grid cells cloud-masked per day; log10-weighted centroid used
+sea surface temperature,sst,ncdcOisst21Agg_LonPM180,NOAA CoastWatch ERDDAP (OISST v2.1),0.25 deg,daily,2022-02-01..2023-05-31,public (no auth),Interpolated product; smoothed small-scale fronts
+sea level anomaly + geostrophic currents,sla/ugos/vgos,nesdisSSH1day,NOAA CoastWatch ERDDAP (NESDIS SSH),0.25 deg,daily,2022-02-01..2023-05-31,public (no auth),Geostrophic only; misses Ekman/ageostrophic flow; eddy kinetic energy derived as (ugos^2+vgos^2)/2
+Ekman currents,u_current/v_current,erdQAekm1day_LonPM180,NOAA CoastWatch ERDDAP (ASCAT),0.25 deg,daily,none used,public (no auth),UNUSABLE: field masked to NaN in near-equatorial band incl. Palmyra; also product ends 2022-10-24
+bathymetry,elevation,GEBCO_2020,NOAA CoastWatch ERDDAP,~500 m,static,full domain,public (no auth),context only

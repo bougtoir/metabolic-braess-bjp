@@ -1,0 +1,8 @@
+step,label,delta_beta,lo95,hi95,note
+1,naive genus-level guild contrast,-0.5497336252819323,-0.6304415629480886,-0.4566727159563943,
+2,observed vs gamma-matched null,-0.5497336252819323,-0.5344119563272056,-0.22850669968328083,CI shown is the null 95% interval
+3,observed vs frequency-matched null,-0.5497336252819323,-0.12402482549464744,-0.09483210269047848,CI shown is the null 95% interval
+4,exclude Allosaurus,-0.019819848896334702,-0.12757834142043623,0.023799147082851493,
+5,species-level resolution,-0.32189022555305813,-0.4262783019678936,-0.23415008345282984,
+6,duration+sampling adjusted Allosaurus extent z,-0.1560232454359002,,,extent residual z-score; |z|<2 = not exceptional
+7,sampling/preservation model pseudo-R2,0.455646053471728,,,share of presence structure explained by collection covariates

@@ -1,0 +1,17 @@
+metric,dinosaur,cenozoic,quaternary,ancient_marine,modern_terrestrial,modern_marine
+delta_beta_simpson,native=-0.5433589283362031 (Simpson turnover diff (predator - herbivore)); std=-1.4937445271866103; dir=lower<higher; robust=A; bias_sens=NA,native=-0.0283788573129074 (Simpson turnover diff (predator - herbivore)); std=NA; dir=lower<higher; robust=B; bias_sens=NA,NA,NA,NA,NA
+delta_beta_sorensen,native=-0.5491407767457093 (Sorensen turnover diff (predator - herbivore)); std=-1.0772465498718728; dir=lower<higher; robust=NA; bias_sens=NA,native=-0.0262307697692898 (Sorensen turnover diff); std=NA; dir=lower<higher; robust=NA; bias_sens=NA,NA,NA,NA,NA
+sampling_pool_sensitivity,native=NA (delta_beta_simpson under correction); std=NA; dir=lower<higher; robust=NA; bias_sens=-0.027732399264932428,native=NA (delta_beta_simpson under correction); std=NA; dir=lower<higher; robust=NA; bias_sens=0.0032206616346969995,NA,NA,NA,NA
+null_validation_nemegt,native=0.0938382225328039 (delta_beta_simpson (full)); std=NA; dir=no detectable contrast; robust=D; bias_sens=NA,NA,NA,NA,NA,NA
+time_aggregation_sensitivity,NA,native=-0.0283788573129074 (delta_beta_simpson per binning); std=NA; dir=lower<higher; robust=NA; bias_sens=NA,NA,NA,NA,NA
+null_size_matched_split,NA,native=-0.0283788573129074 (observed vs null quantile); std=NA; dir=NA; robust=NA; bias_sens=NA,NA,NA,NA,NA
+null_label_shuffle,NA,native=-0.0283788573129074 (observed vs null quantile); std=NA; dir=NA; robust=NA; bias_sens=NA,NA,NA,NA,NA
+occupancy_persistence_residual,NA,NA,NA,NA,native=0.0058507624945904 (median History Gain after route demeaning (forward)); std=NA; dir=no detectable contrast; robust=NA; bias_sens=NA,NA
+abundance_state_dependence,NA,NA,NA,NA,native=0.6292307111942694 (log-count prior-state effect (matched environment)); std=NA; dir=NA; robust=NA; bias_sens=NA,NA
+occupancy_hysteresis,NA,NA,NA,NA,native=0.0 (matched-environment contrast); std=NA; dir=no detectable contrast; robust=NA; bias_sens=NA,NA
+trophic_path_E-_K,NA,NA,NA,NA,NA,native=-0.0009050002739812 (lag-curve coefficient); std=NA; dir=NA; robust=NA; bias_sens=NA
+trophic_path_E-_P,NA,NA,NA,NA,NA,native=0.000208414561558 (lag-curve coefficient); std=NA; dir=NA; robust=NA; bias_sens=NA
+trophic_path_E-_Z,NA,NA,NA,NA,NA,native=-0.000495579945308 (lag-curve coefficient); std=NA; dir=NA; robust=NA; bias_sens=NA
+trophic_path_K-_P,NA,NA,NA,NA,NA,native=0.0725505565869076 (lag-curve coefficient); std=NA; dir=NA; robust=NA; bias_sens=NA
+model_comparison_A_env,NA,NA,NA,NA,NA,native=0.2239943344607695 (R2 (AIC in notes)); std=NA; dir=NA; robust=NA; bias_sens=NA
+model_comparison_B_env_prey,NA,NA,NA,NA,NA,native=0.2242109933279407 (R2 (AIC in notes)); std=NA; dir=NA; robust=NA; bias_sens=NA

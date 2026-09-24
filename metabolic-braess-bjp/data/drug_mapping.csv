@@ -1,0 +1,23 @@
+reaction_id,model,target,representative_modulators,evidence_note
+MAR04368,human2,phosphoglycerate kinase (PGK1),none clinically established,PGK1 is a cancer-therapy target; direct small-molecule inhibitors are preclinical only
+MAR04373,human2,GAPDH,"koningic acid (heptelidic acid); iodoacetate; 3-bromopyruvate (off-target)","GAPDH irreversible inhibitors are tool compounds, not drugs"
+MAR04391,human2,triosephosphate isomerase (TPI1),none clinically established,TPI inhibitors exploratory (e.g., in trypanosomatids)
+MAR04363,human2,enolase (ENO1),"SF2312 (natural enolase inhibitor); PhAH derivatives",SF2312 characterized by Leonard et al. 2016
+MAR04896,human2,O2 transport (diffusion),not a direct drug target,proxied by oxygen availability (hypoxia)
+MAR06412,human2,PDH complex E2 (DLAT),CPI-613 (devimistat; lipoate analog),clinical trials in cancer; targets PDH/KGDH lipoylation
+MAR06409,human2,dihydrolipoamide dehydrogenase (DLD; PDH E3),CPI-613 (devimistat),as above
+MAR08746,human2,PDH complex E1 (PDHA1),dichloroacetate acts upstream via PDK inhibition (activates rather than inhibits PDH),directionality opposite to restriction
+MAR06921,human2,respiratory complex I,"rotenone; metformin (weak); phenformin",metformin/phenformin inhibition of complex I is widely reported but debated
+MAR06914,human2,respiratory complex IV,"cyanide; carbon monoxide; azide",toxins, not therapeutics; used as mechanistic reference
+MAR06918,human2,respiratory complex III,antimycin A,tool compound
+MAR06916,human2,ATP synthase (complex V),"oligomycin; bedaquiline (mito ATP synthase)",oligomycin canonical tool; bedaquiline approved (TB; mitochondrial off-target)
+ENO,recon3d,enolase (ENO1),SF2312; PhAH derivatives,as above
+PGM,recon3d,phosphoglycerate mutase (PGAM1),PGMI-004A and related preclinical inhibitors,preclinical
+O2t,recon3d,O2 transport (diffusion),not a direct drug target,as above
+CYOR_u10mi,recon3d,respiratory complex III,antimycin A,as above
+NADH2_u10mi,recon3d,respiratory complex I,rotenone; metformin (weak),as above
+ATPS4mi,recon3d,ATP synthase,oligomycin; bedaquiline,as above
+GAPD,recon3d,GAPDH,koningic acid; iodoacetate,as above
+LDH_L,recon3d,lactate dehydrogenase,oxamate; galloflavin; FX11,preclinical LDH inhibitors
+TPI,recon3d,triosephosphate isomerase,none clinically established,as above
+PGK,recon3d,phosphoglycerate kinase,none clinically established,as above

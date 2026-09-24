@@ -1,0 +1,5 @@
+species,split,held_out,model,rmse,corr,n
+Northern Elephant Seal,event_id,uwi33_092,M_E,1.5960855875026172,-0.7758241259316905,11
+Northern Elephant Seal,event_id,uwi33_092,M_K,1.4897071248899123,-0.8106921664759161,11
+Northern Elephant Seal,event_id,uwi33_092,M_EK,1.5136832800485527,-0.7227107365107082,11
+Northern Elephant Seal,event_id,uwi33_092,M_PREDICTIVE,1.5960855875026183,-0.7758241259316881,11

@@ -1,0 +1,118 @@
+# Configuration for the maximum-vs-optimum (NOPM) pipeline.
+# All numerical assumptions are explicit here and exported to results metadata.
+
+solver: glpk
+numerical_tolerance: 1.0e-6        # solver / feasibility tolerance
+classification_tolerance: 1.0e-4   # relative tolerance for J(0), J(1), J(u*) comparisons
+biological_threshold: 0.02       # minimum relative gain to count as "meaningful benefit"
+epsilon: 1.0e-9                    # denominator guard in oriented indices
+
+models:
+  human2:
+    file: models/human2/Human-GEM.xml
+    name: Human-GEM
+    version: v2.0.1
+    commit: 93e8d292a0cbf9944c15614205dabc47770c07a4
+  recon3d:
+    file: models/recon3d/Recon3DModel_301.xml
+    name: Recon3DModel
+    version: "301"
+    commit: 967ff5113d4a3ad3fb65e7cf6aea82e63e76d914
+
+# Exchange reactions are identified by name pattern "Exchange of X" (Human-GEM)
+# or EX_ prefix (Recon3D). Uptake set = minimal medium from Human-GEM metabolic
+# tasks (O2, glucose, NH3, phosphate, H2O) plus H2O; secretion always open.
+medium:
+  # Boundary convention (both models): -v = uptake, +v = secretion.
+  # Uptake = minimal medium (glucose, O2, NH3/ammonia, phosphate, H2O, H+).
+  uptake_names:          # matched case-insensitively against exchange names
+    - glucose
+    - d-glucose          # Recon3D name
+    - o2
+    - oxygen
+    - oxugen             # Recon3D EX_o2[e] name typo ('Exchange of Oxugen')
+    - nh3
+    - ammonia            # Recon3D EX_nh4[e]
+    - phosphate
+    - pi
+    - h2o
+    - water
+    - h+
+    - proton
+  secretion_open: false  # secretion restricted to curated waste set below
+  secretion_names:       # canonical excretion products only (validated: no
+                         # disproportionation fuels - polyols/amino-acids
+                         # imports remain CLOSED so cheat fluxes are infeasible)
+    - h2o
+    - water
+    - co2
+    - carbon dioxide
+    - l-lactate
+    - d-lactate
+    - lactate
+    - urea
+    - nh3
+    - ammonia
+    - ammonium
+    - pi
+    - phosphate
+    - h+
+    - proton
+    - hco3
+    - bicarbonate
+    - sulfate
+    - acetate
+    - formate
+    - o2-
+    - superoxide anion
+    - h2o2
+    - hydrogen peroxide
+    - bilirubin
+    - pyruvate
+  default_uptake_cap: 100.0
+
+conditions:
+  aerobic:
+    description: standard aerobic, glucose-rich
+    uptake_caps:          # keys are exchange names (both model namings listed)
+      glucose: 10.0
+      d-glucose: 10.0
+      o2: 20.0
+      oxugen: 20.0
+  glucose_limited:
+    description: aerobic, glucose-limited
+    uptake_caps:
+      glucose: 2.0
+      d-glucose: 2.0
+      o2: 20.0
+      oxugen: 20.0
+  oxygen_limited:
+    description: hypoxic, glucose-rich
+    uptake_caps:
+      glucose: 10.0
+      d-glucose: 10.0
+      o2: 2.0
+      oxugen: 2.0
+
+objective:
+  # physiological objective used for state selection (NOT the evaluation metric J)
+  primary: atp_demand        # ATP[c] + H2O[c] -> ADP[c] + Pi[c] + H+[c] task flux
+  robustness: biomass        # model biomass reaction where feasible
+
+state_methods: [pfba, moma]
+
+modulation:
+  u_coarse: [0.0, 0.10, 0.25, 0.50, 0.75, 0.90, 1.0]
+  u_fine_step: 0.05
+  method_primary: fva_informed   # Method B
+  method_sensitivity: bound_scaling  # Method A
+  fva_fraction: 0.9              # fraction of optimum retained in FVA
+
+scan:
+  near_zero_flux_cutoff: 1.0e-6
+  exclude_subsystems: []         # exclusions handled by reaction-class rules
+  exclude_exchanges: true
+  exclude_boundary: true         # exchange/demand/sink
+  exclude_blocked: true
+  exclude_no_gene: false         # recorded but not excluded from scan
+  min_fva_span: 1.0e-3             # reactions with negligible feasible span skipped

@@ -1,0 +1,6 @@
+step,label,delta_beta,note
+1,naive genus-level guild contrast,0.09383822253280394,
+2,gamma-matched null,,degenerate: herbivore gamma < predator gamma
+3,exclude Tarbosaurus,0.1335276731382209,
+4,species-level resolution,0.0379976710025971,
+5,Tarbosaurus extent residual z (sampling-adjusted),-0.4023886699043763,|z|<2 = not exceptional

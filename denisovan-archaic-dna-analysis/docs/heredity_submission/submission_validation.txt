@@ -1,0 +1,26 @@
+Heredity SUBMISSION VALIDATION
+==========================
+
+Summary words: 201
+Main-text words: 3319
+References: 25
+Uncited references: []
+First-appearance figure order: [1, 2, 3, 4]
+First-appearance supporting figure order: [1, 2, 3, 4, 5]
+First-appearance table order: [1]
+
+PASS: Author-date citations
+PASS: Every reference cited
+PASS: References alphabetised
+PASS: Figure first-appearance order
+PASS: Supporting figure first-appearance order
+PASS: Table first-appearance order
+PASS: No placeholder strings
+PASS: Running title under 150 characters
+PASS: Summary at most 250 words
+PASS: Main text at most 7000 words
+PASS: Three to six keywords
+PASS: All figure source files present
+PASS: All supporting figure source files present
+PASS: Main figures and tables within Heredity limit
+PASS: References within Heredity limit

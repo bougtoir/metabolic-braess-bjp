@@ -1,0 +1,9 @@
+variable,source,layer,unit,temporal_resolution,spatial_resolution,notes
+bird density (count_per_km2),ACCESS via CalOOS WFS cencoos:bird_density_2004_2024,predator,seabirds/km2,event (sighting),point strip-transect,visual survey 2004-2024
+non-bird density (count_per_km),ACCESS cencoos:others_density_2004_2024,predator,animals/km,event (sighting),point,marine mammals and misc taxa
+zooplankton density (count_per_m3),ACCESS cencoos:access_zooplankton_2024,basal/intermediate prey,count/m3,tow,point,Tucker trawl + hoop net
+krill density (count_per_m3),subset: Euphausia/Thysanoessa/Euphausiidae,prey,count/m3,tow,point,Euphausia pacifica dominant
+euphausiid density (count_per_10m3),ACCESS cencoos:euphasiid_geoserver,prey,count/10m3,tow,point,alternative krill measure
+CTD chl/temp/salinity,ACCESS CTD via erddap.sensors.axds.co ism-cencoos-access-ctd-*,environment,in-situ,cast,station,supporting env layer
+upwelling index (Bakun),NOAA ERDDAP erdUI396hr 39N125W,environment,m3/s per 100m,6-hourly,point 39N 125W,primary forcing (animal-independent)
+SST anomaly,NOAA ERDDAP ncdcOisst21Agg_LonPM180 35.3-38.7N,environment,degC,daily,0.25deg box,secondary forcing

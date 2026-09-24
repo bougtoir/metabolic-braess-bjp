@@ -1,0 +1,11 @@
+human2_reaction,human2_target,recon3d_analogue,family,recon3d_hit,discordance_note
+MAR04373,GAPDH,GAPD,mid-glycolysis,no (family hit via ENO/PGM),replicated family
+MAR04368,PGK,PGK,mid-glycolysis,no (family hit via ENO/PGM),replicated family
+MAR04391,TPI1,TPI,mid-glycolysis,no (family hit via ENO/PGM),replicated family
+MAR04896,O2 transport (diffusion),O2t; O2tm,O2 transport,yes (O2t),replicated family
+MAR06409,DLD (PDH E3),PDHm complex,PDH complex,no,Human-GEM-specific discordance
+MAR06412,DLAT (PDH E2),PDHm complex,PDH complex,no,Human-GEM-specific discordance
+MAR08746,PDHA1 (PDH E1),PDHm complex,PDH complex,no,Human-GEM-specific discordance
+MAR20069,PDH complex,PDHm complex,PDH complex,no,Human-GEM-specific discordance
+MAR06921,respiratory complex I,NADH2_u10mi,oxidative phosphorylation,no (family hit via CYOR_u10mi),replicated family (complex III node)
+MAR06916,ATP synthase,ATPS4mi,oxidative phosphorylation,no (family hit via CYOR_u10mi),replicated family (complex III node)

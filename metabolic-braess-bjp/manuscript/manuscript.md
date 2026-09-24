@@ -1,4 +1,4 @@
-# Maximum local effect is not optimal system effect: selection-rule-dependent interior modulation optima in human genome-scale metabolic models
+# Maximum local effect does not imply optimal system effect: selection-rule-dependent interior modulation optima in human metabolic networks
 
 **Article type:** Original Research Article — British Journal of Pharmacology
 
@@ -8,27 +8,38 @@
 - Partial, not maximal, restriction of glycolytic enzymes maximizes ATP yield per glucose consumed.
 - Interior optima recur across two independent human genome-scale metabolic reconstructions.
 - All interior optima localize to the glycolytic–oxidative energetic core of the network.
-- Optima are conditional on the parsimonious-flux state selection rule, vanishing under minimal-adjustment states.
+- Optima depend on the parsimonious-flux selection rule, largely disappearing under minimal-deviation states.
 - Mechanism: restriction redirects substrate from low-yield toward near-complete oxidation.
 
 ---
 
-**Abstract (~200 words):** Pharmacological dose–response is assumed
-monotone: more target engagement yields more effect. We scanned every
-reaction of two independent human genome-scale metabolic models
-(Human-GEM v2.0.1, Recon3D v301) for endpoints with an interior optimum
-in modulation intensity u∈[0,1] — Network-Optimal Partial Modulation
-(NOPM). Twelve reaction–endpoint pairs in Human-GEM and eight in
-Recon3D qualify; all localize to the energetic core, and three
-mechanistic families (mid-glycolysis, oxygen transport, oxidative
-phosphorylation) replicate across models. Partial restriction of
-glycolytic enzymes raises ATP yield per glucose ~12→~30. A robustness
-matrix (model × state-selection rule × medium × modulation method ×
-grid) shows optima recur under parsimonious FBA in all media but
-largely vanish under minimal-adjustment (L1-MOMA) selection — NOPM is
-cross-model reproducible and condition-robust, yet contingent on the
-state-selection rule, converting a modelling dependency into a
-falsifiable prediction about acute versus chronic inhibition.
+**Abstract (structured, BJP format):**
+
+*Background and Purpose.* Pharmacological dose–response is commonly
+assumed monotone: more target engagement yields more effect. Whether
+*partial* restriction of a metabolic reaction can outperform both the
+unperturbed and the fully blocked state on an independent system-level
+endpoint has not been mapped at genome scale.
+
+*Experimental Approach.* We scanned every reaction of two independent
+human genome-scale metabolic models (Human-GEM v2.0.1, Recon3D v301)
+for endpoints with an interior optimum in modulation intensity u∈[0,1]
+— Network-Optimal Partial Modulation (NOPM). Post-perturbation states
+were selected by parsimonious FBA or minimal-deviation (L1-MOMA) rules
+across three media, two modulation methods and grid refinements.
+
+*Key Results.* Twelve reaction–endpoint pairs in Human-GEM and eight in
+Recon3D qualify; all localize to the glycolytic–oxidative energetic
+core, and three mechanistic families (mid-glycolysis, oxygen transport,
+oxidative phosphorylation) replicate across models. Partial restriction
+of glycolytic enzymes raises ATP yield per glucose ~12→~30 while ATP
+throughput falls — a rate–yield trade-off. Optima recur under
+parsimonious selection in multiple (but not all) media and largely
+disappear under minimal-deviation selection.
+
+*Conclusion and Implications.* Interior optima are cross-model
+reproducible yet contingent on the state-selection rule — a testable
+adaptation-state hypothesis, with no dose-translation claim.
 
 ---
 
@@ -37,9 +48,9 @@ falsifiable prediction about acute versus chronic inhibition.
 Dose–response thinking in pharmacology defaults to monotone logic: more
 target engagement produces more effect, and the maximally potent
 concentration is treated as an upper endpoint to be approached, not
-exceeded.  Yet metabolic systems are networks with rerouting,
-feedback-free stoichiometric coupling, and shared resources; in such
-networks, maximal local intervention need not be optimal for a
+exceeded.  Yet constraint-based metabolic models represent stoichiometric
+coupling and rerouting without explicit kinetic feedback regulation,
+and real metabolic networks share resources; in such networks, maximal local intervention need not be optimal for a
 system-level objective.  Analogous phenomena are documented elsewhere:
 in traffic assignment, adding capacity can worsen total travel time
 (Braess' paradox [1]); in enzyme kinetics, disabling
@@ -96,7 +107,8 @@ checksum (acquisition ledger, Supplementary Data S1).  A curated minimal
 aerobic medium (glucose 10, O2 20 mmol·gDW⁻¹·h⁻¹, mineral/trace
 essentials, canonical secretion sinks) was validated on both models,
 which reproduce canonical respiration (≈12 ATP per glucose, ≈6 ATP per
-O2, no disproportionation artefacts).  Endpoints are raw, never
+O2 — retained as a diagnostic endpoint only, see Limitations — no
+disproportionation artefacts).  Endpoints are raw, never
 composite: ATP production rate, ATP per glucose, ATP per O2, ATP per
 total carbon, glucose and O2 uptake, lactate efflux, lactate/ATP ratio,
 and total |flux| (parsimony proxy).  The maintenance objective
@@ -149,7 +161,9 @@ nodes; Recon3D complex III node CYOR_u10mi).  The pyruvate
 dehydrogenase complex contributes 4 hits in Human-GEM but none in
 Recon3D — a discordance reported transparently rather than reconciled.
 No peripheral-pathway reaction qualified in either model: family-level
-replication, not raw hit identity, is the reproducible signal.
+replication, not raw hit identity, is the reproducible signal. A
+reaction-level crosswalk (Human-GEM hit → Recon3D analogue → family →
+replication status) is given in Supplementary Table S1.
 
 ### 3.2 Efficiency NOPM: partial restriction raises ATP yield
 
@@ -159,9 +173,15 @@ interior optimum in ATP per glucose: in Human-GEM, GAPDH
 J(0) = 12 and J(1) = 29; PGK (MAR04368) reaches 21 at u* = 0.75.
 Recon3D reproduces the phenomenon at the analogous nodes (ENO, PGM:
 u* ≈ 0.75, J ≈ 31.5 vs 12.15) — two independently curated
-reconstructions converging on the same mechanism (Figure 2).  The
-effect is large in magnitude yet bounded: yield approaches but cannot
-exceed the ~30–32 ATP/glucose aerobic ceiling.
+reconstructions converging on the same mechanism (Figure 2).  The effect is
+large in magnitude yet bounded: yield approaches but cannot exceed the
+~30–32 ATP/glucose aerobic ceiling. We stress that efficiency NOPM lies
+on a rate–yield trade-off: ATP yield per glucose rises as ATP
+throughput falls (Figure 4). NOPM does not mean every desirable output
+improves simultaneously — at each glycolytic hit, u* improves yield
+while reducing ATP production rate, i.e. it is Pareto-superior only on
+the yield axis and sits on the efficiency side of the rate–yield
+frontier.
 
 ### 3.3 Parsimony NOPM: interior minima in total flux
 
@@ -187,9 +207,9 @@ with restriction while throughput falls.
 ### 3.5 Robustness: a selection-rule-conditional phenomenon
 
 Across the full matrix (Table 4; Figure 5), interior optima recur under
-pFBA across media and both modulation methods (hit counts
-0–11 per cell; the sole empty pFBA cell is Human-GEM under glucose
-limitation, where even parsimony optima vanish), with u* locations shifting modestly with method
+pFBA in multiple — but not all — media, under both modulation
+methods (hit counts 0–11 per cell; the empty pFBA cell is Human-GEM
+under glucose limitation, where even parsimony optima vanish), with u* locations shifting modestly with method
 (method A optima sit ~0.1–0.3 lower).  Under L1-MOMA the picture
 inverts: the efficiency optima vanish (e.g. in Recon3D aerobic,
 ENO 12.2→8.2, PGM 12.2→9.2, GAPD 12.2→8.2, all monotone decreasing),
@@ -197,9 +217,11 @@ while one parsimony optimum survives (complex III node,
 total-flux minimum across conditions).  We treat the MOMA discordance
 not as a failed replication but as a result: NOPM is cross-model
 reproducible and condition-robust *under parsimonious selection*, and
-its disappearance under minimal-adjustment selection identifies the
-state-selection rule — not network topology — as the contingent
-mechanistic variable.  This is structurally apt for the Braess analogy:
+its disappearance under minimal-deviation selection identifies the
+state-selection rule — not network topology alone — as the contingent
+mechanistic variable: Braess-like metabolic optima depend on both
+network structure and the rule by which the post-perturbation state is
+selected.  This is structurally apt for the Braess analogy:
 Braess-like behaviour depends not only on network topology and capacity
 but on the rule by which the system selects a state.  We therefore do
 not claim universality: maximum is not optimum, under the rerouting
@@ -207,7 +229,7 @@ rule, and that qualifier is the finding.
 
 ## 4. Discussion
 
-### 4.1 What NOPM is — and is not
+### 4.1 Existence
 
 We have shown that, at genome scale in two independent human metabolic
 reconstructions, partial restriction of a small set of energetic-core
@@ -216,10 +238,49 @@ system-level endpoints.  The phenomenon is structurally distinct from
 Braess' paradox (which concerns adding capacity, not scaling it) and
 from enzyme-kinetic population effects (single-molecule Markov
 mechanics); it is a stoichiometric network property of route
-reallocation.  We name it Network-Optimal Partial Modulation
-descriptively and make no priority claim beyond this formulation (Table 3).
+reallocation.  Continuous partial inhibition has previously been
+implemented inside bilevel FBA for drug-design tasks [21],
+but as an optimisation tool, not as a survey of interior optima; we
+name the phenomenon Network-Optimal Partial Modulation descriptively
+and make no priority claim beyond this formulation (Table 3).
 
-### 4.2 Pharmacological meaning — framed conservatively
+### 4.2 Cross-model replication
+
+Replication is at the level of mechanistic families, not reaction
+identity: mid-glycolysis, oxygen transport and oxidative
+phosphorylation replicate across Human-GEM and Recon3D
+(Supplementary Table S1), while the PDH-complex hits are
+Human-GEM-specific — a discordance we report rather than reconcile.
+Family-level rather than reaction-level agreement is the expected
+signature for independently curated reconstructions whose compartment
+and subsystem granularity differ.
+
+### 4.3 The rate–yield trade-off
+
+Efficiency NOPM does not mean every desirable output improves
+simultaneously.  At each glycolytic hit, ATP yield per glucose rises
+while ATP production rate falls — the optimum sits on the yield side of
+a rate–yield frontier (Figure 4).  A pharmacological reading must
+therefore specify *which* currency is valued: yield, throughput, or
+flux economy.  Claims that partial inhibition is "better" are
+endpoint-dependent; what is endpoint-independent is that the
+response is non-monotone.
+
+### 4.4 State-selection dependence — a result, not a caveat
+
+Braess-like metabolic optima depend on both network structure and the
+rule by which the post-perturbation state is selected.  pFBA selects
+the most parsimonious — most extensively adapted — attainable
+post-perturbation state; L1-MOMA selects the minimal-deviation state
+constrained near the pre-perturbation flux map.  These are
+state-selection abstractions, not time models: we deliberately do not
+equate pFBA with chronic adaptation or MOMA with acute inhibition.
+What the data show is that the interior optima exist under parsimonious
+selection and largely disappear under minimal-deviation selection —
+the disappearance under MOMA is itself a positive result about which
+system property carries the effect.
+
+### 4.5 Pharmacological interpretation — framed conservatively
 
 Dose–response monotonicity is an assumption, not a theorem.  Our
 results demonstrate a computationally concrete counterexample: for
@@ -229,61 +290,61 @@ recognizable modulators (Table 2): GAPDH (koningic acid, iodoacetate,
 3-bromopyruvate), ENO (SF2312 [9]), PDH complex
 (devimistat/CPI-613 [10]), complex I (metformin —
 weak and debated [11]), ATP synthase (oligomycin,
-bedaquiline), LDH (oxamate, FX11).  We stress the framing: this is a
-modulation→target map, not a dose translation.  A pharmacological
-dose–response curve couples target occupancy to efficacy through
-kinetics these stoichiometric models do not contain; the NOPM claim is
-that the *optimal intensity is interior in principle*, not that any
-clinical dose realizes it.
+bedaquiline), LDH (oxamate, FX11).  The classification is deliberately
+conservative — approved agents, preclinical compounds, tool compounds
+and toxins are labelled as such, and directionality conflicts are
+flagged (e.g. dichloroacetate activates PDH upstream rather than
+inhibiting it).  We stress the framing: this is a modulation→target
+map, not a dose translation.  A pharmacological dose–response curve
+couples target occupancy to efficacy through kinetics these
+stoichiometric models do not contain; the NOPM claim is that the
+*optimal intensity is interior in principle*, not that any clinical
+dose realizes it.
 
-### 4.3 Why the selection rule is the pharmacologically interesting part
-
-The conditional nature of NOPM is not a weakness of the result; it is
-the result — a mechanistic result, not a failed replication.  pFBA assumes the post-perturbation network reroutes to the
-most flux-economic attainable state — a reasonable abstraction for
-slow, adaptive interventions where regulation can settle.  L1-MOMA
-assumes the cell moves minimally from its pre-perturbation flux map — a
-better abstraction for acute pharmacological hits before adaptation.
-That interior optima appear under the former and largely disappear
-under the latter predicts something testable: *slow* partial
-restrictions (genetic, transcriptional, chronic low-dose) should reveal
-interior optima that *acute* inhibition does not.  This turns a
-modelling dependency into a falsifiable experimental prediction.
-
-### 4.4 Limitations
+### 4.6 Limitations
 
 (i) Stoichiometric steady-state models contain no kinetics, regulation,
 or metabolite concentrations; real optima can shift or vanish.
 (ii) The state-selection assumption drives the result, as shown.
 (iii) Human-GEM does not constrain the ATP-synthase P/O stoichiometry
-(our ATP/O2 = 6), bounding yield estimates upward; we report it rather
-than silently patch the model.  (iv) Quadratic MOMA was not
+(our ATP/O2 = 6), so ATP/O2 is used only as a diagnostic endpoint and
+is excluded from headline claims; we report it rather than silently
+patch the model.  (iv) Quadratic MOMA was not
 solver-robust at genome scale; linear MOMA was substituted.
 (v) Medium choice changes the hit set (efficiency optima vanish under
 glucose limitation), so conclusions are environment-specific.
 (vi) No statistical sampling of uncertainty was performed; optima are
 deterministic statements about the frozen models.
 
-### 4.5 Predictions
+### 4.7 A testable adaptation-state hypothesis
+
+The conditional structure suggests — but does not prove — an
+experimental hypothesis: if parsimonious state selection approximates a
+post-perturbation state the cell has had time to adapt into, interior
+optima should be more evident under *slow* restrictions (genetic,
+transcriptional, chronic low-dose) than under *acute* inhibition, where
+the state stays near the pre-perturbation map.  This is a hypothesis
+about adaptation states, not a demonstrated acute-versus-chronic
+distinction.  Specific falsifiable predictions:
 
 1. In controlled minimal medium, graded inhibition of GAPDH/PGK/ENO
    should produce an inverted-U ATP-yield curve with an interior
    maximum near 15–40 % residual activity.
-2. The interior optimum should be detectable under slow/chronic
-   restriction and absent under acute restriction.
+2. Such an interior optimum should be more readily detectable under
+   slowly imposed restriction than under abrupt inhibition.
 3. Glucose-poor environments should suppress the efficiency optimum
    while preserving parsimony optima.
 
-### 4.6 Conclusion
+### 4.8 Conclusion
 
 Across two independently reconstructed human metabolic networks, a
 sparse set of energetic-core reactions exhibits interior optima in
 modulation intensity: maximum local restriction is not system-optimal.
-The optima are conditional on parsimonious state selection, which is
-itself an experimentally testable qualification.  Non-monotone dose–
-response is therefore a network property that pharmacology can exploit —
-with the caveat that the exploitable regime depends on how the cell
-settles after intervention.
+The optima are contingent on parsimonious state selection — a
+qualification that is itself experimentally testable.  Non-monotone
+dose–response is therefore a network property that pharmacology can
+exploit, with the caveat that the exploitable regime depends on how the
+cell settles after intervention.
 
 ## References (Vancouver, numbered by appearance)
 
@@ -307,6 +368,7 @@ settles after intervention.
 18. Simeonidis E, Price ND. Model-based engineering of biological systems: advances, challenges, and applications. Curr Opin Biotechnol. 2015;36:90–96.
 19. Grüning N-M, Ralser M. Cancer: sacrifice for survival. Nature. 2010;463(7277):38–39.
 20. Bailey JE. Toward a science of metabolic engineering. Science. 1991;252(5013):1668–1675.
+21. Facchetti G, Altafini C. Partial inhibition and bilevel optimization in flux balance analysis. BMC Bioinformatics. 2013;14:344.
 
 ## Tables
 
@@ -314,11 +376,12 @@ settles after intervention.
 - Table 2: hit → representative modulators (data/drug_mapping.csv).
 - Table 3: prior-art comparison (Phase 0 audit).
 - Table 4: robustness matrix — interior-optimum counts per cell (results/robustness_matrix.csv).
+- Supplementary Table S1: cross-model reaction crosswalk (manuscript/tableS1_crosswalk.csv).
 
 ## Figures
 
 - Fig 1: pipeline & modulation scheme (schematic). figures/fig1_pipeline.png
 - Fig 2: efficiency NOPM curves, both models. figures/fig2_efficiency_nopm.png
 - Fig 3: parsimony NOPM (total-flux) curves, both models. figures/fig3_parsimony_nopm.png
-- Fig 4: Pareto (ATP rate vs yield) for GAPDH. figures/fig4_pareto_gapdh.png
-- Fig 5: robustness heatmap (pFBA vs L1-MOMA). figures/fig5_robustness.png
+- Fig 4: rate–yield trade-off — ATP production rate vs ATP yield per glucose for GAPDH (u* sits on the yield side of the frontier). figures/fig4_pareto_gapdh.png
+- Fig 5: robustness matrix — interior-optimum counts by model × medium × selection rule × modulation method (pFBA vs L1-MOMA). figures/fig5_robustness.png

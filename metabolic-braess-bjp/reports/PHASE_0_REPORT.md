@@ -47,3 +47,19 @@
 - Known limitation: Human-GEM ATP synthase flux is not stoichiometrically locked
   to a physiological P/O ratio (baseline atp_per_o2 = 6); reported as a model
   property, not edited.
+
+## R1 prior-art re-audit (revision pass)
+- Facchetti & Altafini (2013, BMC Bioinformatics 14:344): continuous
+  partial inhibition inside bilevel FBA — now cited as ref [21];
+  tooling precedent, no interior-optimum census. 
+- Gunawardena-line "differential dose response" (linear framework):
+  non-monotone dose–response theory for steady-state networks —
+  conceptual kinship, kinetic rather than stoichiometric.
+- Non-monotonic signalling crosstalk (Sci Rep 2015;5:11376):
+  feed-forward loops yield non-monotone dose response — pharmacology
+  motivation, not a metabolic-network optimum census.
+- Metabolic control analysis (Cascante 2002, ref 17) already cited.
+- Conclusion unchanged: no "first" claim; safe contribution = "a
+  genome-scale census of interior modulation optima across two human
+  reconstructions with explicit separation of state selection and
+  evaluation."

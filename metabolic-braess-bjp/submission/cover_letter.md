@@ -2,9 +2,9 @@
 
 Dear Editors,
 
-We submit an Original Research Article, "Maximum local effect is not
-optimal system effect: interior modulation optima in human genome-scale
-metabolic models," for consideration in BJP.
+We submit an Original Research Article, "Maximum local effect does not imply optimal system effect:
+selection-rule-dependent interior modulation optima in human metabolic
+networks," for consideration in BJP.
 
 Pharmacology's dose–response intuition is monotone: more target
 engagement, more effect. This manuscript provides a genome-scale,
@@ -17,8 +17,9 @@ Partial restriction of glycolytic enzymes raises ATP yield per glucose
 from ~12 to ~30 in both models. Critically, we show the phenomenon is
 conditional on the flux-state selection rule (present under parsimonious
 FBA, largely absent under minimal-adjustment MOMA), which converts a
-modelling dependency into a falsifiable prediction about acute vs.
-chronic inhibition.
+modelling dependency into a testable hypothesis about the
+post-perturbation adaptation state (without claiming a proven
+acute-vs-chronic distinction).
 
 All claims are reproducible: every reported number is regenerated from
 result CSVs via manuscript_values.csv; models are SHA-256 frozen; code
